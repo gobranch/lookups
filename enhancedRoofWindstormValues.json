@@ -1,22 +1,23 @@
 {
   "roofDeck": [
-    { "id": "wood", "value": "Wood Deck" },
-    { "id": "metal", "value": "Metal Deck" },
+    { "id": "wood", "value": "Wood Deck", "hint": "Wood Deck", "isDefault": true },
+    { "id": "metal", "value": "Metal Deck", "hint": "Metal Deck" },
     { "id": "reinforced", "value": "Reinforced Concrete Roof Deck", "hint": "Built to ACI 318 standard." }
   ],
   "roofCover": [
+    { "id": "nonscbc", "value": "Non-SCBC Equivalent", "hint": "All else.", "isDefault": true },
     {
       "id": "scbc",
       "value": "SCBC Equivalent",
       "hint": "Roof cover in compliance with ASTM D-3161 modified to 110 mph."
-    },
-    { "id": "nonscbc", "value": "Non-SCBC Equivalent", "hint": "Else." }
+    }
   ],
   "roofDeckAttachment": [
     {
       "id": "a",
       "value": "Level A",
-      "hint": "Plywood/Oriented Strand Board (OSB) nailed with 6 penny common nails at 6” spacing on the edge and 12” in the field on 24” truss spacing or any system with equivalent mean uplift resistance of 55 pounds per square foot."
+      "hint": "Plywood/Oriented Strand Board (OSB) nailed with 6 penny common nails at 6” spacing on the edge and 12” in the field on 24” truss spacing or any system with equivalent mean uplift resistance of 55 pounds per square foot.",
+      "isDefault": true
     },
     {
       "id": "b",
@@ -33,7 +34,8 @@
     {
       "id": "toe",
       "value": "Toe Nails",
-      "hint": "Approximately 3 nails are driven at an oblique angle through the rafter and into the top plate."
+      "hint": "Approximately 3 nails are driven at an oblique angle through the rafter and into the top plate.",
+      "isDefault": true
     },
     {
       "id": "clips",
@@ -47,6 +49,7 @@
     }
   ],
   "openingProtection": [
+    { "id": "other", "value": "None", "hint": "All else.", "isDefault": true },
     {
       "id": "basic",
       "value": "Basic",
@@ -56,14 +59,14 @@
       "id": "hurricane",
       "value": "Hurricane",
       "hint": "All glazed openings protected to ASTM E 1886 and E 1996."
-    },
-    { "id": "other", "value": "None", "hint": "All else." }
+    }
   ],
   "roofSWR": [
     {
       "id": "wood",
       "value": "Wood Roof Decks",
-      "hint": "Self-Adhering Modified Bitumen tape applied to the plywood joints generically known as Ice & Water Shield or Peel N Seal Application of a foamed polyurethane structural adhesive form inside the attic to cover joints between all plywood sheets."
+      "hint": "Self-Adhering Modified Bitumen tape applied to the plywood joints generically known as Ice & Water Shield or Peel N Seal Application of a foamed polyurethane structural adhesive form inside the attic to cover joints between all plywood sheets.",
+      "isDefault": true
     },
     {
       "id": "metal",
