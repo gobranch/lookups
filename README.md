@@ -9,7 +9,7 @@ Note that the logic for lookups is that the default lookup with have a name like
 | [publicLookups](https://github.com/gobranch/lookups/blob/main/publicLookups.json)                             | Main lookups for coverages and other quote parameters                                                                          |
 | [mortgageLookups](https://github.com/gobranch/lookups/blob/main/mortgageLookups.json)                         | For the `MortgageDetailsInput` type. You're also allowed to use this to implement mortgage lender autocomplete in your own UI. |
 | [enhancedRoofWindstormValues](https://github.com/gobranch/lookups/blob/main/enhancedRoofWindstormValues.json) | Lookups for windstorm-related roof characteristics                                                                             |
-| [insuranceProvidersList](https://github.com/gobranch/lookups/blob/main/insuranceProvidersList.json).          | Available to implement autocomplete / selection for `currentAutoCarrier`                                                       |
+| [insuranceProvidersList](https://github.com/gobranch/lookups/blob/main/insuranceProvidersList.json)           | Available to implement autocomplete / selection for `currentAutoCarrier`                                                       |
 
 ---
 
