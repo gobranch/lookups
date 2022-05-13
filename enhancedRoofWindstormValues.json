@@ -5,73 +5,78 @@
     { "id": "reinforced", "value": "Reinforced Concrete Roof Deck", "hint": "Built to ACI 318 standard." }
   ],
   "roofCover": [
-    { "id": "nonscbc", "value": "Non-SCBC Equivalent", "hint": "All else.", "isDefault": true },
+    { "id": "1", "value": "Non-SCBC Equivalent", "hint": "All else.", "isDefault": true },
     {
-      "id": "scbc",
+      "id": "2",
       "value": "SCBC Equivalent",
       "hint": "Roof cover in compliance with ASTM D-3161 modified to 110 mph."
+    },
+    {
+      "id": "3",
+      "value": "Reinforced Concrete Roof Deck",
+      "hint": ""
     }
   ],
   "roofDeckAttachment": [
     {
-      "id": "a",
+      "id": "1",
       "value": "Level A",
       "hint": "Plywood/Oriented Strand Board (OSB) nailed with 6 penny common nails at 6” spacing on the edge and 12” in the field on 24” truss spacing or any system with equivalent mean uplift resistance of 55 pounds per square foot.",
       "isDefault": true
     },
     {
-      "id": "b",
+      "id": "2",
       "value": "Level B",
       "hint": "Plywood/Oriented Strand Board (OSB) nailed with 8 penny common nails at 6” spacing on the edge and 12” in the field on 24” truss spacing or any system with equivalent mean uplift resistance of 103 pounds per square foot."
     },
     {
-      "id": "c",
+      "id": "3",
       "value": "Level C",
       "hint": "Plywood/Oriented Strand Board (OSB) nailed with 8 penny common nails at 6” spacing on the edge and 6” in the field on 24” truss spacing or Dimensional Lumber or any system with equivalent mean uplift resistance of 182 pounds per square foot."
     }
   ],
   "roofToWallConnection": [
     {
-      "id": "toe",
+      "id": "1",
       "value": "Toe Nails",
       "hint": "Approximately 3 nails are driven at an oblique angle through the rafter and into the top plate.",
       "isDefault": true
     },
     {
-      "id": "clips",
+      "id": "2",
       "value": "Clips",
       "hint": "Clips are pieces of metal that are nailed into the side of the rafter/truss and into the side of the top plate or wall stud. The metal does not wrap around the top of the rafter/truss, and the clip is only located on one side of the connection. A Diamond is a piece of metal that has a slot in the middle to accept the rafter, and nails to the outside edge of the top plate."
     },
     {
-      "id": "wraps",
+      "id": "3",
       "value": "Single Wraps or Double Wraps",
       "hint": "Attached to the side and/or bottom of the top plate and are nailed to the rafter/truss. Straps that are wrapped on both sides have double the capacity of a single strap."
     }
   ],
   "openingProtection": [
-    { "id": "other", "value": "None", "hint": "All else.", "isDefault": true },
+    { "id": "1", "value": "None", "hint": "All else.", "isDefault": true },
     {
-      "id": "basic",
+      "id": "2",
       "value": "Basic",
       "hint": "All glazed openings protected to the 4.5 lb missile in ASTM E 1996."
     },
     {
-      "id": "hurricane",
+      "id": "3",
       "value": "Hurricane",
       "hint": "All glazed openings protected to ASTM E 1886 and E 1996."
     }
   ],
   "roofSWR": [
     {
-      "id": "wood",
-      "value": "Wood Roof Decks",
-      "hint": "Self-Adhering Modified Bitumen tape applied to the plywood joints generically known as Ice & Water Shield or Peel N Seal Application of a foamed polyurethane structural adhesive form inside the attic to cover joints between all plywood sheets.",
+      "id": "0",
+      "value": "No Secondary Water Resistance",
+      "hint": "",
       "isDefault": true
     },
     {
-      "id": "metal",
-      "value": "Metal Roof Decks",
-      "hint": "Tar used to cover any perforations in the deck associated with mechanical attachments of the deck to the underlying joist structure."
+      "id": "1",
+      "value": "Secondary Water Resistance",
+      "hint": ""
     }
   ]
 }

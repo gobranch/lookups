@@ -222,6 +222,27 @@
     }
   ],
   "roofTypeState": {
+    "ME": [
+      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
+      { "id": "AR", "value": "Architectural Shingles" },
+      { "id": "SL", "value": "Slate" },
+      { "id": "CL", "value": "Clay Tile" },
+      { "id": "CO", "value": "Concrete Tile" },
+      { "id": "MI", "value": "Mission Tile" },
+      { "id": "SP", "value": "Spanish Tile" },
+      { "id": "CP", "value": "Copper" },
+      { "id": "ST", "value": "Steel Roofing" },
+      { "id": "TN", "value": "Tin" },
+      { "id": "FB", "value": "Fiberglass Panel" },
+      { "id": "FM", "value": "Foam Roofing" },
+      { "id": "PL", "value": "Plexiglass Roofing" },
+      { "id": "RB", "value": "Rubber" },
+      { "id": "BU", "value": "Built Up/Tar and Gravel" },
+      { "id": "WD", "value": "Wood Shake" },
+      { "id": "WS", "value": "Wood Shingle" },
+      { "id": "NE", "value": "New England Pine Shingle" },
+      { "id": "VC", "value": "Victorian Scalloped Shake" }
+    ],
     "ND": [
       { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
       { "id": "SL", "value": "Slate" },
@@ -811,6 +832,54 @@
       {
         "id": "500 CSL",
         "value": "$500K CSL"
+      }
+    ],
+    "ME": [
+      {
+        "id": "50/100/25",
+        "value": "$50K | $100K | $25K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $100K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "125 CSL",
+        "value": "$125K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL",
+        "version": "v1"
       }
     ],
     "MI": [
@@ -1765,6 +1834,69 @@
         "value": "$250K | $500K | $100K",
         "version": "v1"
       }
+    ],
+    "WY": [
+      {
+        "id": "25/50/20",
+        "value": "$25K | $50K | $20K",
+        "version": "v1"
+      },
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/25",
+        "value": "$50K | $100K | $25K"
+      },
+      {
+        "id": "25/50/50",
+        "value": "$25K | $50K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $100K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL",
+        "version": "v1"
+      }
     ]
   },
   "splitPolicyLimitBIPDState": {
@@ -2153,6 +2285,32 @@
         "value": "$500K CSL EUIM"
       }
     ],
+    "ME": [
+      {
+        "id": "50/100",
+        "value": "$50K | $100K"
+      },
+      {
+        "id": "100/300",
+        "value": "$100K | $300K"
+      },
+      {
+        "id": "250/500",
+        "value": "$250K | $500K"
+      },
+      {
+        "id": "125 CSL",
+        "value": "$125K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
+      }
+    ],
     "MI": [
       {
         "id": "0/0",
@@ -2485,6 +2643,52 @@
       {
         "id": "500 CSL N",
         "value": "$500K CSL NON-STACKED"
+      }
+    ],
+    "SC": [
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K"
+      },
+      {
+        "id": "25/50/50",
+        "value": "$25K | $50K | $50K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $50K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
       }
     ],
     "SD": [
@@ -2901,6 +3105,56 @@
         "value": "$500K CSL NON-STACKED"
       }
     ],
+    "SC": [
+      {
+        "id": "0/0/0",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K"
+      },
+      {
+        "id": "25/50/50",
+        "value": "$25K | $50K | $50K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $50K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
+      }
+    ],
     "UT": [
       {
         "id": "0/0",
@@ -3130,6 +3384,20 @@
         "id": "1000",
         "value": "$1,000"
       },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      },
+      {
+        "id": "5000",
+        "value": "$5,000"
+      },
+      {
+        "id": "10000",
+        "value": "$10,000"
+      }
+    ],
+    "ME": [
       {
         "id": "2000",
         "value": "$2,000"
@@ -3675,6 +3943,36 @@
         "value": "$500K CSL | $250 Ded. EUIMPD"
       }
     ],
+    "SC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25000",
+        "value": "$25K | $250 Deductible"
+      },
+      {
+        "id": "50000",
+        "value": "$50K | $250 Deductible"
+      },
+      {
+        "id": "100000",
+        "value": "$100K | $250 Deductible"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL | $250 Deductible"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL | $250 Deductible"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL | $250 Deductible"
+      }
+    ],
     "TN": [
       {
         "id": "NONE",
@@ -3747,6 +4045,40 @@
       {
         "id": "10000",
         "value": "$10K | $150 Deductible"
+      }
+    ],
+    "WY": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "15000",
+        "value": "$15K | $200 Deductible"
+      },
+      {
+        "id": "25000",
+        "value": "$25K | $200 Deductible"
+      },
+      {
+        "id": "50000",
+        "value": "$50K | $200 Deductible"
+      },
+      {
+        "id": "100000",
+        "value": "$100K | $200 Deductible"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL | $200 Deductible"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL | $200 Deductible"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL | $200 Deductible"
       }
     ]
   },
@@ -3887,6 +4219,16 @@
     }
   ],
   "coverageBCPctOfAState": {
+    "ME": [
+      {
+        "id": "0",
+        "value": "0"
+      },
+      {
+        "id": "10",
+        "value": "10"
+      }
+    ],
     "ND": [
       {
         "id": "0",
@@ -4151,6 +4493,40 @@
       {
         "id": "1000",
         "value": "$1,000"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      }
+    ],
+    "SC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "750",
+        "value": "$750"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1500",
+        "value": "$1,500"
       },
       {
         "id": "2000",
@@ -4732,6 +5108,60 @@
         "value": "$2,000 W/ $0 GLASS"
       }
     ],
+    "ME": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
+      },
+      {
+        "id": "50",
+        "value": "$50"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "100/0GL",
+        "value": "$100 W/ $0 GLASS"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "250/0GL",
+        "value": "$250 W/ $0 GLASS"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "500/0GL",
+        "value": "$500 W/ $0 GLASS"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1000/0GL",
+        "value": "$1,000 W/ $0 GLASS"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      },
+      {
+        "id": "2000/0GL",
+        "value": "$2,000 W/ $0 GLASS"
+      }
+    ],
     "MI": [
       {
         "id": "NONE",
@@ -4981,6 +5411,44 @@
       {
         "id": "2000/0GL",
         "value": "$2,000 W/ $0 GLASS"
+      }
+    ],
+    "SC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "750",
+        "value": "$750"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1500",
+        "value": "$1,500"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
       }
     ],
     "SD": [
@@ -5340,6 +5808,40 @@
         "id": "2000/50GL",
         "value": "$2,000 W/ $50 GLASS"
       }
+    ],
+    "WY": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      },
+      {
+        "id": "500/0GL",
+        "value": "$500 W/ $0 GLASS"
+      }
     ]
   },
   "limitUMPD": [
@@ -5524,6 +6026,24 @@
         "value": "$100/day; limit $1,000 - disabled vehicle option only"
       }
     ],
+    "ME": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "40",
+        "value": "$40/day for up to 30 days"
+      },
+      {
+        "id": "50",
+        "value": "$50/day for up to 30 days"
+      },
+      {
+        "id": "60",
+        "value": "$60/day for up to 30 days"
+      }
+    ],
     "MO": [
       {
         "id": "NONE",
@@ -5547,6 +6067,24 @@
       }
     ],
     "NE": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "40",
+        "value": "$40/day for up to 30 days"
+      },
+      {
+        "id": "50",
+        "value": "$50/day for up to 30 days"
+      },
+      {
+        "id": "60",
+        "value": "$60/day for up to 30 days"
+      }
+    ],
+    "SC": [
       {
         "id": "NONE",
         "value": "No Coverage"
@@ -5600,7 +6138,43 @@
         "value": "$900 per claim"
       }
     ],
+    "VT": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "40",
+        "value": "$40/day for up to 30 days"
+      },
+      {
+        "id": "50",
+        "value": "$50/day for up to 30 days"
+      },
+      {
+        "id": "60",
+        "value": "$60/day for up to 30 days"
+      }
+    ],
     "WI": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "40",
+        "value": "$40/day for up to 30 days"
+      },
+      {
+        "id": "50",
+        "value": "$50/day for up to 30 days"
+      },
+      {
+        "id": "60",
+        "value": "$60/day for up to 30 days"
+      }
+    ],
+    "WY": [
       {
         "id": "NONE",
         "value": "No Coverage"
@@ -5930,6 +6504,64 @@
         "value": "10%"
       }
     ],
+    "SC": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.03,
+        "value": "3%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      },
+      {
+        "id": 0.1,
+        "value": "10%"
+      }
+    ],
     "TX": [
       {
         "id": 0,
@@ -6150,6 +6782,40 @@
     }
   ],
   "deductibleAllOtherState": {
+    "ME": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      }
+    ],
     "ND": [
       {
         "id": 1000,
@@ -6377,6 +7043,56 @@
         "id": 0.02,
         "value": "2%"
       }
+    ],
+    "WY": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      }
     ]
   },
   "waterBackupCoverageOptions": [
@@ -6426,6 +7142,24 @@
       {
         "id": 999999999,
         "value": "Coverage A limit / $10,000 deductible"
+      }
+    ],
+    "ME": [
+      {
+        "id": 0,
+        "value": "$0"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000 limit / $500 deductible"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000 limit / $1,000 deductible"
+      },
+      {
+        "id": 25000,
+        "value": "$25,000 limit / $2,500 deductible"
       }
     ],
     "ND": [
@@ -6556,6 +7290,16 @@
     }
   ],
   "buildingCodeCoverageOptionsState": {
+    "ME": [
+      {
+        "id": "0",
+        "value": "No Coverage"
+      },
+      {
+        "id": "10",
+        "value": "10%"
+      }
+    ],
     "ND": [
       {
         "id": 0,
@@ -6566,6 +7310,7 @@
         "value": "10%"
       }
     ],
+
     "NH": [
       {
         "id": 0,
@@ -6903,6 +7648,16 @@
         "id": 5000,
         "value": "$5,000"
       }
+    ],
+    "SC": [
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      }
     ]
   },
   "coverageX": [
@@ -7052,6 +7807,16 @@
     }
   ],
   "coverageGState": {
+    "ME": [
+      {
+        "id": 0,
+        "value": "No Coverage"
+      },
+      {
+        "id": 50000,
+        "value": "$50,000"
+      }
+    ],
     "SD": [
       {
         "id": 0,
@@ -7122,6 +7887,48 @@
     }
   ],
   "coverageJState": {
+    "ME": [
+      {
+        "id": 0,
+        "value": "NONE"
+      },
+      {
+        "id": 1000,
+        "value": "$1K/occ"
+      },
+      {
+        "id": 2000,
+        "value": "$2K/occ"
+      },
+      {
+        "id": 3000,
+        "value": "$3K/occ | $2K/item"
+      },
+      {
+        "id": 4000,
+        "value": "$4K/occ | $2K/item"
+      },
+      {
+        "id": 5000,
+        "value": "$5K/occ | $2K/item"
+      },
+      {
+        "id": 10000,
+        "value": "$10K/occ | $2.5K/item"
+      },
+      {
+        "id": 15000,
+        "value": "$15K/occ | $3K/item"
+      },
+      {
+        "id": 20000,
+        "value": "$20K/occ | $4K/item"
+      },
+      {
+        "id": 25000,
+        "value": "$25K/occ | $5K/item"
+      }
+    ],
     "ND": [
       {
         "id": 0,
@@ -7757,7 +8564,7 @@
     },
     {
       "id": "NRUW",
-      "value": "Non-Renewal For Home Underwriting Reasons"
+      "value": "Non-Renewal For Underwriting Reasons"
     },
     {
       "id": "NA",
