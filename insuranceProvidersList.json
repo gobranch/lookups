@@ -1,6 +1,7 @@
 [
   { "id": "21st Century Insurance", "value": "21st Century Insurance" },
   { "id": "AAA", "value": "AAA" },
+  { "id": "AAA/CSAA", "value": "AAA/CSAA" },
   { "id": "AAA Texas", "value": "AAA Texas" },
   { "id": "Absolute Insurance Solutions", "value": "Absolute Insurance Solutions" },
   { "id": "Acadia Insurance", "value": "Acadia Insurance" },
@@ -111,8 +112,8 @@
   { "id": "Founders Insurance ", "value": "Founders Insurance " },
   { "id": "Freeway Insurance ", "value": "Freeway Insurance " },
   {
-    "id": "Fremont Insurance (Nustar Insurance Agerncy ,Inc MI ",
-    "value": "Fremont Insurance (Nustar Insurance Agerncy ,Inc MI "
+    "id": "Fremont Insurance (Nustar Insurance Agency in MI)",
+    "value": "Fremont Insurance (Nustar Insurance Agency in MI)"
   },
   { "id": "GAINSCO INSURANCE ", "value": "GAINSCO INSURANCE " },
   { "id": "Geico", "value": "Geico" },
@@ -205,7 +206,7 @@
   { "id": "Westfield", "value": "Westfield" },
   { "id": "Weston Specialty Insurance", "value": "Weston Specialty Insurance" },
   { "id": "WESTWOOD  INSURANCE", "value": "WESTWOOD  INSURANCE" },
-  { "id": "Workmen's Auto", "value": "Workmen's Auto" },
+  { "id": "Workmens Auto", "value": "Workmens Auto" },
   { "id": "Test", "value": "Test" },
   { "id": "Safeco / Liberty Mutual", "value": "Safeco / Liberty Mutual" },
   { "id": "Guard Insurance Companies", "value": "Guard Insurance Companies" },
@@ -244,6 +245,7 @@
   { "id": "Antilles Insurance Co.", "value": "Antilles Insurance Co." },
   { "id": "Arbella Insurance", "value": "Arbella Insurance" },
   { "id": "Arch Insurance Co.", "value": "Arch Insurance Co." },
+  { "id": "GAINSCO", "value": "GAINSCO" },
   { "id": "Armed Forces Insurance", "value": "Armed Forces Insurance" },
   { "id": "ASI", "value": "ASI" },
   { "id": "Aspen", "value": "Aspen" },
@@ -340,5 +342,12 @@
   { "id": "Falcon Insurance Co.", "value": "Falcon Insurance Co." },
   { "id": "Farm Bureau Financial Service", "value": "Farm Bureau Financial Service" },
   { "id": "Farm Bureau Mutl Ins Co Idaho", "value": "Farm Bureau Mutl Ins Co Idaho" },
-  { "id": "Farm Bureau Mutl Ins Co. of AR", "value": "Farm Bureau Mutl Ins Co. of AR" }
+  { "id": "Farm Bureau Mutl Ins Co. of AR", "value": "Farm Bureau Mutl Ins Co. of AR" },
+  { "id": "Fred Loya", "value": "Fred Loya" },
+  { "id": "Western National Legacy", "value": "Western National Legacy" },
+  { "id": "Praetorian Insurance Company", "value": "Praetorian Insurance Company" },
+  { "id": "Economy Premier Assurance Company", "value": "Economy Premier Assurance Company" },
+  { "id": "First Choice Insurance Group / Travelers", "value": "First Choice Insurance Group / Travelers" },
+  { "id": "Unitrin Safeguard Company", "value": "Unitrin Safeguard Company" },
+  { "id": "The Woodlands Insurance", "value": "The Woodlands Insurance" }
 ]
