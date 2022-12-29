@@ -223,126 +223,456 @@
   ],
   "roofTypeState": {
     "DC": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ],
     "ME": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "AR", "value": "Architectural Shingles" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "AR",
+        "value": "Architectural Shingles"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ],
     "ND": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ],
     "NH": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ],
     "SD": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "AR", "value": "Architectural Shingles" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "AR",
+        "value": "Architectural Shingles"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ],
     "VT": [
-      { "id": "AF", "value": "Composition/Asphalt/Fiberglass" },
-      { "id": "SL", "value": "Slate" },
-      { "id": "CL", "value": "Clay Tile" },
-      { "id": "CO", "value": "Concrete Tile" },
-      { "id": "MI", "value": "Mission Tile" },
-      { "id": "SP", "value": "Spanish Tile" },
-      { "id": "CP", "value": "Copper" },
-      { "id": "ST", "value": "Steel Roofing" },
-      { "id": "TN", "value": "Tin" },
-      { "id": "FB", "value": "Fiberglass Panel" },
-      { "id": "FM", "value": "Foam Roofing" },
-      { "id": "PL", "value": "Plexiglass Roofing" },
-      { "id": "RB", "value": "Rubber" },
-      { "id": "BU", "value": "Built Up/Tar and Gravel" },
-      { "id": "WD", "value": "Wood Shake" },
-      { "id": "WS", "value": "Wood Shingle" },
-      { "id": "NE", "value": "New England Pine Shingle" },
-      { "id": "VC", "value": "Victorian Scalloped Shake" }
+      {
+        "id": "AF",
+        "value": "Composition/Asphalt/Fiberglass"
+      },
+      {
+        "id": "SL",
+        "value": "Slate"
+      },
+      {
+        "id": "CL",
+        "value": "Clay Tile"
+      },
+      {
+        "id": "CO",
+        "value": "Concrete Tile"
+      },
+      {
+        "id": "MI",
+        "value": "Mission Tile"
+      },
+      {
+        "id": "SP",
+        "value": "Spanish Tile"
+      },
+      {
+        "id": "CP",
+        "value": "Copper"
+      },
+      {
+        "id": "ST",
+        "value": "Steel Roofing"
+      },
+      {
+        "id": "TN",
+        "value": "Tin"
+      },
+      {
+        "id": "FB",
+        "value": "Fiberglass Panel"
+      },
+      {
+        "id": "FM",
+        "value": "Foam Roofing"
+      },
+      {
+        "id": "PL",
+        "value": "Plexiglass Roofing"
+      },
+      {
+        "id": "RB",
+        "value": "Rubber"
+      },
+      {
+        "id": "BU",
+        "value": "Built Up/Tar and Gravel"
+      },
+      {
+        "id": "WD",
+        "value": "Wood Shake"
+      },
+      {
+        "id": "WS",
+        "value": "Wood Shingle"
+      },
+      {
+        "id": "NE",
+        "value": "New England Pine Shingle"
+      },
+      {
+        "id": "VC",
+        "value": "Victorian Scalloped Shake"
+      }
     ]
   },
   "roofShape": [
@@ -427,6 +757,64 @@
     }
   ],
   "policyLimitBIPDState": {
+    "AR": [
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "25/50/50",
+        "value": "$25K | $50K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/25",
+        "value": "$50K | $100K | $25K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $100K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL",
+        "version": "v1"
+      }
+    ],
     "AZ": [
       {
         "id": "25/50/25",
@@ -550,6 +938,11 @@
     ],
     "DC": [
       {
+        "id": "25/50/10",
+        "value": "$25K | $50K | $10K",
+        "version": "v1"
+      },
+      {
         "id": "25/50/25",
         "value": "$25K | $50K | $25K",
         "version": "v1"
@@ -607,10 +1000,6 @@
       }
     ],
     "GA": [
-      {
-        "id": "50/100/25",
-        "value": "$50K | $100K | $25K"
-      },
       {
         "id": "50/100/50",
         "value": "$50K | $100K | $50K",
@@ -908,6 +1297,64 @@
       {
         "id": "500 CSL",
         "value": "$500K CSL",
+        "version": "v1"
+      }
+    ],
+    "MA": [
+      {
+        "id": "20/40/5",
+        "value": "$20K | $40K | $5K",
+        "version": "v1"
+      },
+      {
+        "id": "20/40/25",
+        "value": "$20K | $40K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "35/80/25",
+        "value": "$35K | $80K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/25",
+        "value": "$50K | $100K | $25K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $100K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       }
     ],
@@ -2339,6 +2786,18 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
       }
     ],
     "GA": [
@@ -2501,6 +2960,28 @@
       {
         "id": "500 CSL",
         "value": "$500K CSL"
+      }
+    ],
+    "MA": [
+      {
+        "id": "20/40",
+        "value": "$20K | $40K"
+      },
+      {
+        "id": "25/50",
+        "value": "$25K | $50K"
+      },
+      {
+        "id": "50/100",
+        "value": "$50K | $100K"
+      },
+      {
+        "id": "100/300",
+        "value": "$100K | $300K"
+      },
+      {
+        "id": "250/500",
+        "value": "$250K | $500K"
       }
     ],
     "MD": [
@@ -3295,6 +3776,40 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
+      }
+    ],
+    "MA": [
+      {
+        "id": "0/0",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25/50",
+        "value": "$25K | $50K"
+      },
+      {
+        "id": "50/100",
+        "value": "$50K | $100K"
+      },
+      {
+        "id": "100/300",
+        "value": "$100K | $300K"
+      },
+      {
+        "id": "250/500",
+        "value": "$250K | $500K"
       }
     ],
     "MO": [
@@ -3673,10 +4188,6 @@
         "value": "$2,000"
       },
       {
-        "id": "2500",
-        "value": "$2,500"
-      },
-      {
         "id": "5000",
         "value": "$5,000"
       },
@@ -3755,6 +4266,24 @@
       {
         "id": "10000",
         "value": "$10,000"
+      }
+    ],
+    "MA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "5000",
+        "value": "$5,000"
+      },
+      {
+        "id": "10000",
+        "value": "$10,000"
+      },
+      {
+        "id": "25000",
+        "value": "$25,000"
       }
     ],
     "ME": [
@@ -3983,6 +4512,44 @@
     }
   ],
   "policyLimitPIPState": {
+    "AR": [
+      {
+        "id": "NONE",
+        "value": "None"
+      },
+      {
+        "id": "5000 MED",
+        "value": "$5K Medical/Hospital"
+      },
+      {
+        "id": "WKLS",
+        "value": "Income Disability"
+      },
+      {
+        "id": "5000 ACC",
+        "value": "$5K Accidental Death"
+      },
+      {
+        "id": "5000 MED/WKLS",
+        "value": "$5K Medical/Hospital & Inc Dis"
+      },
+      {
+        "id": "5000 MED/5000 ACC",
+        "value": "$5K Med/Hosp & $5K Accidental Death"
+      },
+      {
+        "id": "5000 ACC/WKLS",
+        "value": "$5K Accidental Death & Inc Dis"
+      },
+      {
+        "id": "5000 MED/ACC/WKLS",
+        "value": "$5K Med/Hosp & $5K Acc Death & Inc Dis"
+      },
+      {
+        "id": "10000 MED/HOSP/INC/5000 ACC",
+        "value": "$10K Med/Hosp & $5K Acc Death & Inc Dis"
+      }
+    ],
     "DC": [
       {
         "id": "NONE",
@@ -4012,6 +4579,10 @@
       }
     ],
     "KY": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
       {
         "id": "10000/0DED",
         "value": "$10K | $0 Deductible"
@@ -4091,6 +4662,72 @@
       {
         "id": "50000/1000DED",
         "value": "$50K | $1K Deductible"
+      }
+    ],
+    "MA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "FULL",
+        "value": "Full"
+      },
+      {
+        "id": "100NI",
+        "value": "$100 | Insured Only"
+      },
+      {
+        "id": "250NI",
+        "value": "$250 | Insured Only"
+      },
+      {
+        "id": "500NI",
+        "value": "$500 | Insured Only"
+      },
+      {
+        "id": "1000NI",
+        "value": "$1,000 | Insured Only"
+      },
+      {
+        "id": "2000NI",
+        "value": "$2,000 | Insured Only"
+      },
+      {
+        "id": "4000NI",
+        "value": "$4,000 | Insured Only"
+      },
+      {
+        "id": "8000NI",
+        "value": "$8,000 | Insured Only"
+      },
+      {
+        "id": "100HH",
+        "value": "$100 | Household"
+      },
+      {
+        "id": "250HH",
+        "value": "$250 | Household"
+      },
+      {
+        "id": "500HH",
+        "value": "$500 | Household"
+      },
+      {
+        "id": "1000HH",
+        "value": "$1,000 | Household"
+      },
+      {
+        "id": "2000HH",
+        "value": "$2,000 | Household"
+      },
+      {
+        "id": "4000HH",
+        "value": "$4,000 | Household"
+      },
+      {
+        "id": "8000HH",
+        "value": "$8,000 | Household"
       }
     ],
     "MD": [
@@ -4217,45 +4854,75 @@
     }
   ],
   "policyLimitUMPDState": {
+    "AR": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25000",
+        "value": "$25K | $250 Deductible"
+      },
+      {
+        "id": "50000",
+        "value": "$50K | $250 Deductible"
+      },
+      {
+        "id": "100000",
+        "value": "$100K | $250 Deductible"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL | $250 Deductible"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL | $250 Deductible"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL | $250 Deductible"
+      }
+    ],
     "GA": [
       {
         "id": "NONE",
         "value": "No Coverage"
       },
       {
-        "id": "50K/250DED",
+        "id": "50/250DED",
         "value": "$50K | $250 Deductible"
       },
       {
-        "id": "50K/500DED",
+        "id": "50/500DED",
         "value": "$50K | $500 Deductible"
       },
       {
-        "id": "50K/1000DED",
+        "id": "50/1000DED",
         "value": "$50K | $1000 Deductible"
       },
       {
-        "id": "100K/250DED",
+        "id": "100/250DED",
         "value": "$100K | $250 Deductible"
       },
       {
-        "id": "100K/500DED",
+        "id": "100/500DED",
         "value": "$100K | $500 Deductible"
       },
       {
-        "id": "100K/1000DED",
+        "id": "100/1000DED",
         "value": "$100K | $1000 Deductible"
       },
       {
-        "id": "250K/250DED",
+        "id": "250/250DED",
         "value": "$250K | $250 Deductible"
       },
       {
-        "id": "250K/500DED",
+        "id": "250/500DED",
         "value": "$250K | $500 Deductible"
       },
       {
-        "id": "250K/1000DED",
+        "id": "250/1000DED",
         "value": "$250K | $1000 Deductible"
       },
       {
@@ -4272,7 +4939,7 @@
       },
       {
         "id": "300 CSL/250DED",
-        "value": "$1300K CSL | $250 Deductible"
+        "value": "$300K CSL | $250 Deductible"
       },
       {
         "id": "300 CSL/500DED",
@@ -4389,6 +5056,36 @@
       {
         "id": "500 CSL/E",
         "value": "$500K CSL | $250 Ded. EUIMPD"
+      }
+    ],
+    "MS": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25000",
+        "value": "$25K | $200 Deductible"
+      },
+      {
+        "id": "50000",
+        "value": "$50K | $200 Deductible"
+      },
+      {
+        "id": "100000",
+        "value": "$100K | $200 Deductible"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL | $250 Deductible"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL | $200 Deductible"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL | $200 Deductible"
       }
     ],
     "SC": [
@@ -4554,6 +5251,16 @@
       "value": "One Time"
     }
   ],
+  "rentersPaymentType": [
+    {
+      "id": "I",
+      "value": "Monthly"
+    },
+    {
+      "id": "F",
+      "value": "One Time"
+    }
+  ],
   "homeownersPaymentMethod": [
     {
       "id": "C",
@@ -4566,6 +5273,16 @@
     {
       "id": "W",
       "value": "Mortgage"
+    }
+  ],
+  "rentersPaymentMethod": [
+    {
+      "id": "C",
+      "value": "Credit Card"
+    },
+    {
+      "id": "E",
+      "value": "Bank Withdrawal"
     }
   ],
   "autoPaymentMethod": [
@@ -4859,6 +5576,36 @@
       {
         "id": "2500",
         "value": "$2,500"
+      }
+    ],
+    "MA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "300",
+        "value": "$300"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "300/LC",
+        "value": "$300 - Limited"
+      },
+      {
+        "id": "500/LC",
+        "value": "$500 - Limited"
+      },
+      {
+        "id": "1000/LC",
+        "value": "$1,000 - Limited"
       }
     ],
     "MI": [
@@ -5349,10 +6096,64 @@
         "value": "$2,000 W/ $50 GLASS"
       }
     ],
+    "DC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "100/50GL",
+        "value": "$100 W/ $50 GLASS"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "250/50GL",
+        "value": "$250 W/ $50 GLASS"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "500/50GL",
+        "value": "$500 W/ $50 GLASS"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1000/50GL",
+        "value": "$1,000 W/ $50 GLASS"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      },
+      {
+        "id": "2000/50GL",
+        "value": "$2,000 W/ $50 GLASS"
+      }
+    ],
     "GA": [
       {
         "id": "NONE",
         "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
       },
       {
         "id": "100",
@@ -5384,7 +6185,10 @@
         "id": "0",
         "value": "$0"
       },
-      { "id": "50", "value": "$50" },
+      {
+        "id": "50",
+        "value": "$50"
+      },
       {
         "id": "100",
         "value": "$100"
@@ -5478,10 +6282,6 @@
       {
         "id": "2000/0GL",
         "value": "$2,000 W/ $0 GLASS"
-      },
-      {
-        "id": "2500/0GL",
-        "value": "$2,500 W/ $0 GLASS"
       }
     ],
     "KS": [
@@ -5590,6 +6390,24 @@
       {
         "id": "2000/0GL",
         "value": "$2,000 W/ $0 GLASS"
+      }
+    ],
+    "MA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "300/300GL",
+        "value": "$300"
+      },
+      {
+        "id": "500/500GL",
+        "value": "$500"
+      },
+      {
+        "id": "1000/1000GL",
+        "value": "$1,000"
       }
     ],
     "ME": [
@@ -5889,7 +6707,10 @@
         "id": "0",
         "value": "$0"
       },
-      { "id": "50", "value": "$50" },
+      {
+        "id": "50",
+        "value": "$50"
+      },
       {
         "id": "100",
         "value": "$100"
@@ -6938,6 +7759,78 @@
         "value": "5%"
       }
     ],
+    "DC": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      }
+    ],
+    "ME": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      }
+    ],
     "MO": [
       {
         "id": 0.01,
@@ -7066,6 +7959,56 @@
       {
         "id": 0.1,
         "value": "10%"
+      }
+    ],
+    "MS": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
       }
     ],
     "SC": [
@@ -7232,6 +8175,64 @@
     }
   ],
   "deductibleHurricaneState": {
+    "MA": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.03,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      },
+      {
+        "id": 0.1,
+        "value": "10%"
+      }
+    ],
     "TX": [
       {
         "id": 0,
@@ -7342,6 +8343,36 @@
     }
   ],
   "deductibleAllOtherState": {
+    "DC": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      }
+    ],
     "ME": [
       {
         "id": 1000,
@@ -7358,6 +8389,56 @@
       {
         "id": 3000,
         "value": "$3,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      }
+    ],
+    "MS": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
       },
       {
         "id": 0.005,
@@ -7678,6 +8759,38 @@
     }
   ],
   "waterBackupCoverageOptionsState": {
+    "AR": [
+      {
+        "id": 0,
+        "value": "$0"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000 limit / $500 deductible"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000 limit / $1,000 deductible"
+      },
+      {
+        "id": 25000,
+        "value": "$25,000 limit / $2,500 deductible"
+      }
+    ],
+    "DC": [
+      {
+        "id": 0,
+        "value": "$0"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000 limit / $500 deductible"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000 limit / $1,000 deductible"
+      }
+    ],
     "MD": [
       {
         "id": 0,
@@ -8198,7 +9311,27 @@
     }
   ],
   "coverageBPState": {
+    "DC": [
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      }
+    ],
     "KS": [
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      }
+    ],
+    "MA": [
       {
         "id": 2500,
         "value": "$2,500"
@@ -8245,10 +9378,6 @@
     {
       "id": 500000,
       "value": "$500,000"
-    },
-    {
-      "id": 1000000,
-      "value": "$1,000,000"
     }
   ],
   "coverageXState": {
@@ -8272,10 +9401,6 @@
       {
         "id": 500000,
         "value": "$500,000"
-      },
-      {
-        "id": 1000000,
-        "value": "$1,000,000"
       }
     ]
   },
@@ -8898,7 +10023,41 @@
     }
   ],
   "coverageIBSCState": {
+    "AR": [
+      {
+        "id": 0,
+        "value": "0%"
+      },
+      {
+        "id": 40,
+        "value": "40%"
+      }
+    ],
+    "DC": [
+      {
+        "id": 0,
+        "value": "0%"
+      },
+      {
+        "id": 10,
+        "value": "10%"
+      }
+    ],
     "IA": [
+      {
+        "id": 0,
+        "value": "0%"
+      },
+      {
+        "id": 20,
+        "value": "20%"
+      },
+      {
+        "id": 40,
+        "value": "40%"
+      }
+    ],
+    "MS": [
       {
         "id": 0,
         "value": "0%"
@@ -9119,7 +10278,8 @@
     },
     {
       "id": "CNDR",
-      "value": "Customer Dissatisfied with Roadside Assistance"
+      "value": "Customer Dissatisfied with Roadside Assistance",
+      "deprecated": true
     },
     {
       "id": "CNDB",
@@ -9131,23 +10291,25 @@
     },
     {
       "id": "CNDY",
-      "value": "BIX Opt-out"
+      "value": "BIX Opt-out",
+      "deprecated": true
     },
     {
       "id": "CNMS",
-      "value": "Customer Misrepresentation"
+      "value": "Misrepresentation/Void"
     },
     {
       "id": "CNPY",
-      "value": "Customer Non-payment"
+      "value": "Non-Payment of Premium"
     },
     {
       "id": "CNID",
-      "value": "Documents Not Signed"
+      "value": "Documents Not Signed",
+      "deprecated": true
     },
     {
       "id": "CNCN",
-      "value": "Ineligible Condition of Home"
+      "value": "Property Inspection Results"
     },
     {
       "id": "CNMV",
@@ -9159,19 +10321,19 @@
     },
     {
       "id": "CNNO",
-      "value": "Other Customer Cancellation"
+      "value": "Insured Request, Other"
     },
     {
       "id": "CNUW",
-      "value": "Other Underwriting"
+      "value": "Underwriting: No Insurable Interest"
     },
     {
       "id": "CNSO",
-      "value": "Sold the Insured Property/Didn't Purchase"
+      "value": "Sold/Didn't Purchase Property/Auto"
     },
     {
       "id": "CNDP",
-      "value": "Duplicate Policy"
+      "value": "Duplicate Branch Policy"
     },
     {
       "id": "CNIP",
@@ -9179,7 +10341,7 @@
     },
     {
       "id": "CNPP",
-      "value": "No Proof of Prior"
+      "value": "No proof of prior insurance"
     },
     {
       "id": "CNAP",
@@ -9187,7 +10349,8 @@
     },
     {
       "id": "CNBX",
-      "value": "Customer Convert to BIX"
+      "value": "Customer Convert to BIX",
+      "deprecated": true
     },
     {
       "id": "CNDE",
@@ -9195,23 +10358,36 @@
     },
     {
       "id": "CNNR",
-      "value": "Non-Renewal"
+      "value": "Non-Renewal",
+      "deprecated": true
     },
     {
       "id": "CNAG",
-      "value": "Agency Book Roll"
+      "value": "Agency Book Roll",
+      "deprecated": true
     },
     {
       "id": "CNBN",
-      "value": "Bix Forced Non-Renew"
+      "value": "Bix Forced Non-Renew",
+      "deprecated": true
     },
     {
       "id": "NRUW",
-      "value": "Non-Renewal For Underwriting Reasons"
+      "value": "Non-Renewal For Underwriting Reasons",
+      "deprecated": true
+    },
+    {
+      "id": "CNUV",
+      "value": "Underwriting: Ineligible Vehicle"
+    },
+    {
+      "id": "CNUH",
+      "value": "Underwriting: Ineligible Driving History"
     },
     {
       "id": "NA",
-      "value": "Unknown"
+      "value": "Unknown",
+      "deprecated": true
     }
   ],
   "umbrellaLimit": [
@@ -9427,6 +10603,20 @@
     }
   ],
   "policyLimitIncomeLossState": {
+    "DC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "12000",
+        "value": "$12,000"
+      },
+      {
+        "id": "24000",
+        "value": "$24,000"
+      }
+    ],
     "SD": [
       {
         "id": "NONE",
@@ -9492,6 +10682,22 @@
       "value": "$1,100,000"
     }
   ],
+  "policyLimitExtraMedBenefitsState": {
+    "DC": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "50000",
+        "value": "$50,000"
+      },
+      {
+        "id": "100000",
+        "value": "$100,000"
+      }
+    ]
+  },
   "policyLimitTortOption": [
     {
       "id": "L",
@@ -9512,28 +10718,6 @@
       "value": "$177,500"
     }
   ],
-  "windstormMitigationLevel": [
-    {
-      "id": 0,
-      "value": "NONE"
-    },
-    {
-      "id": 1,
-      "value": "Retrofit - Level 1 (Bronze)"
-    },
-    {
-      "id": 2,
-      "value": "Retrofit - Level 2 (Silver)"
-    },
-    {
-      "id": 3,
-      "value": "Retrofit - Level 3 (Gold)"
-    },
-    {
-      "id": 4,
-      "value": "IRC/FFSLS"
-    }
-  ],
   "vehicleEquipmentStatusCodes": [
     {
       "value": "None",
@@ -9550,148 +10734,425 @@
   ],
   "feesState": {
     "AL": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "policy", "value": "Policy" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "policy",
+        "value": "Policy"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "AZ": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "CO": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" },
-      { "id": "auto_theft_prevention", "value": "Auto Theft Prevention Device" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      },
+      {
+        "id": "auto_theft_prevention",
+        "value": "Auto Theft Prevention Device"
+      }
     ],
     "IA": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "ID": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "IL": [
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "imagery", "value": "Imagery Collection" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "imagery",
+        "value": "Imagery Collection"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "IN": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "KS": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "KY": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "MD": [
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "ME": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "MI": [
-      { "id": "installment", "value": "Installment" },
-      { "id": "reinstatement", "value": "Reinstatement" }
+      {
+        "id": "installment",
+        "value": "Installment"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      }
     ],
     "MO": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "policy", "value": "Policy" },
-      { "id": "imagery", "value": "Imagery collection" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "policy",
+        "value": "Policy"
+      },
+      {
+        "id": "imagery",
+        "value": "Imagery collection"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "ND": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "NE": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "NH": [
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "NJ": [],
     "NM": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "NY": [],
     "OH": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "OK": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "OR": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "PA": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "SD": [
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "TN": [
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "TX": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "imagery", "value": "Imagery Collection" },
-      { "id": "installment", "value": "Installment" },
-      { "id": "policy", "value": "Policy" },
-      { "id": "paper", "value": "Paper Documentation" },
-      { "id": "auto_theft_prevention", "value": "Auto Theft Prevention Device" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "imagery",
+        "value": "Imagery Collection"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      },
+      {
+        "id": "policy",
+        "value": "Policy"
+      },
+      {
+        "id": "paper",
+        "value": "Paper Documentation"
+      },
+      {
+        "id": "auto_theft_prevention",
+        "value": "Auto Theft Prevention Device"
+      }
     ],
     "UT": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "VA": [],
     "VT": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
     "WI": [
-      { "id": "cancellation", "value": "Cancellation" },
-      { "id": "reinstatement", "value": "Reinstatement" },
-      { "id": "installment", "value": "Installment" }
+      {
+        "id": "cancellation",
+        "value": "Cancellation"
+      },
+      {
+        "id": "reinstatement",
+        "value": "Reinstatement"
+      },
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
     ],
-    "WV": [{ "id": "installment", "value": "Installment" }]
-  }
+    "WV": [
+      {
+        "id": "installment",
+        "value": "Installment"
+      }
+    ]
+  },
+  "residenceInsuranceType": [
+    {
+      "id": "O",
+      "value": "Home"
+    },
+    {
+      "id": "M",
+      "value": "Manufactured / Mobile"
+    },
+    {
+      "id": "C",
+      "value": "Condo"
+    },
+    {
+      "id": "R",
+      "value": "Renters"
+    },
+    {
+      "id": "T",
+      "value": "None / Not applicable"
+    }
+  ]
 }
