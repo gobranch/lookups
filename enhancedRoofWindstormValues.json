@@ -17,6 +17,34 @@
       "hint": ""
     }
   ],
+  "roofCoverState": {
+    "SC": [
+      { "id": "1", "value": "Non-SCBC Equivalent", "hint": "All else.", "isDefault": true },
+      {
+        "id": "2",
+        "value": "SCBC Equivalent",
+        "hint": "Roof cover in compliance with ASTM D-3161 modified to 110 mph."
+      },
+      {
+        "id": "3",
+        "value": "Reinforced Concrete Roof Deck",
+        "hint": ""
+      }
+    ],
+    "LA": [
+      { "id": "1", "value": "Non-LSUCC Equivalent", "hint": "All else.", "isDefault": true },
+      {
+        "id": "2",
+        "value": "LSUCC Equivalent",
+        "hint": "Roof cover in compliance with ASTM D-3161 modified to 110 mph."
+      },
+      {
+        "id": "3",
+        "value": "Reinforced Concrete Roof Deck",
+        "hint": ""
+      }
+    ]
+  },
   "roofDeckAttachment": [
     {
       "id": "1",

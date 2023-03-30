@@ -15,6 +15,18 @@
     {
       "id": "AR",
       "value": "Auto & Renters"
+    },
+    {
+      "id": "R",
+      "value": "Renters"
+    },
+    {
+      "id": "C",
+      "value": "Condo"
+    },
+    {
+      "id": "CA",
+      "value": "Condo & Auto"
     }
   ],
   "typeOfHome": [
@@ -1300,10 +1312,73 @@
         "version": "v1"
       }
     ],
+    "LA": [
+      {
+        "id": "15/30/25",
+        "value": "$15K | $30K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K",
+        "version": "v1"
+      },
+      {
+        "id": "25/50/50",
+        "value": "$25K | $50K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/25",
+        "value": "$50K | $100K | $25K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K",
+        "version": "v1"
+      },
+      {
+        "id": "50/100/100",
+        "value": "$50K | $100K | $100K"
+      },
+      {
+        "id": "100/300/50",
+        "value": "$100K | $300K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/50",
+        "value": "$250K | $500K | $50K"
+      },
+      {
+        "id": "250/500/100",
+        "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL",
+        "version": "v1"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL",
+        "version": "v1"
+      }
+    ],
     "MA": [
       {
-        "id": "20/40/5",
-        "value": "$20K | $40K | $5K",
+        "id": "20/40/10",
+        "value": "$20K | $40K | $10K",
         "version": "v1"
       },
       {
@@ -2962,6 +3037,76 @@
         "value": "$500K CSL"
       }
     ],
+    "LA": [
+      {
+        "id": "0/0",
+        "value": "No Coverage"
+      },
+      {
+        "id": "15/30",
+        "value": "$15K | $30K"
+      },
+      {
+        "id": "25/50",
+        "value": "$25K | $50K"
+      },
+      {
+        "id": "50/100",
+        "value": "$50K | $100K"
+      },
+      {
+        "id": "100/300",
+        "value": "$100K | $300K"
+      },
+      {
+        "id": "250/500",
+        "value": "$250K | $500K"
+      },
+      {
+        "id": "100 CSL",
+        "value": "$100K CSL"
+      },
+      {
+        "id": "300 CSL",
+        "value": "$300K CSL"
+      },
+      {
+        "id": "500 CSL",
+        "value": "$500K CSL"
+      },
+      {
+        "id": "15/30 E",
+        "value": "$15K | $30K ECONOMIC ONLY"
+      },
+      {
+        "id": "25/50 E",
+        "value": "$25K | $50K ECONOMIC ONLY"
+      },
+      {
+        "id": "50/100 E",
+        "value": "$50K | $100K ECONOMIC ONLY"
+      },
+      {
+        "id": "100/300 E",
+        "value": "$100K | $300K ECONOMIC ONLY"
+      },
+      {
+        "id": "250/500 E",
+        "value": "$250K | $500K ECONOMIC ONLY"
+      },
+      {
+        "id": "100 CSL E",
+        "value": "$100K CSL ECONOMIC ONLY"
+      },
+      {
+        "id": "300 CSL E",
+        "value": "$300K CSL ECONOMIC ONLY"
+      },
+      {
+        "id": "500 CSL E",
+        "value": "$500K CSL ECONOMIC ONLY"
+      }
+    ],
     "MA": [
       {
         "id": "20/40",
@@ -4564,6 +4709,28 @@
         "value": "$100,000"
       }
     ],
+    "FL": [
+      {
+        "id": "0|VA02",
+        "value": "$10,000 Aggregate w/ $0 Deductible"
+      },
+      {
+        "id": "500|VA02",
+        "value": "$10,000 Aggregate w/ $500 Deductible"
+      },
+      {
+        "id": "1000|VA02",
+        "value": "$10,000 Aggregate w/ $1,000 Deductible"
+      },
+      {
+        "id": "1000|VA03",
+        "value": "$10,000 Aggregate w/ no Incm Loss for NI & RI and $1,000 Deductible"
+      },
+      {
+        "id": "1000|VA04",
+        "value": "$10,000 Aggregate w/ no Incm Loss for NI and $1,000 Deductible"
+      }
+    ],
     "KS": [
       {
         "id": "4500",
@@ -4665,10 +4832,6 @@
       }
     ],
     "MA": [
-      {
-        "id": "NONE",
-        "value": "No Coverage"
-      },
       {
         "id": "FULL",
         "value": "Full"
@@ -5262,6 +5425,20 @@
     }
   ],
   "homeownersPaymentMethod": [
+    {
+      "id": "C",
+      "value": "Credit Card"
+    },
+    {
+      "id": "E",
+      "value": "Bank Withdrawal"
+    },
+    {
+      "id": "W",
+      "value": "Mortgage"
+    }
+  ],
+  "condoPaymentMethod": [
     {
       "id": "C",
       "value": "Credit Card"
@@ -6392,6 +6569,56 @@
         "value": "$2,000 W/ $0 GLASS"
       }
     ],
+    "LA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "0",
+        "value": "$0"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "250",
+        "value": "$250"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      },
+      {
+        "id": "100/0GL",
+        "value": "$100 W/ $0 GLASS"
+      },
+      {
+        "id": "250/0GL",
+        "value": "$250 W/ $0 GLASS"
+      },
+      {
+        "id": "500/0GL",
+        "value": "$500 W/ $0 GLASS"
+      },
+      {
+        "id": "1000/0GL",
+        "value": "$1,000 W/ $0 GLASS"
+      },
+      {
+        "id": "2000/0GL",
+        "value": "$2,000 W/ $0 GLASS"
+      }
+    ],
     "MA": [
       {
         "id": "NONE",
@@ -6408,6 +6635,30 @@
       {
         "id": "1000/1000GL",
         "value": "$1,000"
+      },
+      {
+        "id": "300/100GL",
+        "value": "$300 W/ $100 GLASS"
+      },
+      {
+        "id": "500/100GL",
+        "value": "$500 W/ $100 GLASS"
+      },
+      {
+        "id": "1000/100GL",
+        "value": "$1,000 W/ $100 GLASS"
+      },
+      {
+        "id": "300/0GL",
+        "value": "$300 W/ $0 GLASS"
+      },
+      {
+        "id": "500/0GL",
+        "value": "$500 W/ $0 GLASS"
+      },
+      {
+        "id": "1000/0GL",
+        "value": "$1,000 W/ $0 GLASS"
       }
     ],
     "ME": [
@@ -7287,6 +7538,16 @@
         "value": "$15,000 | $250 Deductible"
       }
     ],
+    "LA": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "25000",
+        "value": "$25,000 | $250 Deductible"
+      }
+    ],
     "MO": [],
     "NM": [
       {
@@ -7368,6 +7629,24 @@
       }
     ],
     "IL": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "40",
+        "value": "$40/day for up to 30 days"
+      },
+      {
+        "id": "50",
+        "value": "$50/day for up to 30 days"
+      },
+      {
+        "id": "60",
+        "value": "$60/day for up to 30 days"
+      }
+    ],
+    "LA": [
       {
         "id": "NONE",
         "value": "No Coverage"
@@ -7604,6 +7883,30 @@
       "value": "$4,000"
     }
   ],
+  "limitACPEState": {
+    "FL": [
+      {
+        "id": "2500",
+        "value": "$2,500"
+      },
+      {
+        "id": "5000",
+        "value": "$5,000"
+      },
+      {
+        "id": "10000",
+        "value": "$10,000"
+      },
+      {
+        "id": "15000",
+        "value": "$15,000"
+      },
+      {
+        "id": "25000",
+        "value": "$25,000"
+      }
+    ]
+  },
   "limitIncomeLoss": [
     {
       "id": "NONE",
@@ -7616,44 +7919,44 @@
   ],
   "guestMedicalLimit": [
     {
-      "id": "1000",
+      "id": 1000,
       "value": "$1,000"
     },
     {
-      "id": "2500",
+      "id": 2500,
       "value": "$2,500"
     },
     {
-      "id": "5000",
+      "id": 5000,
       "value": "$5,000"
     }
   ],
   "guestMedicalLimitState": {
     "AZ": [
       {
-        "id": "1000",
+        "id": 1000,
         "value": "$1,000"
       },
       {
-        "id": "2500",
+        "id": 2500,
         "value": "$2,500"
       },
       {
-        "id": "5000",
+        "id": 5000,
         "value": "$5,000"
       }
     ],
     "MO": [
       {
-        "id": "1000",
+        "id": 1000,
         "value": "$1,000"
       },
       {
-        "id": "2500",
+        "id": 2500,
         "value": "$2,500"
       },
       {
-        "id": "5000",
+        "id": 5000,
         "value": "$5,000"
       }
     ]
@@ -7833,16 +8136,16 @@
     ],
     "MO": [
       {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
         "id": 0.01,
         "value": "1%"
       },
       {
         "id": 0.02,
         "value": "2%"
-      },
-      {
-        "id": 0.03,
-        "value": "3%"
       },
       {
         "id": 0.05,
@@ -7949,10 +8252,6 @@
         "value": "2%"
       },
       {
-        "id": 0.03,
-        "value": "3%"
-      },
-      {
         "id": 0.05,
         "value": "5%"
       },
@@ -8055,10 +8354,6 @@
       {
         "id": 0.02,
         "value": "2%"
-      },
-      {
-        "id": 0.03,
-        "value": "3%"
       },
       {
         "id": 0.05,
@@ -8175,6 +8470,56 @@
     }
   ],
   "deductibleHurricaneState": {
+    "LA": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.03,
+        "value": "3%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      },
+      {
+        "id": 0.1,
+        "value": "10%"
+      }
+    ],
     "MA": [
       {
         "id": 1000,
@@ -8222,7 +8567,7 @@
       },
       {
         "id": 0.03,
-        "value": "2%"
+        "value": "3%"
       },
       {
         "id": 0.05,
@@ -8342,6 +8687,40 @@
       "value": "5%"
     }
   ],
+  "condoDeductibleAllOther": [
+    {
+      "id": 500,
+      "value": "$500"
+    },
+    {
+      "id": 750,
+      "value": "$750"
+    },
+    {
+      "id": 1000,
+      "value": "$1,000"
+    },
+    {
+      "id": 1500,
+      "value": "$1,500"
+    },
+    {
+      "id": 2000,
+      "value": "$2,000"
+    },
+    {
+      "id": 2500,
+      "value": "$2,500"
+    },
+    {
+      "id": 3000,
+      "value": "$3,000"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    }
+  ],
   "deductibleAllOtherState": {
     "DC": [
       {
@@ -8371,6 +8750,52 @@
       {
         "id": 0.02,
         "value": "2%"
+      }
+    ],
+    "LA": [
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
       }
     ],
     "ME": [
@@ -10057,6 +10482,20 @@
         "value": "40%"
       }
     ],
+    "LA": [
+      {
+        "id": 0,
+        "value": "0%"
+      },
+      {
+        "id": 20,
+        "value": "20%"
+      },
+      {
+        "id": 40,
+        "value": "40%"
+      }
+    ],
     "MS": [
       {
         "id": 0,
@@ -10383,6 +10822,10 @@
     {
       "id": "CNUH",
       "value": "Underwriting: Ineligible Driving History"
+    },
+    {
+      "id": "CNRW",
+      "value": "Policy Rewrite"
     },
     {
       "id": "NA",
@@ -11133,6 +11576,92 @@
       }
     ]
   },
+  "typeOfCondo": [
+    {
+      "id": "LR",
+      "value": "Low rise"
+    },
+    {
+      "id": "MR",
+      "value": "Medium rise"
+    },
+    {
+      "id": "HR",
+      "value": "High rise"
+    },
+    {
+      "id": "TH",
+      "value": "Townhouse"
+    },
+    {
+      "id": "R",
+      "value": "Rowhouse"
+    },
+    {
+      "id": "D",
+      "value": "Detached condo"
+    }
+  ],
+  "typeOfEntry": [
+    {
+      "id": "I",
+      "value": "Interior entry"
+    },
+    {
+      "id": "E",
+      "value": "Exterior entry"
+    }
+  ],
+  "condoRoofShape": [
+    {
+      "id": "F",
+      "value": "Flat"
+    },
+    {
+      "id": "O",
+      "value": "Other"
+    }
+  ],
+  "condoFloor": [
+    {
+      "id": "SUB",
+      "value": "Sublevel"
+    },
+    {
+      "id": "GR",
+      "value": "Ground Floor"
+    },
+    {
+      "id": "2TO4",
+      "value": "2nd-4th"
+    },
+    {
+      "id": "5UP",
+      "value": "5th floor +"
+    }
+  ],
+  "condoLiability": [
+    {
+      "id": 100000,
+      "value": "$100,000"
+    },
+    {
+      "id": 200000,
+      "value": "$200,000"
+    },
+    {
+      "id": 300000,
+      "value": "$300,000"
+    },
+    {
+      "id": 500000,
+      "value": "$500,000"
+    },
+    {
+      "id": 1000000,
+      "value": "$1,000,000"
+    }
+  ],
   "residenceInsuranceType": [
     {
       "id": "O",
