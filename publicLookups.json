@@ -1011,6 +1011,28 @@
         "version": "v1"
       }
     ],
+    "FL": [
+      {
+        "id": "10/20/10",
+        "value": "$10K | $20K | 10K"
+      },
+      {
+        "id": "25/50/25",
+        "value": "$25K | $50K | $25K"
+      },
+      {
+        "id": "50/100/50",
+        "value": "$50K | $100K | $50K"
+      },
+      {
+        "id": "100/300/100",
+        "value": "$100K | $300K | $100K"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K"
+      }
+    ],
     "GA": [
       {
         "id": "50/100/50",
@@ -2875,6 +2897,52 @@
         "value": "$500K CSL"
       }
     ],
+    "FL": [
+      {
+        "id": "0/0",
+        "value": "No Coverage"
+      },
+      {
+        "id": "10/20 N",
+        "value": "$10K | $20K NON-STACKED"
+      },
+      {
+        "id": "10/20 S",
+        "value": "$10K | $20K STACKED"
+      },
+      {
+        "id": "25/50 N",
+        "value": "$25K | $50K NON-STACKED"
+      },
+      {
+        "id": "25/50 S",
+        "value": "$25K | $50K STACKED"
+      },
+      {
+        "id": "50/100 N",
+        "value": "$50K | $100K NON-STACKED"
+      },
+      {
+        "id": "50/100 S",
+        "value": "$50K | $100K STACKED"
+      },
+      {
+        "id": "100/300 N",
+        "value": "$100K | $300K NON-STACKED"
+      },
+      {
+        "id": "100/300 S",
+        "value": "$100K | $300K STACKED"
+      },
+      {
+        "id": "250/500 N",
+        "value": "$250K | $500K NON-STACKED"
+      },
+      {
+        "id": "250/500 S",
+        "value": "$250K | $500K STACKED"
+      }
+    ],
     "GA": [
       {
         "id": "0/0",
@@ -4711,24 +4779,44 @@
     ],
     "FL": [
       {
-        "id": "0|VA02",
-        "value": "$10,000 Aggregate w/ $0 Deductible"
+        "id": "0 NI",
+        "value": "$0 | Applicant Only",
+        "hint": "No deductible for either you or your household residents."
       },
       {
-        "id": "500|VA02",
-        "value": "$10,000 Aggregate w/ $500 Deductible"
+        "id": "0 RI",
+        "value": "$0 | All Residents",
+        "hint": "No deductible for either you or your household residents."
       },
       {
-        "id": "1000|VA02",
-        "value": "$10,000 Aggregate w/ $1,000 Deductible"
+        "id": "250 NI",
+        "value": "$250 | Applicant Only",
+        "hint": "$250 deductible applicable for you but not your household residents."
       },
       {
-        "id": "1000|VA03",
-        "value": "$10,000 Aggregate w/ no Incm Loss for NI & RI and $1,000 Deductible"
+        "id": "250 RI",
+        "value": "$250 | All Residents",
+        "hint": "$250 deductible applicable for you and all your household residents."
       },
       {
-        "id": "1000|VA04",
-        "value": "$10,000 Aggregate w/ no Incm Loss for NI and $1,000 Deductible"
+        "id": "500 NI",
+        "value": "$500 | Applicant Only",
+        "hint": "$500 deductible applicable for you but not your household residents."
+      },
+      {
+        "id": "500 RI",
+        "value": "$500 | All Residents",
+        "hint": "$500 deductible applicable for you and all your household residents."
+      },
+      {
+        "id": "1000 NI",
+        "value": "$1,000 | Applicant Only",
+        "hint": "$1000 deductible applicable for you but not your household residents."
+      },
+      {
+        "id": "1000 RI",
+        "value": "$1,000 | All Residents",
+        "hint": "$1000 deductible applicable for you and all your household residents."
       }
     ],
     "KS": [
@@ -5414,6 +5502,16 @@
       "value": "One Time"
     }
   ],
+  "homeNewBusinessPaymentType": [
+    {
+      "id": "F",
+      "value": "One Time"
+    },
+    {
+      "id": "E",
+      "value": "Mortgage"
+    }
+  ],
   "rentersPaymentType": [
     {
       "id": "I",
@@ -5715,6 +5813,32 @@
       {
         "id": "1000",
         "value": "$1,000"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
+      }
+    ],
+    "FL": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1500",
+        "value": "$1,500"
       },
       {
         "id": "2000",
@@ -6321,6 +6445,32 @@
       {
         "id": "2000/50GL",
         "value": "$2,000 W/ $50 GLASS"
+      }
+    ],
+    "FL": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "100",
+        "value": "$100"
+      },
+      {
+        "id": "500",
+        "value": "$500"
+      },
+      {
+        "id": "1000",
+        "value": "$1,000"
+      },
+      {
+        "id": "1500",
+        "value": "$1,500"
+      },
+      {
+        "id": "2000",
+        "value": "$2,000"
       }
     ],
     "GA": [
@@ -7684,10 +7834,6 @@
       {
         "id": "60",
         "value": "$60/day for up to 30 days"
-      },
-      {
-        "id": "100",
-        "value": "$100/day; limit $1,000 - disabled vehicle option only"
       }
     ],
     "ME": [
@@ -7885,6 +8031,10 @@
   ],
   "limitACPEState": {
     "FL": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
       {
         "id": "2500",
         "value": "$2,500"
@@ -10458,6 +10608,28 @@
         "value": "40%"
       }
     ],
+    "CO": [
+      {
+        "id": 0,
+        "value": "0%"
+      },
+      {
+        "id": 10,
+        "value": "10%"
+      },
+      {
+        "id": 20,
+        "value": "20%"
+      },
+      {
+        "id": 40,
+        "value": "40%"
+      },
+      {
+        "id": 50,
+        "value": "50%"
+      }
+    ],
     "DC": [
       {
         "id": 0,
@@ -10828,9 +11000,21 @@
       "value": "Policy Rewrite"
     },
     {
+      "id": "NRAT",
+      "value": "Agency Termination"
+    },
+    {
+      "id": "NREV",
+      "value": "Everspan Non-Renewal"
+    },
+    {
       "id": "NA",
       "value": "Unknown",
       "deprecated": true
+    },
+    {
+      "id": "NCAT",
+      "value": "Reinsurance Capacity"
     }
   ],
   "umbrellaLimit": [
@@ -11018,6 +11202,23 @@
       {
         "id": "24000",
         "value": "$24,000"
+      }
+    ],
+    "FL": [
+      {
+        "id": "VA03",
+        "value": "None",
+        "hint": "Excludes work loss coverage for named insured and all dependent residents relatives."
+      },
+      {
+        "id": "VA04",
+        "value": "Applicant Only",
+        "hint": "Includes work loss coverage for the named insured only."
+      },
+      {
+        "id": "VA02",
+        "value": "All Residents",
+        "hint": "Includes work loss coverage for the named insured and dependent resident relatives."
       }
     ]
   },
@@ -11656,10 +11857,6 @@
     {
       "id": 500000,
       "value": "$500,000"
-    },
-    {
-      "id": 1000000,
-      "value": "$1,000,000"
     }
   ],
   "residenceInsuranceType": [
@@ -11682,6 +11879,28 @@
     {
       "id": "T",
       "value": "None / Not applicable"
+    }
+  ],
+  "removedDriverReasonOptions": [
+    { "id": "PRIOR_OWNER", "value": "Does not live at this address" },
+    { "id": "NON_RELATIVE", "value": "Non-related resident of the household" },
+    {
+      "id": "NON_LICENSED",
+      "value": "Non-licensed resident relative of the household"
+    },
+    { "id": "MILITARY_AWAY", "value": "Member of military away in training or service" },
+    {
+      "id": "RESIDENT_RELATIVE_OWN_INS",
+      "value": "Resident relative with their own insurance policy",
+      "notation": {
+        "subtitle": "Proof of other coverage will be required",
+        "body": "To ensure all drivers in your household are equally protected, we ask that resident relatives not listed as drivers have auto liability limits equal to or greater than the limits on your policy. Once you purchase, we will follow up with you for proof of the removed driver's coverage."
+      }
+    },
+    {
+      "id": "DECEASED",
+      "value": "Deceased",
+      "notation": { "subtitle": "We're sorry for your loss", "body": "We'll remove this driver from your offer." }
     }
   ]
 }
