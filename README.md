@@ -10,7 +10,7 @@ Note that the logic for lookups is that the default lookup will have a name like
 | [mortgageLookups](https://github.com/gobranch/lookups/blob/main/mortgageLookups.json)                         | For the `MortgageDetailsInput` type. You're also allowed to use this to implement mortgage lender autocomplete in your own UI. |
 | [enhancedRoofWindstormValues](https://github.com/gobranch/lookups/blob/main/enhancedRoofWindstormValues.json) | Lookups for windstorm-related roof characteristics                                                                             |
 | [insuranceProvidersList](https://github.com/gobranch/lookups/blob/main/insuranceProvidersList.json)           | Available to implement autocomplete / selection for `currentAutoCarrier`                                                       |
-| [securityProviderLookups](https://github.com/gobranch/lookups/blob/main/securityProviderLookups.json)         | Known security providers and whether they are Branch partners for Branch's connected home discount. These values can be used for the `providerName` field in the `ConnectedHomeInput` type. |
+| [securityProviders](https://github.com/gobranch/lookups/blob/main/securityProviders.json)                     | Known security providers and whether they are Branch partners for Branch's connected home discount. These values can be used for the `providerName` field in the `ConnectedHomeInput` type. |
 
 ---
 
