@@ -1,0 +1,81 @@
+[
+  {
+    "id": "Abode",
+    "value": "Abode",
+    "isPartner": true
+  },
+  {
+    "id": "ADT",
+    "value": "ADT",
+    "isPartner": true,
+    "signUpThroughBranch": false,
+    "signUpInPolicy": false,
+    "allowAgencySignUp": false,
+    "agencyPromotionDeadlineToBind": "2023-01-01T00:00:00",
+    "internalPromotionDeadlineToBind": "2023-01-01T00:00:00"
+  },
+  {
+    "id": "Alert Protective",
+    "value": "Alert Protective",
+    "isPartner": true
+  },
+  {
+    "id": "Alert 360",
+    "value": "Alert 360",
+    "isPartner": true
+  },
+  {
+    "id": "Comcast (Xfinity)",
+    "value": "Comcast (Xfinity)"
+  },
+  {
+    "id": "Frontpoint",
+    "value": "Frontpoint"
+  },
+  {
+    "id": "Google Nest",
+    "value": "Google Nest"
+  },
+  {
+    "id": "Kangaroo",
+    "value": "Kangaroo",
+    "isPartner": true,
+    "signUpThroughBranch": false,
+    "signUpInPolicy": false,
+    "allowAgencySignUp": false,
+    "agencyPromotionDeadlineToBind": "2023-04-01T00:00:00",
+    "internalPromotionDeadlineToBind": "2023-04-01T00:00:00"
+  },
+  {
+    "id": "Link Interactive",
+    "value": "Link Interactive"
+  },
+  {
+    "id": "Ring Alarm",
+    "value": "Ring Alarm"
+  },
+  {
+    "id": "Scout Alarm",
+    "value": "Scout Alarm"
+  },
+  {
+    "id": "SimpliSafe",
+    "value": "SimpliSafe",
+    "isPartner": true,
+    "signUpThroughBranch": true,
+    "signUpInPolicy": false,
+    "allowAgencySignUp": false,
+    "agencyPromotionDeadlineToBind": "2023-04-01T00:00:00",
+    "internalPromotionDeadlineToBind": "2099-01-01T00:00:00"
+  },
+  {
+    "id": "Vector Security",
+    "value": "Vector Security",
+    "isPartner": true
+  },
+  {
+    "id": "Vivint",
+    "value": "Vivint",
+    "isPartner": true
+  }
+]
