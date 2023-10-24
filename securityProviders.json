@@ -7,12 +7,7 @@
   {
     "id": "ADT",
     "value": "ADT",
-    "isPartner": true,
-    "signUpThroughBranch": false,
-    "signUpInPolicy": false,
-    "allowAgencySignUp": false,
-    "agencyPromotionDeadlineToBind": "2023-01-01T00:00:00",
-    "internalPromotionDeadlineToBind": "2023-01-01T00:00:00"
+    "isPartner": true
   },
   {
     "id": "Alert Protective",
@@ -39,12 +34,7 @@
   {
     "id": "Kangaroo",
     "value": "Kangaroo",
-    "isPartner": true,
-    "signUpThroughBranch": false,
-    "signUpInPolicy": false,
-    "allowAgencySignUp": false,
-    "agencyPromotionDeadlineToBind": "2023-04-01T00:00:00",
-    "internalPromotionDeadlineToBind": "2023-04-01T00:00:00"
+    "isPartner": true
   },
   {
     "id": "Link Interactive",
@@ -61,12 +51,7 @@
   {
     "id": "SimpliSafe",
     "value": "SimpliSafe",
-    "isPartner": true,
-    "signUpThroughBranch": true,
-    "signUpInPolicy": false,
-    "allowAgencySignUp": false,
-    "agencyPromotionDeadlineToBind": "2023-04-01T00:00:00",
-    "internalPromotionDeadlineToBind": "2099-01-01T00:00:00"
+    "isPartner": true
   },
   {
     "id": "Vector Security",
