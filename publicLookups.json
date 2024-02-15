@@ -5578,14 +5578,6 @@
     {
       "id": "false",
       "value": "No"
-    },
-    {
-      "id": true,
-      "value": "Yes"
-    },
-    {
-      "id": false,
-      "value": "No"
     }
   ],
   "rentersLiability": [
@@ -8727,64 +8719,6 @@
         "id": 0.1,
         "value": "10%"
       }
-    ],
-    "TX": [
-      {
-        "id": 0,
-        "value": "No Coverage"
-      },
-      {
-        "id": 1000,
-        "value": "$1,000"
-      },
-      {
-        "id": 1500,
-        "value": "$1,500"
-      },
-      {
-        "id": 2000,
-        "value": "$2,000"
-      },
-      {
-        "id": 2500,
-        "value": "$2,500"
-      },
-      {
-        "id": 3000,
-        "value": "$3,000"
-      },
-      {
-        "id": 5000,
-        "value": "$5,000"
-      },
-      {
-        "id": 7500,
-        "value": "$7,500"
-      },
-      {
-        "id": 10000,
-        "value": "$10,000"
-      },
-      {
-        "id": 0.005,
-        "value": "0.5%"
-      },
-      {
-        "id": 0.01,
-        "value": "1%"
-      },
-      {
-        "id": 0.02,
-        "value": "2%"
-      },
-      {
-        "id": 0.05,
-        "value": "5%"
-      },
-      {
-        "id": 0.1,
-        "value": "10%"
-      }
     ]
   },
   "deductibleAllOther": [
@@ -9835,6 +9769,18 @@
     {
       "id": "WY",
       "value": "Wyoming"
+    },
+    {
+      "id": "AA",
+      "value": "Armed Forces Americas"
+    },
+    {
+      "id": "AE",
+      "value": "Armed Forces Europe"
+    },
+    {
+      "id": "AP",
+      "value": "Armed Forces Pacific"
     }
   ],
   "numberOfPriorYearsCoverage": [
@@ -10848,6 +10794,10 @@
     {
       "id": "renters",
       "value": "Renters Interested Party"
+    },
+    {
+      "id": "lessor",
+      "value": "Vehicle Lessor"
     }
   ],
   "renewal": [
@@ -10881,24 +10831,24 @@
   "cancelReason": [
     {
       "id": "CNDC",
-      "value": "Customer Dissatisfied with Claims"
+      "value": "Member Dissatisfied with Claims"
     },
     {
       "id": "CNPR",
-      "value": "Customer Dissatisfied with Price"
+      "value": "Member Dissatisfied with Price"
     },
     {
       "id": "CNDR",
-      "value": "Customer Dissatisfied with Roadside Assistance",
+      "value": "Member Dissatisfied with Roadside Assistance",
       "deprecated": true
     },
     {
       "id": "CNDB",
-      "value": "Customer Dissatisfied with Service"
+      "value": "Member Dissatisfied with Service"
     },
     {
       "id": "CNDA",
-      "value": "Customer Dissatisfied with Agency"
+      "value": "Member Dissatisfied with Agency"
     },
     {
       "id": "CNDY",
@@ -10912,6 +10862,10 @@
     {
       "id": "CNPY",
       "value": "Non-Payment of Premium"
+    },
+    {
+      "id": "CNPY_X",
+      "value": "Non-Payment of Premium (Exception)"
     },
     {
       "id": "CNID",
@@ -10960,31 +10914,38 @@
     },
     {
       "id": "CNBX",
-      "value": "Customer Convert to BIX",
+      "value": "Member Convert to BIX",
       "deprecated": true
     },
     {
       "id": "CNDE",
-      "value": "Customer Deceased"
+      "value": "Member Deceased"
     },
     {
       "id": "CNNR",
       "value": "Non-Renewal",
-      "deprecated": true
+      "nonRenew": true
     },
     {
       "id": "CNAG",
       "value": "Agency Book Roll",
-      "deprecated": true
+      "deprecated": true,
+      "nonRenew": true
     },
     {
       "id": "CNBN",
       "value": "Bix Forced Non-Renew",
-      "deprecated": true
+      "deprecated": true,
+      "nonRenew": true
+    },
+    {
+      "id": "CNFP",
+      "value": "Underwriting: Failure to provide underwriting information"
     },
     {
       "id": "NRUW",
       "value": "Non-Renewal For Underwriting Reasons",
+      "nonRenew": true,
       "deprecated": true
     },
     {
@@ -11000,12 +10961,23 @@
       "value": "Policy Rewrite"
     },
     {
+      "id": "CNSR",
+      "value": "Underwriting: Substantial Change in Risk"
+    },
+    {
       "id": "NRAT",
-      "value": "Agency Termination"
+      "value": "Agency Termination",
+      "nonRenew": true
     },
     {
       "id": "NREV",
-      "value": "Everspan Non-Renewal"
+      "value": "Everspan Non-Renewal",
+      "nonRenew": true
+    },
+    {
+      "id": "NRSC",
+      "value": "GSNIC Non-Renewal",
+      "nonRenew": true
     },
     {
       "id": "NA",
@@ -11014,7 +10986,37 @@
     },
     {
       "id": "NCAT",
-      "value": "Reinsurance Capacity"
+      "value": "Reinsurance Capacity",
+      "nonRenew": true
+    },
+    {
+      "id": "NACP",
+      "value": "Policy Not Accepted"
+    },
+    {
+      "id": "NRLV",
+      "value": "Underwriting Reasons - Loss and/or violation activity",
+      "nonRenew": true
+    },
+    {
+      "id": "NRLS",
+      "value": "Underwriting Reasons - Invalid license status",
+      "nonRenew": true
+    },
+    {
+      "id": "NRFP",
+      "value": "Underwriting Reasons - Failure to provide underwriting information",
+      "nonRenew": true
+    },
+    {
+      "id": "NRCH",
+      "value": "Underwriting Reasons - Property condition and/or hazard concerns",
+      "nonRenew": true
+    },
+    {
+      "id": "NRPC",
+      "value": "Underwriting Reasons - Property claims activity",
+      "nonRenew": true
     }
   ],
   "umbrellaLimit": [
@@ -11882,13 +11884,22 @@
     }
   ],
   "removedDriverReasonOptions": [
-    { "id": "PRIOR_OWNER", "value": "Does not live at this address" },
-    { "id": "NON_RELATIVE", "value": "Non-related resident of the household" },
+    {
+      "id": "PRIOR_OWNER",
+      "value": "Does not live at this address"
+    },
+    {
+      "id": "NON_RELATIVE",
+      "value": "Non-related resident of the household"
+    },
     {
       "id": "NON_LICENSED",
       "value": "Non-licensed resident relative of the household"
     },
-    { "id": "MILITARY_AWAY", "value": "Member of military away in training or service" },
+    {
+      "id": "MILITARY_AWAY",
+      "value": "Member of military away in training or service"
+    },
     {
       "id": "RESIDENT_RELATIVE_OWN_INS",
       "value": "Resident relative with their own insurance policy",
@@ -11900,7 +11911,10 @@
     {
       "id": "DECEASED",
       "value": "Deceased",
-      "notation": { "subtitle": "We're sorry for your loss", "body": "We'll remove this driver from your offer." }
+      "notation": {
+        "subtitle": "We're sorry for your loss",
+        "body": "We'll remove this driver from your offer."
+      }
     }
   ]
 }
