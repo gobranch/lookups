@@ -1,0 +1,19 @@
+{
+  "PHONE_NUMBERS": {
+    "CLAIMS": "(855)-223-9294",
+    "SUPPORT": "(833)-427-2624",
+    "SUPPORT_GET_HELP_MODAL": "(833)-394-2441"
+  },
+  "EMAILS": {
+    "CLAIMS": "claimsupport@ourbranch.com",
+    "SUPPORT": "support@ourbranch.com"
+  },
+  "CLAIMS_URLS": {
+    "GLASS": "https://submit.glassclaim.com/self-service/Default.aspx?ClientTag=0B3A3B02-5267-4302-A305-E742E1F1BFC5",
+    "ROADSIDE": "https://ourbranch.typeform.com/to/zaoS8Agu",
+    "AUTO_NON_GLASS": "https://www.ourbranch.com/file-a-claim",
+    "HOME": "https://ourbranch.typeform.com/to/aJyr1cUt",
+    "CONDO": "https://ourbranch.typeform.com/to/aJyr1cUt",
+    "RENTERS": "https://ourbranch.typeform.com/to/dw8d9u4x"
+  }
+}

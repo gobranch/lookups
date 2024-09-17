@@ -1,0 +1,55 @@
+{
+  "windstormMitigationLevelState": {
+    "AL": [
+      {
+        "id": 0,
+        "value": "None",
+        "hint": "Your home has not been retrofitted to protect against windstorm mitigation loss.",
+        "isDefault": true
+      },
+      {
+        "id": 1,
+        "value": "Retrofit level 1 (Bronze)",
+        "hint": "Built or retrofitted home to minimize roof damage, attic water intrusion, and associated damage by providing prescriptive roof sheathing and attachment, sealed roof deck, and code-compliant covering."
+      },
+      {
+        "id": 2,
+        "value": "Retrofit level 2 (Silver)",
+        "hint": "Retrofit work has been done to your home to protect your attached structures and openings while meeting the standards of Retrofit level 1."
+      },
+      {
+        "id": 3,
+        "value": "Retrofit level 3 (Gold)",
+        "hint": "Retrofit work has been done to your home to protect your foundational structure while meeting the standards of Retrofit levels 1 and 2."
+      },
+      {
+        "id": 4,
+        "value": "IRC/FFSLS",
+        "hint": "IRC: 2006 International Residential Code® (IRC) for One-and Two-Family Dwellings published by the International Code Council. FFSLS: Fortified For Safer Living Standards, published by the Institute for Business and Home Safety."
+      }
+    ],
+    "MS": [
+      {
+        "id": 0,
+        "value": "None",
+        "hint": "Your home has not been retrofitted to protect against windstorm mitigation loss.",
+        "isDefault": true
+      },
+      {
+        "id": 1,
+        "value": "Retrofit level 1 (Bronze)",
+        "hint": "Built or retrofitted home to minimize roof damage, attic water intrusion, and associated damage by providing prescriptive roof sheathing and attachment, sealed roof deck, and code-compliant covering."
+      },
+      {
+        "id": 2,
+        "value": "Retrofit level 2 (Silver)",
+        "hint": "Retrofit work has been done to your home to protect your attached structures and openings while meeting the standards of Retrofit level 1."
+      },
+      {
+        "id": 3,
+        "value": "Retrofit level 3 (Gold)",
+        "hint": "Retrofit work has been done to your home to protect your foundational structure while meeting the standards of Retrofit levels 1 and 2."
+      }
+    ]
+  }
+}

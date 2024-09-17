@@ -2289,18 +2289,13 @@
     ],
     "UT": [
       {
-        "id": "25/65/15",
-        "value": "$25K | $65K | $15K",
+        "id": "30/65/25",
+        "value": "$30K | $65K | $25K",
         "version": "v1"
       },
       {
-        "id": "25/65/25",
-        "value": "$25K | $65K | $25K",
-        "version": "v1"
-      },
-      {
-        "id": "25/65/50",
-        "value": "$25K | $65K | $50K",
+        "id": "30/65/50",
+        "value": "$30K | $65K | $50K",
         "version": "v1"
       },
       {
@@ -3731,8 +3726,8 @@
         "value": "No Coverage"
       },
       {
-        "id": "25/65",
-        "value": "$25K | $65K"
+        "id": "30/65",
+        "value": "$30K | $65K"
       },
       {
         "id": "50/100",
@@ -4211,8 +4206,8 @@
         "value": "No Coverage"
       },
       {
-        "id": "25/65",
-        "value": "$25K | $65K"
+        "id": "30/65",
+        "value": "$30K | $65K"
       },
       {
         "id": "50/100",
@@ -5522,6 +5517,17 @@
       "value": "One Time"
     }
   ],
+  "lifePaymentType": [
+    {
+      "id": "I",
+      "value": "Monthly"
+    },
+    {
+      "id": "F",
+      "value": "One Time"
+    }
+  ],
+
   "homeownersPaymentMethod": [
     {
       "id": "C",
@@ -5561,6 +5567,16 @@
     }
   ],
   "autoPaymentMethod": [
+    {
+      "id": "C",
+      "value": "Credit Card"
+    },
+    {
+      "id": "E",
+      "value": "Bank Withdrawal"
+    }
+  ],
+  "lifePaymentMethod": [
     {
       "id": "C",
       "value": "Credit Card"
@@ -7723,7 +7739,16 @@
         "value": "$3,500 | $250 Deductible"
       }
     ],
-    "WI": []
+    "WI": [
+      {
+        "id": "NONE",
+        "value": "No Coverage"
+      },
+      {
+        "id": "15000",
+        "value": "$15,000 | $250 Deductible"
+      }
+    ]
   },
   "limitRental": [
     {
@@ -8282,6 +8307,26 @@
         "value": "$2,000"
       },
       {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
         "id": 0.01,
         "value": "1%"
       },
@@ -8774,19 +8819,23 @@
   "condoDeductibleAllOther": [
     {
       "id": 500,
-      "value": "$500"
+      "value": "$500",
+      "deprecated": true
     },
     {
       "id": 750,
-      "value": "$750"
+      "value": "$750",
+      "deprecated": true
     },
     {
       "id": 1000,
-      "value": "$1,000"
+      "value": "$1,000",
+      "deprecated": true
     },
     {
       "id": 1500,
-      "value": "$1,500"
+      "value": "$1,500",
+      "deprecated": true
     },
     {
       "id": 2000,
@@ -8809,11 +8858,13 @@
     "DC": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -8839,7 +8890,8 @@
     "LA": [
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -8885,11 +8937,13 @@
     "ME": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -8919,11 +8973,13 @@
     "MS": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -8969,7 +9025,8 @@
     "ND": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -8999,11 +9056,13 @@
     "NH": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9033,7 +9092,8 @@
     "SD": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9059,11 +9119,13 @@
     "TN": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9109,15 +9171,18 @@
     "TX": [
       {
         "id": 0,
-        "value": "No Coverage"
+        "value": "No Coverage",
+        "deprecated": true
       },
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9163,11 +9228,13 @@
     "VT": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9197,11 +9264,13 @@
     "WY": [
       {
         "id": 1000,
-        "value": "$1,000"
+        "value": "$1,000",
+        "deprecated": true
       },
       {
         "id": 1500,
-        "value": "$1,500"
+        "value": "$1,500",
+        "deprecated": true
       },
       {
         "id": 2000,
@@ -9782,6 +9851,381 @@
       "id": "AP",
       "value": "Armed Forces Pacific"
     }
+  ],
+  "allCountries": [
+    {
+      "id": "AFGHANISTAN",
+      "value": "Afghanistan"
+    },
+    {
+      "id": "ALBANIA",
+      "value": "Albania"
+    },
+    {
+      "id": "ALGERIA",
+      "value": "Algeria"
+    },
+    {
+      "id": "AMERICAN_SAMOA",
+      "value": "American Samoa"
+    },
+    {
+      "id": "ANDORRA",
+      "value": "Andorra"
+    },
+    {
+      "id": "ANGOLA",
+      "value": "Angola"
+    },
+    {
+      "id": "ANGUILLA",
+      "value": "Anguilla"
+    },
+    {
+      "id": "ANTARCTICA",
+      "value": "Antarctica"
+    },
+    { "id": "Antigua and Barbuda", "value": "ANTIGUA_BARBUDA" },
+    { "id": "Argentina", "value": "ARGENTINA" },
+    { "id": "Armenia", "value": "ARMENIA" },
+    { "id": "Aruba", "value": "ARUBA" },
+    { "id": "Ascension Islands", "value": "ASCENSION_ISLANDS" },
+    { "id": "Australia", "value": "AUSTRALIA" },
+    {
+      "id": "BURKINA_FASO",
+      "value": "Burkina Faso"
+    },
+    {
+      "id": "BURMA",
+      "value": "Burma"
+    },
+    {
+      "id": "BURUNDI",
+      "value": "Burundi"
+    },
+    {
+      "id": "CAMBODIA",
+      "value": "Cambodia"
+    },
+    {
+      "id": "CAMEROON",
+      "value": "Cameroon"
+    },
+    {
+      "id": "CANADA",
+      "value": "Canada"
+    },
+    {
+      "id": "CAPEVERDE_ISLAND",
+      "value": "Cape Verde Islands"
+    },
+    {
+      "id": "CAYMAN_IS",
+      "value": "Cayman Islands"
+    },
+    {
+      "id": "CENTRAL_AFRICAN_REP",
+      "value": "Central African Republic"
+    },
+    {
+      "id": "CHAD",
+      "value": "Chad"
+    },
+    {
+      "id": "CHILE",
+      "value": "Chile"
+    },
+    {
+      "id": "CHINA",
+      "value": "China"
+    },
+    {
+      "id": "CHRISTMAS_ISLANDS",
+      "value": "Christmas Islands"
+    },
+    {
+      "id": "COCOA_ISLANDS",
+      "value": "Cocos (Keeling) Islands"
+    },
+    {
+      "id": "COLUMBIA",
+      "value": "Colombia"
+    },
+    {
+      "id": "COMOROS",
+      "value": "Comoros"
+    },
+    {
+      "id": "CONGO",
+      "value": "Congo"
+    },
+    {
+      "id": "CONGO_DEM_REP",
+      "value": "Congo, Democratic Republic of the"
+    },
+    {
+      "id": "COOK_ISLANDS",
+      "value": "Cook Islands"
+    },
+    {
+      "id": "COSTA_RICA",
+      "value": "Costa Rica"
+    },
+    {
+      "id": "COTE_DIVORIE",
+      "value": "Cote d'Ivoire"
+    },
+    {
+      "id": "CROATIA",
+      "value": "Croatia"
+    },
+    {
+      "id": "CURACAO",
+      "value": "Curaçao"
+    },
+    {
+      "id": "CUBA",
+      "value": "Cuba"
+    },
+    { "id": "BURKINA_FASO", "value": "Burkina Faso" },
+    { "id": "BURMA", "value": "Burma" },
+    { "id": "BURUNDI", "value": "Burundi" },
+    { "id": "CAMBODIA", "value": "Cambodia" },
+    { "id": "CAMEROON", "value": "Cameroon" },
+    { "id": "CANADA", "value": "Canada" },
+    { "id": "CAPEVERDE_ISLAND", "value": "Cape Verde Islands" },
+    { "id": "CAYMAN_IS", "value": "Cayman Islands" },
+    { "id": "CENTRAL_AFRICAN_REP", "value": "Central African Republic" },
+    { "id": "CHAD", "value": "Chad" },
+    { "id": "CHILE", "value": "Chile" },
+    { "id": "CHINA", "value": "China" },
+    { "id": "CHRISTMAS_ISLANDS", "value": "Christmas Islands" },
+    { "id": "COCOA_ISLANDS", "value": "Cocos (Keeling) Islands" },
+    { "id": "COLUMBIA", "value": "Colombia" },
+    { "id": "COMOROS", "value": "Comoros" },
+    { "id": "CONGO", "value": "Congo" },
+    { "id": "CONGO_DEM_REP", "value": "Congo, Democratic Republic of the" },
+    { "id": "COOK_ISLANDS", "value": "Cook Islands" },
+    { "id": "COSTA_RICA", "value": "Costa Rica" },
+    { "id": "COTE_DIVORIE", "value": "Cote d'Ivoire" },
+    { "id": "CROATIA", "value": "Croatia" },
+    { "id": "CURACAO", "value": "Curaçao" },
+    { "id": "CUBA", "value": "Cuba" },
+    { "id": "CYPRUS", "value": "Cyprus" },
+    { "id": "CZECH_REPUBLIC", "value": "Czech Republic" },
+    { "id": "DENMARK", "value": "Denmark" },
+    { "id": "DJIBOUTI", "value": "Djibouti" },
+    { "id": "DOMINICA", "value": "Dominica" },
+    { "id": "DOMINICAN_REPUBLIC", "value": "Dominican Republic" },
+    { "id": "ECUADOR", "value": "Ecuador" },
+    { "id": "EGYPT", "value": "Egypt" },
+    { "id": "EL_SALVADOR", "value": "El Salvador" },
+    { "id": "EQUATORIAL_GUINEA", "value": "Equatorial Guinea" },
+    { "id": "ERITREA", "value": "Eritrea" },
+    { "id": "ESTONIA", "value": "Estonia" },
+    { "id": "ETHIOPIA", "value": "Ethiopia" },
+    { "id": "FALKLAND_ISLANDS", "value": "Falkland Islands" },
+    { "id": "FAEROE_ISLANDS", "value": "Faroe Islands" },
+    { "id": "FIJI", "value": "Fiji" },
+    { "id": "FINLAND", "value": "Finland" },
+    { "id": "FRANCE", "value": "France" },
+    { "id": "FRENCH_GUIANA", "value": "French Guiana" },
+    { "id": "FRENCH_POLYNESIA", "value": "French Polynesia" },
+    { "id": "FRENCH_SOUTHERN_TERRITORIES", "value": "French Southern Territories" },
+    { "id": "GABON", "value": "Gabon" },
+    { "id": "GAMBIA", "value": "Gambia" },
+    { "id": "GEORGIA", "value": "Georgia" },
+    { "id": "GERMANY", "value": "Germany" },
+    { "id": "GHANA", "value": "Ghana" },
+    { "id": "GIBRALTAR", "value": "Gibraltar" },
+    { "id": "GREECE", "value": "Greece" },
+    { "id": "GREENLAND", "value": "Greenland" },
+    { "id": "GRENADA", "value": "Grenada" },
+    { "id": "GUADALOUPE", "value": "Guadeloupe" },
+    { "id": "GUAM", "value": "Guam" },
+    { "id": "GUATEMALA", "value": "Guatemala" },
+    { "id": "GUERNSEY", "value": "Guernsey" },
+    { "id": "GUINEA", "value": "Guinea" },
+    { "id": "GUINEA_BISSAU", "value": "Guinea-Bissau" },
+    { "id": "GUYANA", "value": "Guyana" },
+    { "id": "HAITI", "value": "Haiti" },
+    { "id": "HEARD_ISLAND", "value": "Heard Island and McDonald Islands" },
+    { "id": "HOLY_SEE", "value": "Holy See (Vatican City State)" },
+    { "id": "HONDURAS", "value": "Honduras" },
+    { "id": "HONG_KONG", "value": "Hong Kong" },
+    { "id": "HUNGARY", "value": "Hungary" },
+    { "id": "ICELAND", "value": "Iceland" },
+    { "id": "INDIA", "value": "India" },
+    { "id": "INDONESIA", "value": "Indonesia" },
+    { "id": "IRAN", "value": "Iran, Islamic Republic of" },
+    { "id": "IRAQ", "value": "Iraq" },
+    { "id": "IRELAND", "value": "Ireland" },
+    { "id": "ISLE_OF_MAN", "value": "Isle of Man" },
+    { "id": "ISRAEL", "value": "Israel" },
+    { "id": "ITALY", "value": "Italy" },
+    { "id": "JAMAICA", "value": "Jamaica" },
+    { "id": "JAPAN", "value": "Japan" },
+    { "id": "JERSEY", "value": "Jersey" },
+    { "id": "JORDAN", "value": "Jordan" },
+    { "id": "KAZAKHSTAN", "value": "Kazakhstan" },
+    { "id": "KENYA", "value": "Kenya" },
+    { "id": "KIRIBATI", "value": "Kiribati" },
+    { "id": "KOREA_DEM_PEOPLE_REP", "value": "Korea, Democratic People's Republic of" },
+    { "id": "KOREA_REPUBLIC", "value": "Korea, Republic of" },
+    { "id": "KOSOVO", "value": "Kosovo" },
+    { "id": "KUWAIT", "value": "Kuwait" },
+    { "id": "KYRGYZSTAN", "value": "Kyrgyzstan" },
+    { "id": "LAOS", "value": "Laos" },
+    { "id": "LATVIA", "value": "Latvia" },
+    { "id": "LEBANON", "value": "Lebanon" },
+    { "id": "LESOTHO", "value": "Lesotho" },
+    { "id": "LIBERIA", "value": "Liberia" },
+    { "id": "LIBYA", "value": "Libya" },
+    { "id": "LIECHTENSTEIN", "value": "Liechtenstein" },
+    { "id": "LITHUANIA", "value": "Lithuania" },
+    { "id": "LUXEMBOURG", "value": "Luxembourg" },
+    { "id": "MACAO", "value": "Macao" },
+    { "id": "MACEDONIA", "value": "North Macedonia" },
+    { "id": "MADAGASCAR", "value": "Madagascar" },
+    { "id": "MALAWI", "value": "Malawi" },
+    { "id": "MALAYSIA", "value": "Malaysia" },
+    { "id": "MALDIVES", "value": "Maldives" },
+    { "id": "MALI", "value": "Mali" },
+    { "id": "MALTA", "value": "Malta" },
+    { "id": "MARSHALL_ISLANDS", "value": "Marshall Islands" },
+    { "id": "MARTINIQUE", "value": "Martinique" },
+    { "id": "MAURITANIA", "value": "Mauritania" },
+    { "id": "MAURITIUS", "value": "Mauritius" },
+    { "id": "MAYOTTE_ISLAND", "value": "Mayotte Island" },
+    { "id": "MEXICO", "value": "Mexico" },
+    { "id": "MICRONESIA", "value": "Micronesia, Federated States of" },
+    { "id": "MOLDOVA", "value": "Moldova, Republic of" },
+    { "id": "MONACO", "value": "Monaco" },
+    { "id": "MONGOLIA", "value": "Mongolia" },
+    { "id": "MONTENEGRO", "value": "Montenegro" },
+    { "id": "MONTSERRAT", "value": "Montserrat" },
+    { "id": "MOROCCO", "value": "Morocco" },
+    { "id": "MOZAMBIQUE", "value": "Mozambique" },
+    { "id": "MYANMAR", "value": "Myanmar" },
+    { "id": "NAMIBIA", "value": "Namibia" },
+    { "id": "NAURU", "value": "Nauru" },
+    { "id": "NEPAL", "value": "Nepal" },
+    { "id": "NETHERLANDS", "value": "Netherlands" },
+    { "id": "NETHERLANDS_ANTILLES", "value": "Netherlands Antilles" },
+    { "id": "NEW_CALEDONIA", "value": "New Caledonia" },
+    { "id": "NEW_ZEALAND", "value": "New Zealand" },
+    { "id": "NICARAGUA", "value": "Nicaragua" },
+    { "id": "NIGER", "value": "Niger" },
+    { "id": "NIGERIA", "value": "Nigeria" },
+    { "id": "NIUE", "value": "Niue" },
+    { "id": "NORFOLK_ISLAND", "value": "Norfolk Island" },
+    { "id": "NORTH_YEMEN", "value": "North Yemen" },
+    { "id": "NORTH_MARIANA_ISLANDS", "value": "Northern Mariana Islands" },
+    { "id": "NORWAY", "value": "Norway" },
+    { "id": "OMAN", "value": "Oman" },
+    { "id": "PAKISTAN", "value": "Pakistan" },
+    { "id": "PALAU", "value": "Palau" },
+    { "id": "PALESTINE", "value": "Palestine" },
+    { "id": "PANAMA", "value": "Panama" },
+    { "id": "PAPUA_NEW_GUINEA", "value": "Papua New Guinea" },
+    { "id": "PARAGUAY", "value": "Paraguay" },
+    { "id": "PERU", "value": "Peru" },
+    { "id": "PHILIPPINES", "value": "Philippines" },
+    { "id": "PITCARIN_ISLANDS", "value": "Pitcairn Islands" },
+    { "id": "POLAND", "value": "Poland" },
+    { "id": "PORTUGAL", "value": "Portugal" },
+    { "id": "PUERTO_RICO", "value": "Puerto Rico" },
+    { "id": "QATAR", "value": "Qatar" },
+    { "id": "REUNION_ISLAND", "value": "Réunion Island" },
+    { "id": "ROMANIA", "value": "Romania" },
+    { "id": "RUSSIA", "value": "Russia" },
+    { "id": "RWANDA", "value": "Rwanda" },
+    { "id": "SAIPAN", "value": "Saipan" },
+    { "id": "SAMOA", "value": "Samoa" },
+    { "id": "SAN_MARINO", "value": "San Marino" },
+    { "id": "SAO_TOME", "value": "Sao Tome and Principe" },
+    { "id": "SAUDI_ARABIA", "value": "Saudi Arabia" },
+    { "id": "SENEGAL", "value": "Senegal" },
+    { "id": "SERBIA", "value": "Serbia" },
+    { "id": "SEYCHELLES", "value": "Seychelles" },
+    { "id": "SIERRA_LEONE", "value": "Sierra Leone" },
+    { "id": "SINGAPORE", "value": "Singapore" },
+    { "id": "SLOVAKIA", "value": "Slovakia" },
+    { "id": "SLOVENIA", "value": "Slovenia" },
+    { "id": "SOLOMON_ISLANDS", "value": "Solomon Islands" },
+    { "id": "SOMALIA", "value": "Somalia" },
+    { "id": "SOUTH_AFRICA", "value": "South Africa" },
+    { "id": "SOUTH_GEORGIA_SANDWICH", "value": "South Georgia and the South Sandwich Islands" },
+    { "id": "SOUTH_SUDAN", "value": "South Sudan" },
+    { "id": "SOUTH_YEMEN", "value": "South Yemen" },
+    { "id": "SPAIN", "value": "Spain" },
+    { "id": "SRI_LANKA", "value": "Sri Lanka" },
+    { "id": "ST_PIERRE", "value": "St. Pierre and Miquelon" },
+    { "id": "ST_HELENA", "value": "St. Helena" },
+    { "id": "ST_KITTS_NEVIS", "value": "St. Kitts and Nevis" },
+    { "id": "ST_LUCIA", "value": "St. Lucia" },
+    { "id": "ST_VINCENT", "value": "St. Vincent and the Grenadines" },
+    { "id": "SUDAN", "value": "Sudan" },
+    { "id": "SURINAME", "value": "Suriname" },
+    { "id": "SVALBARD_ISLAND", "value": "Svalbard and Jan Mayen" },
+    { "id": "SWAZILAND", "value": "Swaziland" },
+    { "id": "SWEDEN", "value": "Sweden" },
+    { "id": "SWITZERLAND", "value": "Switzerland" },
+    { "id": "SYRIA", "value": "Syria" },
+    { "id": "TAIWAN", "value": "Taiwan" },
+    { "id": "TAJIKISTAN", "value": "Tajikistan" },
+    { "id": "TANZANIA", "value": "Tanzania" },
+    { "id": "THAILAND", "value": "Thailand" },
+    { "id": "EAST_TIMOR", "value": "East Timor" },
+    { "id": "TOGO", "value": "Togo" },
+    { "id": "TOKELAU", "value": "Tokelau" },
+    { "id": "TONGA_ISLANDS", "value": "Tonga Islands" },
+    { "id": "TRINIDAD_TOBAGO", "value": "Trinidad and Tobago" },
+    { "id": "TUNISIA", "value": "Tunisia" },
+    { "id": "TURKEY", "value": "Turkey" },
+    { "id": "TURKMENISTAN", "value": "Turkmenistan" },
+    { "id": "TURKS_CAICOS_IS", "value": "Turks and Caicos Islands" },
+    { "id": "TUVALU", "value": "Tuvalu" },
+    { "id": "UGANDA", "value": "Uganda" },
+    { "id": "UKRAINE", "value": "Ukraine" },
+    { "id": "USSR", "value": "USSR" },
+    { "id": "UNITED_ARAB_EMIRATES", "value": "United Arab Emirates" },
+    { "id": "UK", "value": "United Kingdom" },
+    { "id": "US_MINOR_OUTLYING_ISLANDS", "value": "United States Minor Outlying Islands" },
+    { "id": "USA", "value": "United States of America" },
+    { "id": "URUGUAY", "value": "Uruguay" },
+    { "id": "VIRGIN_ISLANDS_US", "value": "Virgin Islands, U.S." },
+    { "id": "UZBEKISTAN", "value": "Uzbekistan" },
+    { "id": "VANUATU", "value": "Vanuatu" },
+    { "id": "VENEZUELA", "value": "Venezuela" },
+    { "id": "VIETNAM", "value": "Vietnam" },
+    { "id": "BRITISH_VIRGINIS", "value": "British Virgin Islands" },
+    { "id": "WALLIS_ISLANDS", "value": "Wallis and Futuna" },
+    { "id": "WESTERN_SARAHA", "value": "Western Sahara" },
+    { "id": "WESTERN_SAMOA", "value": "Western Samoa" },
+    { "id": "YEMEN", "value": "Yemen" },
+    { "id": "YUGOSLAVIA", "value": "Yugoslavia" },
+    { "id": "ZAIRE", "value": "Zaire" },
+    { "id": "ZAMBIA", "value": "Zambia" },
+    { "id": "ZIMBABWE", "value": "Zimbabwe" },
+    { "id": "OTHER", "value": "Other" },
+    { "id": "UNKNOWN", "value": "Unknown" }
+  ],
+
+  "canadianProvinces": [
+    { "value": "Alberta", "id": "AB" },
+    { "value": "British Columbia", "id": "BC" },
+    { "value": "Manitoba", "id": "MB" },
+    { "value": "New Brunswick", "id": "NB" },
+    { "value": "Northwest Territories", "id": "NT" },
+    { "value": "Nova Scotia", "id": "NS" },
+    { "value": "Nunavut", "id": "NU" },
+    { "value": "Ontario", "id": "ON" },
+    { "value": "Prince Edward Island", "id": "PE" },
+    { "value": "Quebec", "id": "PQ" },
+    { "value": "Saskatchewan", "id": "SK" },
+    { "value": "Yukon", "id": "YT" },
+    { "value": "Newfoundland and Labrador", "id": "NF" }
   ],
   "numberOfPriorYearsCoverage": [
     {
@@ -10924,7 +11368,8 @@
     {
       "id": "CNNR",
       "value": "Non-Renewal",
-      "nonRenew": true
+      "nonRenew": true,
+      "deprecated": true
     },
     {
       "id": "CNAG",
@@ -11905,7 +12350,7 @@
       "value": "Resident relative with their own insurance policy",
       "notation": {
         "subtitle": "Proof of other coverage will be required",
-        "body": "To ensure all drivers in your household are equally protected, we ask that resident relatives not listed as drivers have auto liability limits equal to or greater than the limits on your policy. Once you purchase, we will follow up with you for proof of the removed driver's coverage."
+        "body": "To ensure all drivers in your household are equally protected, we ask that resident relatives not listed as drivers have auto liability coverage. Once you purchase, we will follow up with you for proof of the removed driver's coverage."
       }
     },
     {
@@ -11916,5 +12361,204 @@
         "body": "We'll remove this driver from your offer."
       }
     }
+  ],
+  "assurityRelationshipsToPrimaryInsured": [
+    { "id": "Aunt", "value": "Aunt" },
+    { "id": "Brother", "value": "Brother" },
+    { "id": "Brother_In_Law", "value": "Brother In Law" },
+    { "id": "Business", "value": "Business" },
+    { "id": "Business_Associate", "value": "Business Associate" },
+    { "id": "Business_Partner", "value": "Business Partner" },
+    { "id": "Charity", "value": "Charity" },
+    { "id": "Child", "value": "Child" },
+    { "id": "Children_Equally_or_Survivor", "value": "Children Equally or Survivor" },
+    { "id": "Company", "value": "Company" },
+    { "id": "Corporation", "value": "Corporation" },
+    { "id": "Cousin", "value": "Cousin" },
+    { "id": "Creditor", "value": "Creditor" },
+    { "id": "Daughter", "value": "Daughter" },
+    { "id": "Daughter_In_Law", "value": "Daughter In Law" },
+    { "id": "Domestic_Partner", "value": "Domestic Partner" },
+    { "id": "Employer", "value": "Employer" },
+    { "id": "Estate", "value": "Estate" },
+    { "id": "Father", "value": "Father" },
+    { "id": "Father_In_Law", "value": "Father In Law" },
+    { "id": "Fiance", "value": "Fiance" },
+    { "id": "Fiancee", "value": "Fiancee" },
+    { "id": "Former_Husband", "value": "Former Husband" },
+    { "id": "Former_Spouse", "value": "Former Spouse" },
+    { "id": "Former_Wife", "value": "Former Wife" },
+    { "id": "Foster_Children", "value": "Foster Children" },
+    { "id": "Foster_Daughter", "value": "Foster Daughter" },
+    { "id": "Foster_Father", "value": "Foster Father" },
+    { "id": "Foster_Mother", "value": "Foster Mother" },
+    { "id": "Foster_Son", "value": "Foster Son" },
+    { "id": "Friend", "value": "Friend" },
+    { "id": "Godchild", "value": "Godchild" },
+    { "id": "Goddaughter", "value": "Goddaughter" },
+    { "id": "Godfather", "value": "Godfather" },
+    { "id": "Godmother", "value": "Godmother" },
+    { "id": "Godparent", "value": "Godparent" },
+    { "id": "Godson", "value": "Godson" },
+    { "id": "Grandchild", "value": "Grandchild" },
+    { "id": "Granddaughter", "value": "Granddaughter" },
+    { "id": "Grandfather", "value": "Grandfather" },
+    { "id": "Grandmother", "value": "Grandmother" },
+    { "id": "Grandnephew", "value": "Grandnephew" },
+    { "id": "Grandniece", "value": "Grandniece" },
+    { "id": "Grandparent", "value": "Grandparent" },
+    { "id": "Grandson", "value": "Grandson" },
+    { "id": "Great_Aunt", "value": "Great Aunt" },
+    { "id": "Great_Granddaughter", "value": "Great Granddaughter" },
+    { "id": "Great_Grandfather", "value": "Great Grandfather" },
+    { "id": "Great_Grandmother", "value": "Great Grandmother" },
+    { "id": "Great_Grandson", "value": "Great Grandson" },
+    { "id": "Great_Uncle", "value": "Great Uncle" },
+    { "id": "Guardian", "value": "Guardian" },
+    { "id": "Half_Brother", "value": "Half Brother" },
+    { "id": "Half_Sister", "value": "Half Sister" },
+    { "id": "Husband", "value": "Husband" },
+    { "id": "Institution", "value": "Institution" },
+    { "id": "Mother", "value": "Mother" },
+    { "id": "Mother_In_Law", "value": "Mother In Law" },
+    { "id": "Nephew", "value": "Nephew" },
+    { "id": "Niece", "value": "Niece" },
+    { "id": "Parent", "value": "Parent" },
+    { "id": "Partner", "value": "Partner" },
+    { "id": "Partnership", "value": "Partnership" },
+    { "id": "Sibling", "value": "Sibling" },
+    { "id": "Sister", "value": "Sister" },
+    { "id": "Sister_In_Law", "value": "Sister In Law" },
+    { "id": "Sole_Proprietorship", "value": "Sole Proprietorship" },
+    { "id": "Son", "value": "Son" },
+    { "id": "Son_In_Law", "value": "Son In Law" },
+    { "id": "Spouse", "value": "Spouse" },
+    { "id": "Step_Brother", "value": "Step Brother" },
+    { "id": "Step_Child", "value": "Step Child" },
+    { "id": "Step_Daughter", "value": "Step Daughter" },
+    { "id": "Step_Father", "value": "Step Father" },
+    { "id": "Step_Mother", "value": "Step Mother" },
+    { "id": "Step_Parent", "value": "Step Parent" },
+    { "id": "Step_Sibling", "value": "Step Sibling" },
+    { "id": "Step_Sister", "value": "Step Sister" },
+    { "id": "Step_Son", "value": "Step Son" },
+    { "id": "Trust", "value": "Trust" },
+    { "id": "Trustee", "value": "Trustee" },
+    { "id": "Uncle", "value": "Uncle" },
+    { "id": "Wife", "value": "Wife" },
+    { "id": "Will", "value": "Will" }
+  ],
+  "assuritySecondaryRelationshipsToPrimaryInsured": [
+    { "id": "Aunt", "value": "Aunt" },
+    { "id": "Authorized_Person", "value": "Authorized Person" },
+    { "id": "Brother", "value": "Brother" },
+    { "id": "Business", "value": "Business" },
+    { "id": "Business_Associate", "value": "Business Associate" },
+    { "id": "Business_Partner", "value": "Business Partner" },
+    { "id": "Charity", "value": "Charity" },
+    { "id": "Child", "value": "Child" },
+    { "id": "Contingent_Beneficiary", "value": "Contingent Beneficiary" },
+    { "id": "Corporation", "value": "Corporation" },
+    { "id": "Cousin", "value": "Cousin" },
+    { "id": "Creditor", "value": "Creditor" },
+    { "id": "Daughter", "value": "Daughter" },
+    { "id": "Daughter_In_Law", "value": "Daughter In Law" },
+    { "id": "Domestic_Partner", "value": "Domestic Partner" },
+    { "id": "Employer", "value": "Employer" },
+    { "id": "Estate", "value": "Estate" },
+    { "id": "Father", "value": "Father" },
+    { "id": "Father_In_Law", "value": "Father In Law" },
+    { "id": "Fiance", "value": "Fiance" },
+    { "id": "Fiancee", "value": "Fiancee" },
+    { "id": "Former_Husband", "value": "Former Husband" },
+    { "id": "Former_Spouse", "value": "Former Spouse" },
+    { "id": "Former_Wife", "value": "Former Wife" },
+    { "id": "Foster_Children", "value": "Foster Children" },
+    { "id": "Foster_Daughter", "value": "Foster Daughter" },
+    { "id": "Foster_Father", "value": "Foster Father" },
+    { "id": "Foster_Mother", "value": "Foster Mother" },
+    { "id": "Foster_Son", "value": "Foster Son" },
+    { "id": "Friend", "value": "Friend" },
+    { "id": "Godchild", "value": "Godchild" },
+    { "id": "Goddaughter", "value": "Goddaughter" },
+    { "id": "Godfather", "value": "Godfather" },
+    { "id": "Godmother", "value": "Godmother" },
+    { "id": "Godparent", "value": "Godparent" },
+    { "id": "Godson", "value": "Godson" },
+    { "id": "Grandchild", "value": "Grandchild" },
+    { "id": "Granddaughter", "value": "Granddaughter" },
+    { "id": "Grandfather", "value": "Grandfather" },
+    { "id": "Grandmother", "value": "Grandmother" },
+    { "id": "Grandnephew", "value": "Grandnephew" },
+    { "id": "Grandniece", "value": "Grandniece" },
+    { "id": "Grandparent", "value": "Grandparent" },
+    { "id": "Grandson", "value": "Grandson" },
+    { "id": "Great_Aunt", "value": "Great Aunt" },
+    { "id": "Great_Granddaughter", "value": "Great Granddaughter" },
+    { "id": "Great_Grandfather", "value": "Great Grandfather" },
+    { "id": "Great_Grandmother", "value": "Great Grandmother" },
+    { "id": "Great_Grandson", "value": "Great Grandson" },
+    { "id": "Great_Uncle", "value": "Great Uncle" },
+    { "id": "Guardian", "value": "Guardian" },
+    { "id": "Husband", "value": "Husband" },
+    { "id": "Institution", "value": "Institution" },
+    { "id": "Mother", "value": "Mother" },
+    { "id": "Mother_In_Law", "value": "Mother In Law" },
+    { "id": "Nephew", "value": "Nephew" },
+    { "id": "Niece", "value": "Niece" },
+    { "id": "Parent", "value": "Parent" },
+    { "id": "Partner", "value": "Partner" },
+    { "id": "Partnership", "value": "Partnership" },
+    { "id": "Self", "value": "Self" },
+    { "id": "Sibling", "value": "Sibling" },
+    { "id": "Sister", "value": "Sister" },
+    { "id": "Sister_In_Law", "value": "Sister In Law" },
+    { "id": "Sole_Proprietorship", "value": "Sole Proprietorship" },
+    { "id": "Son", "value": "Son" },
+    { "id": "Son_In_Law", "value": "Son In Law" },
+    { "id": "Spouse", "value": "Spouse" },
+    { "id": "Step_Brother", "value": "Step Brother" },
+    { "id": "Step_Child", "value": "Step Child" },
+    { "id": "Step_Daughter", "value": "Step Daughter" },
+    { "id": "Step_Father", "value": "Step Father" },
+    { "id": "Step_Mother", "value": "Step Mother" },
+    { "id": "Step_Parent", "value": "Step Parent" },
+    { "id": "Step_Sibling", "value": "Step Sibling" },
+    { "id": "Step_Sister", "value": "Step Sister" },
+    { "id": "Step_Son", "value": "Step Son" },
+    { "id": "Trust", "value": "Trust" },
+    { "id": "Trustee", "value": "Trustee" },
+    { "id": "Uncle", "value": "Uncle" },
+    { "id": "Wife", "value": "Wife" }
+  ],
+  "assurityAdditionalLifeInsuranceOptions": [
+    { "id": "LifeInsurance", "value": "Life Insurance" },
+    { "id": "Annuity", "value": "Annuity" }
+  ],
+  "assurityGenderOptions": [
+    {
+      "id": "Male",
+      "value": "Male"
+    },
+    {
+      "id": "Female",
+      "value": "Female"
+    }
+  ],
+  "assurityPaymentFrequencyOptions": [
+    { "id": "Monthly", "value": "Monthly" },
+    { "id": "Annual", "value": "Annually" }
+  ],
+  "assurityPaymentTypeOptions": [
+    { "id": "CreditCard", "value": "Credit Card" },
+    { "id": "BankAccount", "value": "Bank Account" }
+  ],
+  "agencyRoles": [
+    { "id": "Agency Principal", "value": "Agency Principal" },
+    { "id": "Agency Administrator", "value": "Agency Administrator" },
+    { "id": "Licensed Producer", "value": "Licensed Producer" },
+    { "id": "CSR", "value": "CSR" },
+    { "id": "Unlicensed Service", "value": "Unlicensed Service" },
+    { "id": "Other", "value": "Other" }
   ]
 }
