@@ -14,8 +14,6 @@ Note that the logic for lookups is that the default lookup will have a name like
 
 ---
 
-**For Branch employees** -- _You do not want to use this repo in your code._
-
 ## For Branch Employees:
 
 _Do not use this repo in your code._ The lookups you're looking for are in `packages/lookups` in the main repo.
