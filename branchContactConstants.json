@@ -1,19 +1,15 @@
 {
   "PHONE_NUMBERS": {
     "CLAIMS": "(855)-223-9294",
+    "QUOTE_FILE_A_CLAIM_MODAL": "(855) 204-8112",
     "SUPPORT": "(833)-427-2624",
-    "SUPPORT_GET_HELP_MODAL": "(833)-394-2441"
+    "SUPPORT_GET_HELP_MODAL": "(833)-394-2441",
+    "SUPPORT_RENEWAL_AND_CANCEL_QUESTIONS": "(855)-236-6302",
+    "HONK_CUSTOMER_SUPPORT": "(833) 819-3212",
+    "HONK_INITIATE_NEW_SERVICE": "(855) 736-4533"
   },
   "EMAILS": {
     "CLAIMS": "claimsupport@ourbranch.com",
     "SUPPORT": "support@ourbranch.com"
-  },
-  "CLAIMS_URLS": {
-    "GLASS": "https://submit.glassclaim.com/self-service/Default.aspx?ClientTag=0B3A3B02-5267-4302-A305-E742E1F1BFC5",
-    "ROADSIDE": "https://ourbranch.typeform.com/to/zaoS8Agu",
-    "AUTO_NON_GLASS": "https://www.ourbranch.com/file-a-claim",
-    "HOME": "https://ourbranch.typeform.com/to/aJyr1cUt",
-    "CONDO": "https://ourbranch.typeform.com/to/aJyr1cUt",
-    "RENTERS": "https://ourbranch.typeform.com/to/dw8d9u4x"
   }
 }

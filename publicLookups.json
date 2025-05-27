@@ -122,7 +122,7 @@
     },
     {
       "id": "R",
-      "value": "Raised"
+      "value": "Raised/Crawlspace"
     },
     {
       "id": "U",
@@ -140,7 +140,7 @@
   "exteriorWallType": [
     {
       "id": "B",
-      "value": "Brick"
+      "value": "Brick, including veneer"
     },
     {
       "id": "AL",
@@ -5527,7 +5527,6 @@
       "value": "One Time"
     }
   ],
-
   "homeownersPaymentMethod": [
     {
       "id": "C",
@@ -8130,6 +8129,10 @@
   },
   "deductibleWindHail": [
     {
+      "id": 500,
+      "value": "$500"
+    },
+    {
       "id": 1000,
       "value": "$1,000"
     },
@@ -8337,10 +8340,6 @@
       {
         "id": 0.05,
         "value": "5%"
-      },
-      {
-        "id": 0.1,
-        "value": "10%"
       }
     ],
     "NE": [
@@ -8441,10 +8440,6 @@
       {
         "id": 0.05,
         "value": "5%"
-      },
-      {
-        "id": 0.1,
-        "value": "10%"
       }
     ],
     "MS": [
@@ -8767,6 +8762,10 @@
     ]
   },
   "deductibleAllOther": [
+    {
+      "id": 500,
+      "value": "$500"
+    },
     {
       "id": 1000,
       "value": "$1,000"
@@ -9522,6 +9521,16 @@
       }
     ]
   },
+  "roofSurfaceOptions": [
+    {
+      "id": false,
+      "value": " Standard (payment schedule)"
+    },
+    {
+      "id": true,
+      "value": " Extended (repair/replacement)"
+    }
+  ],
   "buildingCodeCoverageOptions": [
     {
       "id": 0,
@@ -10211,7 +10220,6 @@
     { "id": "OTHER", "value": "Other" },
     { "id": "UNKNOWN", "value": "Unknown" }
   ],
-
   "canadianProvinces": [
     { "value": "Alberta", "id": "AB" },
     { "value": "British Columbia", "id": "BC" },
@@ -10345,30 +10353,7 @@
       "value": "$500,000"
     }
   ],
-  "coverageXState": {
-    "AZ": [
-      {
-        "id": 0,
-        "value": "0"
-      },
-      {
-        "id": 100000,
-        "value": "$100,000"
-      },
-      {
-        "id": 200000,
-        "value": "$200,000"
-      },
-      {
-        "id": 300000,
-        "value": "$300,000"
-      },
-      {
-        "id": 500000,
-        "value": "$500,000"
-      }
-    ]
-  },
+  "coverageXState": {},
   "coverageCA": [
     {
       "id": 1000,
@@ -10994,6 +10979,10 @@
         "value": "0%"
       },
       {
+        "id": 25,
+        "value": "25%"
+      },
+      {
         "id": 40,
         "value": "40%"
       }
@@ -11462,6 +11451,15 @@
       "id": "NRPC",
       "value": "Underwriting Reasons - Property claims activity",
       "nonRenew": true
+    },
+    {
+      "id": "CNSP",
+      "value": "Failure to Comply with Inspection Requirements"
+    },
+    {
+      "id": "NNSP",
+      "value": "Failure to Comply with Inspection Requirements",
+      "nonRenew": true
     }
   ],
   "umbrellaLimit": [
@@ -11823,407 +11821,21 @@
       "id": "O"
     }
   ],
-  "feesState": {
-    "AL": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "policy",
-        "value": "Policy"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "AZ": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "CO": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      },
-      {
-        "id": "auto_theft_prevention",
-        "value": "Auto Theft Prevention Device"
-      }
-    ],
-    "IA": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "ID": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "IL": [
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "imagery",
-        "value": "Imagery Collection"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "IN": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "KS": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "KY": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "MD": [
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "ME": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "MI": [
-      {
-        "id": "installment",
-        "value": "Installment"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      }
-    ],
-    "MO": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "policy",
-        "value": "Policy"
-      },
-      {
-        "id": "imagery",
-        "value": "Imagery collection"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "ND": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "NE": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "NH": [
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "NJ": [],
-    "NM": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "NY": [],
-    "OH": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "OK": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "OR": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "PA": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "SD": [
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "TN": [
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "TX": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "imagery",
-        "value": "Imagery Collection"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      },
-      {
-        "id": "policy",
-        "value": "Policy"
-      },
-      {
-        "id": "paper",
-        "value": "Paper Documentation"
-      },
-      {
-        "id": "auto_theft_prevention",
-        "value": "Auto Theft Prevention Device"
-      }
-    ],
-    "UT": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "VA": [],
-    "VT": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "WI": [
-      {
-        "id": "cancellation",
-        "value": "Cancellation"
-      },
-      {
-        "id": "reinstatement",
-        "value": "Reinstatement"
-      },
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ],
-    "WV": [
-      {
-        "id": "installment",
-        "value": "Installment"
-      }
-    ]
-  },
+  "feeOptions": [
+    { "value": "Policy", "id": "policy" },
+    { "value": "Imagery Collection", "id": "imagery" },
+    { "value": "Paper Documentation", "id": "paper" },
+    { "value": "Installment", "id": "installment" },
+    { "value": "Cancellation", "id": "cancellation" },
+    { "value": "Reinstatement", "id": "reinstatement" },
+    { "value": "Auto Theft", "id": "auto_theft" },
+    { "value": "Police Training", "id": "police_training" },
+    { "value": "Rural Fire Dept", "id": "rural_fire_dept" },
+    { "value": "Fair Plan", "id": "fair_plan" },
+    { "value": "Auto Theft Prevention Device", "id": "auto_theft_prevention" },
+    { "value": "Auto Crime Prevention", "id": "auto_crime_prevention" },
+    { "value": "MCCA", "id": "mcca" }
+  ],
   "typeOfCondo": [
     {
       "id": "LR",
@@ -12331,19 +11943,19 @@
   "removedDriverReasonOptions": [
     {
       "id": "PRIOR_OWNER",
-      "value": "Does not live at this address"
+      "value": "Not at address"
     },
     {
       "id": "NON_RELATIVE",
-      "value": "Non-related resident of the household"
+      "value": "Non-related resident"
     },
     {
       "id": "NON_LICENSED",
-      "value": "Non-licensed resident relative of the household"
+      "value": "Unlicensed resident relative"
     },
     {
       "id": "MILITARY_AWAY",
-      "value": "Member of military away in training or service"
+      "value": "Deployed military"
     },
     {
       "id": "RESIDENT_RELATIVE_OWN_INS",
@@ -12360,6 +11972,23 @@
         "subtitle": "We're sorry for your loss",
         "body": "We'll remove this driver from your offer."
       }
+    },
+    {
+      "id": "DUPLICATE",
+      "value": "Duplicate person"
+    },
+    {
+      "id": "UNKNOWN",
+      "value": "Unknown person"
+    }
+  ],
+  "nonRatedIndividualOptions": [
+    { "id": "CONFIRMED_DRIVER", "value": "Confirmed driver to add to policy", "policyOnly": true },
+    { "id": "PENDING_VERIFICATION", "value": "Pending member verification", "automationOnly": true },
+    {
+      "id": "REMOVED_BY_API_NEEDS_MEMBER_REVIEW",
+      "value": "Removed by API - needs member review",
+      "automationOnly": true
     }
   ],
   "assurityRelationshipsToPrimaryInsured": [
@@ -12545,10 +12174,7 @@
       "value": "Female"
     }
   ],
-  "assurityPaymentFrequencyOptions": [
-    { "id": "Monthly", "value": "Monthly" },
-    { "id": "Annual", "value": "Annually" }
-  ],
+  "assurityPaymentFrequencyOptions": [{ "id": "Monthly", "value": "Monthly" }, { "id": "Annual", "value": "Annually" }],
   "assurityPaymentTypeOptions": [
     { "id": "CreditCard", "value": "Credit Card" },
     { "id": "BankAccount", "value": "Bank Account" }
@@ -12560,5 +12186,51 @@
     { "id": "CSR", "value": "CSR" },
     { "id": "Unlicensed Service", "value": "Unlicensed Service" },
     { "id": "Other", "value": "Other" }
-  ]
+  ],
+  "autoViolationClassDescriptions": {
+    "AAF": "At Fault Accident",
+    "AFM": "Accident found on MVR only at renewal - Not Chargeable",
+    "ANC": "Waived Claim – Closed",
+    "ANO": "Waived Claim – Open",
+    "ASW": "Accident Surcharge Waived",
+    "BOT": "Comprehensive Claim",
+    "CCW": "Comprehensive Claim - Weather",
+    "CML": "Commercial Vehicle Violation",
+    "CMP": "Comprehensive Claim",
+    "CMU": "Comprehensive Claim Less Than $1000",
+    "CRD": "Careless or Improper Operation",
+    "DEQ": "Defective Equipment",
+    "DEV": "Traffic Device/Sign",
+    "DR": "Drag Racing",
+    "DWI": "Drive Under Influence",
+    "FAR": "False Reporting or Perjury",
+    "FDL": "Foreign Drivers Lic",
+    "FEL": "Auto Theft/Felony Motor Vehicle",
+    "FFR": "Failure to File Required Report",
+    "FLE": "Fleeing from Police",
+    "FRA": "Failure to Report an Accident",
+    "FTC": "Following Too Close",
+    "FTY": "Failure to Yield",
+    "HOM": "Vehicular Homicide",
+    "IP": "Improper Passing",
+    "IT": "Improper Turn",
+    "LDL": "Operating Without Owner's Consent",
+    "LIC": "License/Credentials Violation",
+    "LTS": "Leaving the Scene",
+    "MAJ": "Other Serious Violation",
+    "MMV": "Minor Moving Violation",
+    "NAF": "Not At Fault Accident",
+    "NFX": "Waived Not At Fault Accident",
+    "PUA": "Permissive Use At Fault Accident",
+    "PUN": "Permissive Use Not At Fault Accident",
+    "REF": "Passing of a School Bus",
+    "RKD": "Reckless Driving",
+    "SAF": "Safety Violation",
+    "SLV": "Serious License Violations",
+    "SPD": "Speeding",
+    "SUS": "Driving Under Suspension",
+    "TMP": "Dispute - At Fault Accident",
+    "UDR": "Unverifiable Record",
+    "WSR": "Wrong Way on a One Way Street"
+  }
 }
