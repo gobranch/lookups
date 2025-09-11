@@ -7712,8 +7712,16 @@
         "value": "No Coverage"
       },
       {
-        "id": "true",
-        "value": "Match PD Non-Stacked | $250 Deductible"
+        "id": "25000 N",
+        "value": "$25,000 Non-Stacked | $250 Deductible"
+      },
+      {
+        "id": "50000 N",
+        "value": "$50,000 Non-Stacked | $250 Deductible"
+      },
+      {
+        "id": "100000 N",
+        "value": "$100,000 Non-Stacked | $250 Deductible"
       }
     ],
     "OK": [],
@@ -9524,11 +9532,11 @@
   "roofSurfaceOptions": [
     {
       "id": false,
-      "value": " Standard (payment schedule)"
+      "value": "Standard (payment schedule)"
     },
     {
       "id": true,
-      "value": " Extended (repair/replacement)"
+      "value": "Extended (repair/replacement)"
     }
   ],
   "buildingCodeCoverageOptions": [
@@ -11594,24 +11602,31 @@
   ],
   "policyLimitPIPME": [
     {
-      "id": "OPTOUT",
-      "value": "Opt Out"
-    },
-    {
-      "id": "50000",
-      "value": "$50,000"
-    },
-    {
-      "id": "250000",
-      "value": "$250,000"
+      "id": "UNLIMITED",
+      "value": "Unlimited"
     },
     {
       "id": "500000",
-      "value": "$500,000"
+      "value": "$500K"
     },
     {
-      "id": "UNLIMITED",
-      "value": "Unlimited"
+      "id": "250000",
+      "value": "$250K"
+    },
+    {
+      "id": "250000W/EXCLUDED",
+      "value": "$250K with some excluded residents",
+      "hint": "Eligibility requirements apply"
+    },
+    {
+      "id": "50000",
+      "value": "$50K",
+      "hint": "Eligibility requirements apply"
+    },
+    {
+      "id": "OPTOUT",
+      "value": "Opt out of PIP medical",
+      "hint": "Eligibility requirements apply"
     }
   ],
   "policyLimitPIPACR": [
@@ -11984,7 +11999,7 @@
   ],
   "nonRatedIndividualOptions": [
     { "id": "CONFIRMED_DRIVER", "value": "Confirmed driver to add to policy", "policyOnly": true },
-    { "id": "PENDING_VERIFICATION", "value": "Pending member verification", "automationOnly": true },
+    { "id": "PENDING_VERIFICATION", "value": "Pending member verification", "policyOnly": true },
     {
       "id": "REMOVED_BY_API_NEEDS_MEMBER_REVIEW",
       "value": "Removed by API - needs member review",
