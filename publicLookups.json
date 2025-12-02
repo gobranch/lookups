@@ -705,6 +705,98 @@
       "value": "Other"
     }
   ],
+  "priorIndividualBILimit": [
+    {
+      "id": "25000",
+      "value": "$25,000"
+    },
+    {
+      "id": "50000",
+      "value": "$50,000"
+    },
+    {
+      "id": "100000",
+      "value": "$100,000"
+    },
+    {
+      "id": "250000",
+      "value": "$250,000"
+    },
+    {
+      "id": "300000",
+      "value": "$300,000"
+    },
+    {
+      "id": "500000",
+      "value": "$500,000"
+    }
+  ],
+  "priorBIOccurrenceLimit": [
+    {
+      "id": "50000",
+      "value": "$50,000"
+    },
+    {
+      "id": "100000",
+      "value": "$100,000"
+    },
+    {
+      "id": "250000",
+      "value": "$250,000"
+    },
+    {
+      "id": "300000",
+      "value": "$300,000"
+    },
+    {
+      "id": "500000",
+      "value": "$500,000"
+    }
+  ],
+  "priorUmIndividualBodilyInjury": [
+    {
+      "id": "25000",
+      "value": "$25,000"
+    },
+    {
+      "id": "50000",
+      "value": "$50,000"
+    },
+    {
+      "id": "100000",
+      "value": "$100,000"
+    },
+    {
+      "id": "250000",
+      "value": "$250,000"
+    },
+    {
+      "id": "300000",
+      "value": "$300,000"
+    },
+    {
+      "id": "500000",
+      "value": "$500,000"
+    }
+  ],
+  "priorUmOccurrenceBodilyInjury": [
+    {
+      "id": "50000",
+      "value": "$50,000"
+    },
+    {
+      "id": "100000",
+      "value": "$100,000"
+    },
+    {
+      "id": "300000",
+      "value": "$300,000"
+    },
+    {
+      "id": "500000",
+      "value": "$500,000"
+    }
+  ],
   "policyLimitBIPD": [
     {
       "id": "25/50/25",
@@ -12247,5 +12339,23 @@
     "TMP": "Dispute - At Fault Accident",
     "UDR": "Unverifiable Record",
     "WSR": "Wrong Way on a One Way Street"
-  }
+  },
+  "fortifiedHomeGA": [
+    {
+      "id": "0",
+      "value": "None"
+    },
+    {
+      "id": "1",
+      "value": "Fortified Roof"
+    },
+    {
+      "id": "2",
+      "value": "Fortified Silver"
+    },
+    {
+      "id": "3",
+      "value": "Fortified Gold"
+    }
+  ]
 }
