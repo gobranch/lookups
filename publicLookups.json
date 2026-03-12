@@ -27,6 +27,10 @@
     {
       "id": "CA",
       "value": "Condo & Auto"
+    },
+    {
+      "id": "F",
+      "value": "Farm"
     }
   ],
   "typeOfHome": [
@@ -231,6 +235,18 @@
     {
       "id": "O",
       "value": "Other"
+    },
+    {
+      "id": "RR",
+      "value": "Roll"
+    },
+    {
+      "id": "BUP",
+      "value": "Tar/gravel/built-up"
+    },
+    {
+      "id": "SPF",
+      "value": "Spray-on"
     }
   ],
   "roofTypeState": {
@@ -959,6 +975,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -1754,6 +1775,11 @@
         "version": "v1"
       },
       {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
+        "version": "v1"
+      },
+      {
         "id": "100 CSL",
         "value": "$100K CSL",
         "version": "v1"
@@ -1814,6 +1840,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -1930,6 +1961,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -2167,6 +2203,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -2419,6 +2460,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -2789,10 +2835,6 @@
     {
       "id": "C",
       "value": "Commuting"
-    },
-    {
-      "id": "F",
-      "value": "Farm"
     }
   ],
   "maritalStatus": [
@@ -5579,6 +5621,28 @@
       "value": "Mortgage"
     }
   ],
+  "farmPaymentType": [
+    {
+      "id": "I",
+      "value": "Monthly"
+    },
+    {
+      "id": "Q",
+      "value": "4 payments"
+    },
+    {
+      "id": "S",
+      "value": "2 payments"
+    },
+    {
+      "id": "F",
+      "value": "One Time"
+    },
+    {
+      "id": "E",
+      "value": "Mortgage"
+    }
+  ],
   "autoPaymentType": [
     {
       "id": "I",
@@ -5666,6 +5730,25 @@
       "id": "E",
       "value": "Bank Withdrawal"
     }
+  ],
+  "farmPaymentMethod": [
+    {
+      "id": "C",
+      "value": "Credit Card"
+    },
+    {
+      "id": "E",
+      "value": "Bank Withdrawal"
+    },
+    {
+      "id": "W",
+      "value": "Mortgage"
+    },
+    {
+      "id": "B",
+      "value": "Bill to other"
+    },
+    { "id": "D", "value": "Direct" }
   ],
   "lifePaymentMethod": [
     {
@@ -9961,6 +10044,323 @@
       "value": "Armed Forces Pacific"
     }
   ],
+  "usCountiesByState": {
+    "IL": [
+      "Adams",
+      "Alexander",
+      "Bond",
+      "Boone",
+      "Brown",
+      "Bureau",
+      "Calhoun",
+      "Carroll",
+      "Cass",
+      "Champaign",
+      "Christian",
+      "Clark",
+      "Clay",
+      "Clinton",
+      "Coles",
+      "Cook",
+      "Crawford",
+      "Cumberland",
+      "DeKalb",
+      "DeWitt",
+      "Douglas",
+      "DuPage",
+      "Edgar",
+      "Edwards",
+      "Effingham",
+      "Fayette",
+      "Ford",
+      "Franklin",
+      "Fulton",
+      "Gallatin",
+      "Greene",
+      "Grundy",
+      "Hamilton",
+      "Hancock",
+      "Hardin",
+      "Henderson",
+      "Henry",
+      "Iroquois",
+      "Jackson",
+      "Jasper",
+      "Jefferson",
+      "Jersey",
+      "Jo Daviess",
+      "Johnson",
+      "Kane",
+      "Kankakee",
+      "Kendall",
+      "Knox",
+      "Lake",
+      "LaSalle",
+      "Lawrence",
+      "Lee",
+      "Livingston",
+      "Logan",
+      "Macon",
+      "Macoupin",
+      "Madison",
+      "Marion",
+      "Marshall",
+      "Mason",
+      "Massac",
+      "McDonough",
+      "McHenry",
+      "McLean",
+      "Menard",
+      "Mercer",
+      "Monroe",
+      "Montgomery",
+      "Morgan",
+      "Moultrie",
+      "Ogle",
+      "Peoria",
+      "Perry",
+      "Piatt",
+      "Pike",
+      "Pope",
+      "Pulaski",
+      "Putnam",
+      "Randolph",
+      "Richland",
+      "Rock Island",
+      "St. Clair",
+      "Saline",
+      "Sangamon",
+      "Schuyler",
+      "Scott",
+      "Shelby",
+      "Stark",
+      "Stephenson",
+      "Tazewell",
+      "Union",
+      "Vermilion",
+      "Wabash",
+      "Warren",
+      "Washington",
+      "Wayne",
+      "White",
+      "Whiteside",
+      "Will",
+      "Williamson",
+      "Winnebago",
+      "Woodford"
+    ],
+    "IN": [
+      "Adams",
+      "Allen",
+      "Bartholomew",
+      "Benton",
+      "Blackford",
+      "Boone",
+      "Brown",
+      "Carroll",
+      "Cass",
+      "Clark",
+      "Clay",
+      "Clinton",
+      "Crawford",
+      "Daviess",
+      "Dearborn",
+      "Decatur",
+      "DeKalb",
+      "Delaware",
+      "Dubois",
+      "Elkhart",
+      "Fayette",
+      "Floyd",
+      "Fountain",
+      "Franklin",
+      "Fulton",
+      "Gibson",
+      "Grant",
+      "Greene",
+      "Hamilton",
+      "Hancock",
+      "Harrison",
+      "Hendricks",
+      "Henry",
+      "Howard",
+      "Huntington",
+      "Jackson",
+      "Jasper",
+      "Jay",
+      "Jefferson",
+      "Jennings",
+      "Johnson",
+      "Knox",
+      "Kosciusko",
+      "LaGrange",
+      "Lake",
+      "LaPorte",
+      "Lawrence",
+      "Madison",
+      "Marion",
+      "Marshall",
+      "Martin",
+      "Miami",
+      "Monroe",
+      "Montgomery",
+      "Morgan",
+      "Newton",
+      "Noble",
+      "Ohio",
+      "Orange",
+      "Owen",
+      "Parke",
+      "Perry",
+      "Pike",
+      "Porter",
+      "Posey",
+      "Pulaski",
+      "Putnam",
+      "Randolph",
+      "Ripley",
+      "Rush",
+      "St. Joseph",
+      "Scott",
+      "Shelby",
+      "Spencer",
+      "Starke",
+      "Steuben",
+      "Sullivan",
+      "Switzerland",
+      "Tippecanoe",
+      "Tipton",
+      "Union",
+      "Vanderburgh",
+      "Vermillion",
+      "Vigo",
+      "Wabash",
+      "Warren",
+      "Warrick",
+      "Washington",
+      "Wayne",
+      "Wells",
+      "White",
+      "Whitley"
+    ],
+    "MO": [
+      "Adair",
+      "Andrew",
+      "Atchison",
+      "Audrain",
+      "Barry",
+      "Barton",
+      "Bates",
+      "Benton",
+      "Bollinger",
+      "Boone",
+      "Buchanan",
+      "Butler",
+      "Caldwell",
+      "Callaway",
+      "Camden",
+      "Cape Girardeau",
+      "Carroll",
+      "Carter",
+      "Cass",
+      "Cedar",
+      "Chariton",
+      "Christian",
+      "Clark",
+      "Clay",
+      "Clinton",
+      "Cole",
+      "Cooper",
+      "Crawford",
+      "Dade",
+      "Dallas",
+      "Daviess",
+      "DeKalb",
+      "Dent",
+      "Douglas",
+      "Dunklin",
+      "Franklin",
+      "Gasconade",
+      "Gentry",
+      "Greene",
+      "Grundy",
+      "Harrison",
+      "Henry",
+      "Hickory",
+      "Holt",
+      "Howard",
+      "Howell",
+      "Iron",
+      "Jackson",
+      "Jasper",
+      "Jefferson",
+      "Johnson",
+      "Knox",
+      "Laclede",
+      "Lafayette",
+      "Lawrence",
+      "Lewis",
+      "Lincoln",
+      "Linn",
+      "Livingston",
+      "Macon",
+      "Madison",
+      "Maries",
+      "Marion",
+      "McDonald",
+      "Mercer",
+      "Miller",
+      "Mississippi",
+      "Moniteau",
+      "Monroe",
+      "Montgomery",
+      "Morgan",
+      "New Madrid",
+      "Newton",
+      "Nodaway",
+      "Oregon",
+      "Osage",
+      "Ozark",
+      "Pemiscot",
+      "Perry",
+      "Pettis",
+      "Phelps",
+      "Pike",
+      "Platte",
+      "Polk",
+      "Pulaski",
+      "Putnam",
+      "Ralls",
+      "Randolph",
+      "Ray",
+      "Reynolds",
+      "Ripley",
+      "St. Charles",
+      "St. Clair",
+      "St. Francis",
+      "St. Louis County",
+      "St. Louis City",
+      "Ste. Genevieve",
+      "Saline",
+      "Schuyler",
+      "Scotland",
+      "Scott",
+      "Shannon",
+      "Shelby",
+      "Stoddard",
+      "Stone",
+      "Sullivan",
+      "Taney",
+      "Texas",
+      "Vernon",
+      "Warren",
+      "Washington",
+      "Wayne",
+      "Webster",
+      "Worth",
+      "Wright"
+    ]
+  },
   "allCountries": [
     {
       "id": "AFGHANISTAN",
@@ -11788,6 +12188,30 @@
       "value": "Medicaid"
     }
   ],
+  "coordinateOptions": [
+    { "value": "N/A", "id": "unknown" },
+    { "value": "N", "id": "north" },
+    { "value": "S", "id": "south" },
+    { "value": "E", "id": "east" },
+    { "value": "W", "id": "west" }
+  ],
+  "riskTypeOptions": [
+    { "id": "FO3", "value": "Dwelling risk (FO-1, FO-2, or FO-3)" },
+    { "id": "FO4", "value": "Renters (FO-4)" }
+  ],
+  "entityTypesOptions": [
+    { "id": "Individual", "value": "Individual" },
+    { "id": "Business", "value": "Business" },
+    { "id": "Joint", "value": "Joint" },
+    { "id": "Estate", "value": "Estate" },
+    { "id": "Partnership", "value": "Partnership" },
+    { "id": "Corporation", "value": "Corporation" },
+    { "id": "LimitedLiabilityCompany", "value": "Limited liability company" },
+    { "id": "Trust", "value": "Trust" },
+    { "id": "Association", "value": "Association" },
+    { "id": "NotForProfitOrganization", "value": "Not for profit organization" },
+    { "id": "SubchapterSCorporation", "value": "Subchapter S corporation" }
+  ],
   "policyLimitIncomeLoss": [
     {
       "id": "NONE",
@@ -11966,7 +12390,7 @@
     },
     {
       "id": "D",
-      "value": "Detached condo"
+      "value": "Detached"
     }
   ],
   "typeOfEntry": [
@@ -12340,7 +12764,11 @@
     "UDR": "Unverifiable Record",
     "WSR": "Wrong Way on a One Way Street"
   },
+<<<<<<< Updated upstream
   "fortifiedHomeGA": [
+=======
+  "fortifiedHome": [
+>>>>>>> Stashed changes
     {
       "id": "0",
       "value": "None"
