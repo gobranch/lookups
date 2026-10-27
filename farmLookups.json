@@ -1,0 +1,2262 @@
+{
+  "riskType": [
+    {
+      "id": "FO1",
+      "value": "Dwelling risk - FO-1 Basic Form"
+    },
+    {
+      "id": "FO2",
+      "value": "Dwelling risk - FO-2 Broad Form"
+    },
+    {
+      "id": "FO3",
+      "value": "Dwelling risk - FO-3 Special Form"
+    },
+    {
+      "id": "FO4",
+      "value": "Renters risk (FO-4)"
+    },
+    {
+      "id": "FO6Structures",
+      "value": "Farm structure risk (FO-6)"
+    },
+    {
+      "id": "FO6Scheduled",
+      "value": "Scheduled farm property risk (FO-6)"
+    },
+    {
+      "id": "FO6Unscheduled",
+      "value": "Unscheduled farm property risk (FO-6)"
+    },
+    {
+      "id": "InlandMarine",
+      "value": "Standalone inland marine"
+    }
+  ],
+  "propertyType": [
+    {
+      "id": "FD",
+      "value": "Home"
+    },
+    {
+      "id": "MH",
+      "value": "Mobile home"
+    },
+    {
+      "id": "MD",
+      "value": "Modular home"
+    },
+    {
+      "id": "B",
+      "value": "Barndominium"
+    }
+  ],
+  "dwellingConstructionType": [
+    {
+      "id": "F",
+      "value": "Frame"
+    },
+    {
+      "id": "L",
+      "value": "Log Home"
+    },
+    {
+      "id": "B",
+      "value": "Masonry"
+    },
+    {
+      "id": "MD",
+      "value": "Modular Home"
+    },
+    {
+      "id": "S",
+      "value": "Stucco"
+    },
+    {
+      "id": "T",
+      "value": "Tiny Home"
+    }
+  ],
+  "dwellingRoofType": [
+    {
+      "id": "AR",
+      "value": "Architectural"
+    },
+    {
+      "id": "AB",
+      "value": "Asbestos"
+    },
+    {
+      "id": "AS",
+      "value": "Asphalt Shingle"
+    },
+    {
+      "id": "S",
+      "value": "Clay/Slate"
+    },
+    {
+      "id": "C",
+      "value": "Composition"
+    },
+    {
+      "id": "M",
+      "value": "Metal"
+    },
+    {
+      "id": "R",
+      "value": "Rolled Roofing"
+    },
+    {
+      "id": "T",
+      "value": "Tile"
+    },
+    {
+      "id": "W",
+      "value": "Wood Shake"
+    },
+    {
+      "id": "O",
+      "value": "Other"
+    }
+  ],
+  "mobileHomeRoofType": [
+    {
+      "id": "C",
+      "value": "Composition"
+    },
+    {
+      "id": "T",
+      "value": "Tile"
+    },
+    {
+      "id": "W",
+      "value": "Wood"
+    },
+    {
+      "id": "M",
+      "value": "Metal"
+    },
+    {
+      "id": "O",
+      "value": "Other"
+    }
+  ],
+  "barnRoofType": [
+    {
+      "id": "G",
+      "value": "Gable"
+    },
+    {
+      "id": "GM",
+      "value": "Gambrel (arched)"
+    },
+    {
+      "id": "B",
+      "value": "Arched/Barrel"
+    },
+    {
+      "id": "GT",
+      "value": "Gothic (arched)"
+    },
+    {
+      "id": "F",
+      "value": "Flat"
+    },
+    {
+      "id": "S",
+      "value": "Shed Roof (sloped one way only)"
+    },
+    {
+      "id": "NONEQ",
+      "value": "Included in Quonset Building Construction"
+    },
+    {
+      "id": "NONEH",
+      "value": "Included in Hoop Building Construction"
+    }
+  ],
+  "ownershipStatus": [
+    {
+      "id": "P",
+      "value": "Primary Residence"
+    },
+    {
+      "id": "S",
+      "value": "Secondary Residence"
+    }
+  ],
+  "electricalType": [
+    {
+      "id": "circuitBreaker",
+      "value": "Circuit Breaker"
+    },
+    {
+      "id": "fuses",
+      "value": "Fuses"
+    },
+    {
+      "id": "circuitBreakerFuses",
+      "value": "Circuit Breaker/Fuses"
+    }
+  ],
+  "electricalService": [
+    {
+      "id": "NONE",
+      "value": "None"
+    },
+    {
+      "id": "greaterThanEqualTo100AmpService",
+      "value": "Greater than equal to 100 Amp Service"
+    },
+    {
+      "id": "greaterThanEqualTo150AmpService",
+      "value": "Greater than equal to 150 Amp Service"
+    },
+    {
+      "id": "greaterThanEqualTo200AmpService",
+      "value": "Greater than equal to 200 Amp Service"
+    }
+  ],
+  "heatingType": [
+    {
+      "id": "fuelOil",
+      "value": "Fuel Oil"
+    },
+    {
+      "id": "gas",
+      "value": "Gas"
+    },
+    {
+      "id": "propane",
+      "value": "Propane"
+    },
+    {
+      "id": "electric",
+      "value": "Electric"
+    }
+  ],
+  "theftProtectiveDevice": [
+    {
+      "id": "NONE",
+      "value": "None"
+    },
+    {
+      "id": "centralStation",
+      "value": "Theft Central Station Connected"
+    },
+    {
+      "id": "department",
+      "value": "Police Department Theft Alarm"
+    },
+    {
+      "id": "local",
+      "value": "Local Theft Alarm"
+    }
+  ],
+  "fireProtectiveDevice": [
+    {
+      "id": "NONE",
+      "value": "None"
+    },
+    {
+      "id": "centralStation",
+      "value": "Fire Central Station Alarm"
+    },
+    {
+      "id": "department",
+      "value": "Fire Department Alarm"
+    },
+    {
+      "id": "local",
+      "value": "Local Alarm, Including Smoke or Heat Detection Alarms"
+    },
+    {
+      "id": "sprinkler",
+      "value": "Sprinkler System"
+    }
+  ],
+  "deductibleAllOther": [
+    {
+      "id": 250,
+      "value": "$250"
+    },
+    {
+      "id": 500,
+      "value": "$500"
+    },
+    {
+      "id": 1000,
+      "value": "$1,000"
+    },
+    {
+      "id": 1500,
+      "value": "$1,500"
+    },
+    {
+      "id": 2500,
+      "value": "$2,500"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    },
+    {
+      "id": 10000,
+      "value": "$10,000"
+    },
+    {
+      "id": 20000,
+      "value": "$20,000"
+    }
+  ],
+  "inlandMarineDeductible": [
+    {
+      "id": 250,
+      "value": "$250"
+    },
+    {
+      "id": 500,
+      "value": "$500"
+    },
+    {
+      "id": 1000,
+      "value": "$1,000"
+    },
+    {
+      "id": 1500,
+      "value": "$1,500"
+    },
+    {
+      "id": 2500,
+      "value": "$2,500"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    },
+    {
+      "id": 10000,
+      "value": "$10,000"
+    }
+  ],
+  "windstormOrHail": [
+    {
+      "id": 0.01,
+      "value": "1%"
+    },
+    {
+      "id": 0.015,
+      "value": "1.5%"
+    },
+    {
+      "id": 0.02,
+      "value": "2%"
+    }
+  ],
+  "automaticLimitAdjustment": [
+    {
+      "id": 0,
+      "value": "0%"
+    },
+    {
+      "id": 0.02,
+      "value": "2%"
+    },
+    {
+      "id": 0.025,
+      "value": "2.5%"
+    },
+    {
+      "id": 0.05,
+      "value": "5%"
+    }
+  ],
+  "identityFraudLimit": [
+    {
+      "id": 0,
+      "value": "$0"
+    },
+    {
+      "id": 15000,
+      "value": "$15,000"
+    }
+  ],
+  "earthquakeDeductible": [
+    {
+      "id": 0,
+      "value": "No coverage"
+    },
+    {
+      "id": 0.02,
+      "value": "2%"
+    },
+    {
+      "id": 0.05,
+      "value": "5%"
+    },
+    {
+      "id": 0.1,
+      "value": "10%"
+    },
+    {
+      "id": 0.15,
+      "value": "15%"
+    },
+    {
+      "id": 0.2,
+      "value": "20%"
+    }
+  ],
+  "waterBackupLimit": [
+    {
+      "id": 0,
+      "value": "$0"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    },
+    {
+      "id": 10000,
+      "value": "$10,000"
+    },
+    {
+      "id": 25000,
+      "value": "$25,000"
+    }
+  ],
+  "inlandFloodRiskScore": [
+    {
+      "id": 0,
+      "value": "0"
+    },
+    {
+      "id": 1,
+      "value": "1"
+    },
+    {
+      "id": 2,
+      "value": "2"
+    },
+    {
+      "id": 3,
+      "value": "3"
+    },
+    {
+      "id": 4,
+      "value": "4"
+    },
+    {
+      "id": 5,
+      "value": "5"
+    },
+    {
+      "id": 6,
+      "value": "6"
+    },
+    {
+      "id": 7,
+      "value": "7"
+    },
+    {
+      "id": 8,
+      "value": "8"
+    },
+    {
+      "id": 9,
+      "value": "9"
+    },
+    {
+      "id": 10,
+      "value": "10"
+    }
+  ],
+  "inlandFloodLimit": [
+    {
+      "id": 0,
+      "value": "$0"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    },
+    {
+      "id": 10000,
+      "value": "$10,000"
+    },
+    {
+      "id": 25000,
+      "value": "$25,000"
+    }
+  ],
+  "inlandFloodAggregateLimit": [
+    {
+      "id": 10000,
+      "value": "$10,000"
+    },
+    {
+      "id": 20000,
+      "value": "$20,000"
+    },
+    {
+      "id": 50000,
+      "value": "$50,000"
+    }
+  ],
+  "inlandFloodDeductible": [
+    {
+      "id": 0,
+      "value": "None"
+    },
+    {
+      "id": 250,
+      "value": "$250"
+    },
+    {
+      "id": 500,
+      "value": "$500"
+    }
+  ],
+  "inlandMarineTypes": [
+    {
+      "id": "boatDock",
+      "value": "Boat dock"
+    },
+    {
+      "id": "boat",
+      "value": "Watercraft/boats"
+    },
+    {
+      "id": "coinCollection",
+      "value": "Coin collections"
+    },
+    {
+      "id": "fineArts",
+      "value": "Fine arts"
+    },
+    {
+      "id": "furs",
+      "value": "Furs"
+    },
+    {
+      "id": "golfCart",
+      "value": "Golf Carts"
+    },
+    {
+      "id": "golfEquipment",
+      "value": "Golf equipment"
+    },
+    {
+      "id": "guns",
+      "value": "Guns"
+    },
+    {
+      "id": "jewelry",
+      "value": "Jewelry"
+    },
+    {
+      "id": "miscellaneousProperty",
+      "value": "Miscellaneous property"
+    },
+    {
+      "id": "musicalInstruments",
+      "value": "Musical instruments"
+    },
+    {
+      "id": "personalTools",
+      "value": "Personal tools"
+    },
+    {
+      "id": "silverware",
+      "value": "Silverware"
+    },
+    {
+      "id": "sportingEquipment",
+      "value": "Sporting equipment"
+    },
+    {
+      "id": "tack",
+      "value": "Tack"
+    },
+    {
+      "id": "unmannedAircraft",
+      "value": "Unmanned aircraft systems (Drones)"
+    },
+    {
+      "id": "hardware",
+      "value": "Computer hardware"
+    },
+    {
+      "id": "software",
+      "value": "Computer software"
+    },
+    {
+      "id": "scheduledGlass",
+      "value": "Scheduled glass"
+    }
+  ],
+  "inlandMarineTypesByState": {
+    "IL": [
+      {
+        "id": "atv",
+        "value": "ATVs and related equipment"
+      },
+      {
+        "id": "jewelry",
+        "value": "Jewelry"
+      },
+      {
+        "id": "furs",
+        "value": "Furs"
+      },
+      {
+        "id": "cameras",
+        "value": "Cameras"
+      },
+      {
+        "id": "musicalInstruments",
+        "value": "Musical instruments"
+      },
+      {
+        "id": "silverware",
+        "value": "Silverware"
+      },
+      {
+        "id": "golfEquipment",
+        "value": "Golf equipment"
+      },
+      {
+        "id": "bikes",
+        "value": "Bikes"
+      },
+      {
+        "id": "fineArts",
+        "value": "Fine arts"
+      },
+      {
+        "id": "postageStamps",
+        "value": "Postage stamps"
+      },
+      {
+        "id": "rareAndCurrentCoins",
+        "value": "Rare and current coins"
+      },
+      {
+        "id": "computerHardware",
+        "value": "Computer hardware"
+      },
+      {
+        "id": "computerSoftware",
+        "value": "Computer software"
+      },
+      {
+        "id": "scheduledGlass",
+        "value": "Scheduled glass"
+      }
+    ],
+    "MO": [
+      {
+        "id": "atv",
+        "value": "ATVs and related equipment"
+      },
+      {
+        "id": "gatorUtilityTransportVehicle",
+        "value": "Gator/Utility Transport Vehicle"
+      },
+      {
+        "id": "boat",
+        "value": "Watercraft/boats"
+      },
+      {
+        "id": "boatDock",
+        "value": "Boat docks"
+      },
+      {
+        "id": "coinCollection",
+        "value": "Coin collections"
+      },
+      {
+        "id": "fineArts",
+        "value": "Fine arts"
+      },
+      {
+        "id": "furs",
+        "value": "Furs"
+      },
+      {
+        "id": "golfCart",
+        "value": "Golf carts"
+      },
+      {
+        "id": "golfEquipment",
+        "value": "Golf equipment"
+      },
+      {
+        "id": "guns",
+        "value": "Guns"
+      },
+      {
+        "id": "jewelry",
+        "value": "Jewelry"
+      },
+      {
+        "id": "lawnMowersGardenTractorsAndRelatedEquipment",
+        "value": "Lawn mowers, garden tractors, and related equipment"
+      },
+      {
+        "id": "miscellaneousProperty",
+        "value": "Miscellaneous property"
+      },
+      {
+        "id": "musicalInstruments",
+        "value": "Musical instruments"
+      },
+      {
+        "id": "personalTools",
+        "value": "Personal tools"
+      },
+      {
+        "id": "silverware",
+        "value": "Silverware"
+      },
+      {
+        "id": "sportingEquipment",
+        "value": "Sporting equipment"
+      },
+      {
+        "id": "tack",
+        "value": "Tack"
+      },
+      {
+        "id": "unmannedAircraft",
+        "value": "Unmanned aircraft systems (Drones)"
+      },
+      {
+        "id": "scheduledGlass",
+        "value": "Scheduled glass"
+      }
+    ],
+    "IN": [
+      {
+        "id": "atv",
+        "value": "ATVs and related equipment"
+      },
+      {
+        "id": "boatDock",
+        "value": "Boat docks"
+      },
+      {
+        "id": "boat",
+        "value": "Watercraft/boats"
+      },
+      {
+        "id": "coinCollection",
+        "value": "Coin collections"
+      },
+      {
+        "id": "fineArts",
+        "value": "Fine arts"
+      },
+      {
+        "id": "furs",
+        "value": "Furs"
+      },
+      {
+        "id": "golfCart",
+        "value": "Golf carts"
+      },
+      {
+        "id": "golfEquipment",
+        "value": "Golf equipment"
+      },
+      {
+        "id": "guns",
+        "value": "Guns"
+      },
+      {
+        "id": "jewelry",
+        "value": "Jewelry"
+      },
+      {
+        "id": "miscellaneousProperty",
+        "value": "Miscellaneous property"
+      },
+      {
+        "id": "musicalInstruments",
+        "value": "Musical instruments"
+      },
+      {
+        "id": "personalTools",
+        "value": "Personal tools"
+      },
+      {
+        "id": "silverware",
+        "value": "Silverware"
+      },
+      {
+        "id": "sportingEquipment",
+        "value": "Sporting equipment"
+      },
+      {
+        "id": "tack",
+        "value": "Tack"
+      },
+      {
+        "id": "unmannedAircraft",
+        "value": "Unmanned aircraft systems (Drones)"
+      },
+      {
+        "id": "scheduledGlass",
+        "value": "Scheduled glass"
+      }
+    ]
+  },
+  "cc": [
+    {
+      "id": 500,
+      "value": "500cc and lower"
+    },
+    {
+      "id": 501,
+      "value": "Over 500cc"
+    }
+  ],
+  "ccByState": {
+    "MO": [
+      {
+        "id": 599,
+        "value": "Less than 600cc"
+      },
+      {
+        "id": 600,
+        "value": "600cc or over"
+      }
+    ]
+  },
+  "boatClassifications": [
+    {
+      "id": "inboard",
+      "value": "Inboard Motor Boats"
+    },
+    {
+      "id": "misc",
+      "value": "Miscellaneous"
+    },
+    {
+      "id": "outboard",
+      "value": "Outboard"
+    },
+    {
+      "id": "sailboat",
+      "value": "Sailboat"
+    }
+  ],
+  "animalSex": [
+    {
+      "id": "male",
+      "value": "Male"
+    },
+    {
+      "id": "female",
+      "value": "Female"
+    },
+    {
+      "id": "malesAndFemales",
+      "value": "Males and Females"
+    }
+  ],
+  "farmIncomeItemTypes": [
+    {
+      "id": "1",
+      "value": "Farm Earnings and Extra Expense"
+    },
+    {
+      "id": "2",
+      "value": "Farm Rents"
+    }
+  ],
+  "farmIncomeCoinsurance": [
+    {
+      "id": 0,
+      "value": "None"
+    },
+    {
+      "id": 0.5,
+      "value": "50%"
+    },
+    {
+      "id": 0.6,
+      "value": "60%"
+    },
+    {
+      "id": 0.7,
+      "value": "70%"
+    },
+    {
+      "id": 0.8,
+      "value": "80%"
+    },
+    {
+      "id": 0.9,
+      "value": "90%"
+    },
+    {
+      "id": 1,
+      "value": "100%"
+    }
+  ],
+  "farmIncomeLossExtensionDays": [
+    {
+      "id": 60,
+      "value": "60 days"
+    },
+    {
+      "id": 90,
+      "value": "90 days"
+    },
+    {
+      "id": 120,
+      "value": "120 days"
+    },
+    {
+      "id": 150,
+      "value": "150 days"
+    },
+    {
+      "id": 180,
+      "value": "180 days"
+    },
+    {
+      "id": 270,
+      "value": "270 days"
+    },
+    {
+      "id": 360,
+      "value": "360 days"
+    }
+  ],
+  "peakSeasonInventoryTypes": [
+    {
+      "id": "grain",
+      "value": "Grain"
+    },
+    {
+      "id": "hay",
+      "value": "Hay"
+    },
+    {
+      "id": "misc",
+      "value": "Chemicals, seeds, and misc."
+    }
+  ],
+  "lossSettlement": [
+    {
+      "id": "RC",
+      "value": "Replacement Cost"
+    },
+    {
+      "id": "ACV",
+      "value": "Actual Cash Value"
+    }
+  ],
+  "roofLossSettlement": [
+    {
+      "id": "NONE",
+      "value": "No Coverage (Excluded)"
+    },
+    {
+      "id": "RC",
+      "value": "Replacement Cost"
+    },
+    {
+      "id": "ACV",
+      "value": "Actual Cash Value"
+    },
+    {
+      "id": "RC_ACV_WIND_HAIL",
+      "value": "Replacement Cost with ACV for Wind/Hail"
+    }
+  ],
+  "roofExclusion": [
+    {
+      "id": "dwellDetachedExcluded",
+      "value": "Dwelling and/or detached structures roof(s) Excluded"
+    },
+    {
+      "id": "dwellDetachedACV",
+      "value": "Dwelling and/or detached structures roof(s) Actual Cash Value"
+    }
+  ],
+  "residenceUsage": [
+    {
+      "id": "P",
+      "value": "Primary Residence"
+    },
+    {
+      "id": "S",
+      "value": "Seasonal"
+    },
+    {
+      "id": "R",
+      "value": "Tenant Occupied - Rental"
+    },
+    {
+      "id": "V",
+      "value": "Vacant"
+    },
+    {
+      "id": "VR",
+      "value": "Vacant-Rental"
+    },
+    {
+      "id": "C",
+      "value": "Contents"
+    }
+  ],
+  "legalDescriptionFormatOptions": [
+    {
+      "value": "Street address",
+      "id": "street"
+    },
+    {
+      "value": "Section/township/range",
+      "id": "section-township-range"
+    },
+    {
+      "value": "Lot/block",
+      "id": "lot-block"
+    },
+    {
+      "value": "Long legal",
+      "id": "long-legal"
+    }
+  ],
+  "swimmingPoolTypes": [
+    {
+      "id": "N",
+      "value": "None"
+    },
+    {
+      "id": "I",
+      "value": "In-ground"
+    },
+    {
+      "id": "A",
+      "value": "Above-ground"
+    }
+  ],
+  "fireProtectionClassOptions": [
+    {
+      "id": "1",
+      "value": "1"
+    },
+    {
+      "id": "2",
+      "value": "2"
+    },
+    {
+      "id": "3",
+      "value": "3"
+    },
+    {
+      "id": "4",
+      "value": "4"
+    },
+    {
+      "id": "5",
+      "value": "5"
+    },
+    {
+      "id": "6",
+      "value": "6"
+    },
+    {
+      "id": "7",
+      "value": "7"
+    },
+    {
+      "id": "8",
+      "value": "8"
+    },
+    {
+      "id": "8B",
+      "value": "8B"
+    },
+    {
+      "id": "9",
+      "value": "9"
+    },
+    {
+      "id": "10",
+      "value": "10"
+    }
+  ],
+  "tenantImprovementsLimit": [
+    {
+      "id": "0",
+      "value": "None"
+    },
+    {
+      "id": "5000",
+      "value": "$5,000"
+    },
+    {
+      "id": "10000",
+      "value": "$10,000"
+    },
+    {
+      "id": "25000",
+      "value": "$25,000"
+    }
+  ],
+  "livestockTypes": [
+    {
+      "id": "cattle",
+      "value": "Cattle"
+    },
+    {
+      "id": "goats",
+      "value": "Goats"
+    },
+    {
+      "id": "horses",
+      "value": "Horses"
+    },
+    {
+      "id": "swine",
+      "value": "Swine"
+    },
+    {
+      "id": "sheep",
+      "value": "Sheep"
+    },
+    {
+      "id": "other",
+      "value": "Other"
+    }
+  ],
+  "livestockAdditionalPerils": [
+    {
+      "id": 0,
+      "value": "None"
+    },
+    {
+      "id": 1,
+      "value": "Yes, excluding sheep"
+    },
+    {
+      "id": 2,
+      "value": "Yes, including sheep"
+    }
+  ],
+  "scheduledFarmPropertyCategories": [
+    {
+      "id": "1",
+      "value": "Combines"
+    },
+    {
+      "id": "2",
+      "value": "Custom farm machinery"
+    },
+    {
+      "id": "3",
+      "value": "Described machinery"
+    },
+    {
+      "id": "4",
+      "value": "Grain"
+    },
+    {
+      "id": "5",
+      "value": "Hay"
+    },
+    {
+      "id": "6",
+      "value": "Irrigation equipment"
+    },
+    {
+      "id": "7",
+      "value": "Livestock"
+    },
+    {
+      "id": "8",
+      "value": "Machinery not described"
+    },
+    {
+      "id": "9",
+      "value": "Other farm supplies"
+    },
+    {
+      "id": "10",
+      "value": "Personal property"
+    },
+    {
+      "id": "11",
+      "value": "Poultry (Excluding Turkeys)"
+    },
+    {
+      "id": "12",
+      "value": "Rented or borrowed equipment"
+    },
+    {
+      "id": "13",
+      "value": "Turkeys"
+    },
+    {
+      "id": "14",
+      "value": "Chemicals, Seed and Miscellaneous"
+    }
+  ],
+  "scheduledFarmPropertyItemTypesByState": {
+    "IL": [
+      {
+        "id": "1",
+        "value": "Combines"
+      },
+      {
+        "id": "2",
+        "value": "Custom farm machinery"
+      },
+      {
+        "id": "3",
+        "value": "Described machinery"
+      },
+      {
+        "id": "4",
+        "value": "Grain"
+      },
+      {
+        "id": "5",
+        "value": "Hay"
+      },
+      {
+        "id": "6",
+        "value": "Irrigation equipment"
+      },
+      {
+        "id": "7",
+        "value": "Livestock"
+      },
+      {
+        "id": "8",
+        "value": "Machinery not described"
+      },
+      {
+        "id": "9",
+        "value": "Other farm supplies"
+      },
+      {
+        "id": "10",
+        "value": "Personal property"
+      },
+      {
+        "id": "11",
+        "value": "Poultry (Excluding Turkeys)"
+      },
+      {
+        "id": "12",
+        "value": "Rented or borrowed equipment"
+      },
+      {
+        "id": "13",
+        "value": "Turkeys"
+      },
+      {
+        "id": "14",
+        "value": "Chemicals, Seed and Miscellaneous"
+      }
+    ],
+    "MO": [
+      {
+        "id": "1",
+        "value": "Combines"
+      },
+      {
+        "id": "2",
+        "value": "Custom farm machinery"
+      },
+      {
+        "id": "3",
+        "value": "Described machinery"
+      },
+      {
+        "id": "4",
+        "value": "Grain"
+      },
+      {
+        "id": "5",
+        "value": "Hay"
+      },
+      {
+        "id": "6",
+        "value": "Irrigation equipment"
+      },
+      {
+        "id": "7",
+        "value": "Livestock"
+      },
+      {
+        "id": "8",
+        "value": "Machinery not described"
+      },
+      {
+        "id": "9",
+        "value": "Other farm supplies"
+      },
+      {
+        "id": "12",
+        "value": "Rented or borrowed equipment"
+      },
+      {
+        "id": "14",
+        "value": "Chemicals, Seed and Miscellaneous"
+      }
+    ]
+  },
+  "structureCategoriesByState": {
+    "IL": [
+      {
+        "id": "BO",
+        "value": "Barns/Outbuildings"
+      },
+      {
+        "id": "C",
+        "value": "Confinement Buildings"
+      },
+      {
+        "id": "DC",
+        "value": "Dwellings/Contents"
+      },
+      {
+        "id": "F",
+        "value": "Fencing"
+      },
+      {
+        "id": "H",
+        "value": "Hoop Buildings"
+      },
+      {
+        "id": "PO",
+        "value": "Poultry Buildings"
+      },
+      {
+        "id": "SG",
+        "value": "Silos/Grain Bins"
+      }
+    ],
+    "MO": [
+      {
+        "id": "BO",
+        "value": "Barns/Outbuildings"
+      },
+      {
+        "id": "C",
+        "value": "Confinement Buildings"
+      },
+      {
+        "id": "DC",
+        "value": "Dwellings/Contents"
+      },
+      {
+        "id": "F",
+        "value": "Fencing"
+      },
+      {
+        "id": "H",
+        "value": "Hoop Buildings"
+      },
+      {
+        "id": "PO",
+        "value": "Poultry Buildings"
+      },
+      {
+        "id": "SG",
+        "value": "Silos/Grain Bins"
+      },
+      {
+        "id": "SP",
+        "value": "Solar Panels"
+      }
+    ]
+  },
+  "occupancyUseTypeByStructureCategory": {
+    "BO": [
+      {
+        "id": "CB",
+        "value": "Calf Barn"
+      },
+      {
+        "id": "HS",
+        "value": "Equestrian Barn"
+      },
+      {
+        "id": "FS",
+        "value": "Feed Shed / Rest Barn"
+      },
+      {
+        "id": "LVB",
+        "value": "General Use / Livestock Barn"
+      },
+      {
+        "id": "DB",
+        "value": "Dairy Barn - One or Two Story"
+      },
+      {
+        "id": "MS",
+        "value": "Machine / Equipment Shed"
+      },
+      {
+        "id": "HB",
+        "value": "Hay Barn"
+      },
+      {
+        "id": "Q",
+        "value": "Quonset Building"
+      }
+    ],
+    "SG": [
+      {
+        "id": "GHB",
+        "value": "Grain Bin"
+      },
+      {
+        "id": "GHT",
+        "value": "Tower Silo"
+      },
+      {
+        "id": "CC",
+        "value": "Corn Crib"
+      },
+      {
+        "id": "GHH",
+        "value": "Bulk Bin / Hopper"
+      },
+      {
+        "id": "GS",
+        "value": "Commodity Shed / Grain Storage"
+      },
+      {
+        "id": "GH",
+        "value": "Grain / Feed Handling Center"
+      },
+      {
+        "id": "GL",
+        "value": "Grain Leg / Elevator"
+      }
+    ],
+    "C": [
+      {
+        "id": "SBF",
+        "value": "Swine Building - Farrowing"
+      },
+      {
+        "id": "SBFI",
+        "value": "Swine Building - Finishing"
+      },
+      {
+        "id": "SBG",
+        "value": "Swine Building - Gestation"
+      },
+      {
+        "id": "SBN",
+        "value": "Swine Building - Nursery"
+      }
+    ],
+    "RT": [
+      {
+        "id": "SD",
+        "value": "Basic satellite TV service (DirectTV, Dish Network, etc.)"
+      },
+      {
+        "id": "SDL",
+        "value": "Large commercial satellite system with multiple receivers/controls"
+      }
+    ]
+  },
+  "buildingClassOptions": [
+    {
+      "id": 1,
+      "value": "1"
+    },
+    {
+      "id": 2,
+      "value": "2"
+    },
+    {
+      "id": 3,
+      "value": "3"
+    }
+  ],
+  "agriculturalHeatingSourceOptions": [
+    {
+      "id": "FR",
+      "value": "Forced Air Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "EB",
+      "value": "Elec. Baseboard/Wall Heaters",
+      "unitCountBased": true
+    },
+    {
+      "id": "HW",
+      "value": "Boiler/Hot Water Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "RC",
+      "value": "Radiant Ceiling Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "RF",
+      "value": "Radiant Floor Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "HP",
+      "value": "Heat Pump - Thru-wall Unit",
+      "unitCountBased": true
+    },
+    {
+      "id": "HEATR",
+      "value": "Radiant Tube Heaters",
+      "unitCountBased": true
+    },
+    {
+      "id": "HEAT",
+      "value": "Ceiling Hung Space Heaters",
+      "unitCountBased": true
+    },
+    {
+      "id": "NONE",
+      "value": "None",
+      "percentageBased": true
+    }
+  ],
+  "primaryHeatingSourceOptions": [
+    {
+      "id": "NONE",
+      "value": "None",
+      "percentageBased": true
+    },
+    {
+      "id": "FA",
+      "value": "Forced Air Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "EB",
+      "value": "Elec. Baseboard/Wall Heaters",
+      "unitCountBased": true
+    },
+    {
+      "id": "HW",
+      "value": "Boiler/Hot Water Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "RC",
+      "value": "Radiant Ceiling Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "RF",
+      "value": "Radiant Floor Heating System",
+      "percentageBased": true
+    },
+    {
+      "id": "HP",
+      "value": "Heat Pump - Thru-wall Unit",
+      "unitCountBased": true
+    },
+    {
+      "id": "DF1",
+      "value": "Duct-Free Heat/Cool Split System - 1 Zone",
+      "unitCountBased": true
+    },
+    {
+      "id": "DF2",
+      "value": "Duct-Free Heat/Cool Split System - 2 Zone",
+      "unitCountBased": true
+    },
+    {
+      "id": "DF3",
+      "value": "Duct-Free Heat/Cool Split System - 3 Zone",
+      "unitCountBased": true
+    },
+    {
+      "id": "DF4",
+      "value": "Duct-Free Heat/Cool Split System - 4 Zone",
+      "unitCountBased": true
+    },
+    {
+      "id": "GEO",
+      "value": "Geothermal Heat/Cool System",
+      "unitCountBased": true
+    },
+    {
+      "id": "WDF",
+      "value": "Wood Burning Furnace - Forced Air",
+      "unitCountBased": true
+    },
+    {
+      "id": "WDB",
+      "value": "Wood Burning Furnace - Radiant Flr",
+      "unitCountBased": true
+    }
+  ],
+  "heatingSystemMappings": {
+    "description": "Maps dwelling heating options (for underwriting) to agricultural heating options (for 360Value/Verisk). This allows FO-6 structures to use normal dwelling heating options in UI while sending appropriate codes to Verisk.",
+    "dwellingToAgricultural": {
+      "none": "NONE",
+      "FA": "FR",
+      "EB": "EB",
+      "HW": "HW",
+      "RC": "RC",
+      "RF": "RF",
+      "HP": "HP",
+      "DF1": "HP",
+      "DF2": "HP",
+      "DF3": "HP",
+      "DF4": "HP",
+      "GEO": "RF",
+      "WDF": "FR",
+      "WDB": "RF",
+      "NONE": "NONE"
+    },
+    "mappingRationale": {
+      "FA": "Direct match - Forced Air to Forced Air",
+      "EB": "Direct match - Electric Baseboard",
+      "HW": "Direct match - Boiler/Hot Water",
+      "RC": "Direct match - Radiant Ceiling",
+      "RF": "Direct match - Radiant Floor",
+      "HP": "Direct match - Heat Pump",
+      "DF1-DF4": "Map to Heat Pump as closest equivalent heating technology",
+      "GEO": "Map to Radiant Floor as geothermal often uses radiant distribution",
+      "WDF": "Map to Forced Air focusing on distribution method",
+      "WDB": "Map to Radiant Floor focusing on distribution method",
+      "none/NONE": "Direct match - No heating system"
+    }
+  },
+  "buildingQuality": [
+    {
+      "id": "E",
+      "value": "Economy"
+    },
+    {
+      "id": "S",
+      "value": "Standard"
+    },
+    {
+      "id": "A",
+      "value": "Above Average"
+    }
+  ],
+  "farmInterestedPartyTypes": [
+    {
+      "id": "personOrOrganization",
+      "value": "Additional Insured - Person or organization, GL-70"
+    },
+    {
+      "id": "partnerOrCoOwner",
+      "value": "Additional Insureds - Partners or co-owners, GL-71"
+    },
+    {
+      "id": "occupant",
+      "value": "Additional Insureds - Resident of household, GL-72"
+    },
+    {
+      "id": "managerOrLessorOfPremises",
+      "value": "Additional Insured - Manager or lessor of premises, GL-3002"
+    },
+    {
+      "id": "managerOrLessorOfPremisesCommercial",
+      "value": "Additional Insured - Manager or lessor of premises, GL-3001"
+    },
+    {
+      "id": "mortgageeCoOwner",
+      "value": "Additional Insureds, GL-108"
+    },
+    {
+      "id": "lessorOfLeasedEquipment",
+      "value": "Additional Insured - Lessor of leased equipment, GL-4002"
+    },
+    {
+      "id": "propertyCoverages",
+      "value": "Additional Insureds - Property coverages, FO-41"
+    },
+    {
+      "id": "additionalInterest",
+      "value": "Additional Interest"
+    },
+    {
+      "id": "lossPayee",
+      "value": "Loss Payee"
+    },
+    {
+      "id": "landlord",
+      "value": "Landlord (proof of coverage)"
+    },
+    {
+      "id": "trustCorpsEtc",
+      "value": "Trustee"
+    },
+    {
+      "id": "landContractHolder",
+      "value": "Land Contract Holder"
+    },
+    {
+      "id": "billToOther",
+      "value": "Bill To Other"
+    }
+  ],
+  "gl108EntityTypeOptions": [
+    {
+      "id": "coOwner",
+      "value": "Co-Owner of the Insured Premises"
+    },
+    {
+      "id": "controllingInterest",
+      "value": "Controlling Interest"
+    },
+    {
+      "id": "mortgageeAssigneeReceiver",
+      "value": "Mortgagee, Assignee or Receiver"
+    }
+  ],
+  "increaseStackLimitOptions": [
+    {
+      "id": 11000,
+      "value": "$11,000"
+    },
+    {
+      "id": 12000,
+      "value": "$12,000"
+    },
+    {
+      "id": 13000,
+      "value": "$13,000"
+    },
+    {
+      "id": 14000,
+      "value": "$14,000"
+    },
+    {
+      "id": 15000,
+      "value": "$15,000"
+    },
+    {
+      "id": 16000,
+      "value": "$16,000"
+    },
+    {
+      "id": 17000,
+      "value": "$17,000"
+    },
+    {
+      "id": 18000,
+      "value": "$18,000"
+    },
+    {
+      "id": 19000,
+      "value": "$19,000"
+    },
+    {
+      "id": 20000,
+      "value": "$20,000"
+    },
+    {
+      "id": 21000,
+      "value": "$21,000"
+    },
+    {
+      "id": 22000,
+      "value": "$22,000"
+    },
+    {
+      "id": 23000,
+      "value": "$23,000"
+    },
+    {
+      "id": 24000,
+      "value": "$24,000"
+    },
+    {
+      "id": 25000,
+      "value": "$25,000"
+    },
+    {
+      "id": 26000,
+      "value": "$26,000"
+    },
+    {
+      "id": 27000,
+      "value": "$27,000"
+    },
+    {
+      "id": 28000,
+      "value": "$28,000"
+    },
+    {
+      "id": 29000,
+      "value": "$29,000"
+    },
+    {
+      "id": 30000,
+      "value": "$30,000"
+    }
+  ],
+  "tieDownTypes": [
+    {
+      "id": "NONE",
+      "value": "None"
+    },
+    {
+      "id": "chassisOnly",
+      "value": "Chassis only"
+    },
+    {
+      "id": "overTopOnly",
+      "value": "Over top only"
+    },
+    {
+      "id": "chassisAndOverTop",
+      "value": "Chassis & over top"
+    }
+  ],
+  "mobileHomeConfig": [
+    {
+      "id": "SW",
+      "value": "Single-wide"
+    },
+    {
+      "id": "DW",
+      "value": "Double-wide"
+    },
+    {
+      "id": "TW",
+      "value": "Triple-wide"
+    }
+  ],
+  "mobileHomeQualityGrade": [
+    {
+      "id": "1",
+      "value": "Standard"
+    },
+    {
+      "id": "2",
+      "value": "Deluxe"
+    },
+    {
+      "id": "3",
+      "value": "Luxury"
+    }
+  ],
+  "agriculturalConstructionType": [
+    {
+      "id": "F",
+      "value": "Frame"
+    },
+    {
+      "id": "M",
+      "value": "Masonry"
+    },
+    {
+      "id": "MH",
+      "value": "Mobile Home"
+    },
+    {
+      "id": "MX",
+      "value": "Mixed"
+    },
+    {
+      "id": "S",
+      "value": "Steel"
+    }
+  ],
+  "fungiLiabilityOptions": [
+    {
+      "id": 0,
+      "value": "None"
+    },
+    {
+      "id": 50000,
+      "value": "$50,000"
+    }
+  ],
+  "fungiPropertyOptions": [
+    {
+      "id": 0,
+      "value": "None"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    }
+  ],
+  "businessActivityOptions": [
+    {
+      "id": "clericalOffice",
+      "value": "Clerical office employees"
+    },
+    {
+      "id": "salesperson",
+      "value": "Salespersons, collectors or messengers"
+    },
+    {
+      "id": "classifiedTeachers",
+      "value": "Teachers (Athletic, laboratory, manual training, physical training, or swimming instruction)"
+    },
+    {
+      "id": "otherTeachers",
+      "value": "Teachers (Not otherwise classified)"
+    }
+  ],
+  "businessPursuitOptionsByState": {
+    "IL": [
+      {
+        "id": 1,
+        "value": "Antique Shop on premises"
+      },
+      {
+        "id": 2,
+        "value": "Appliance Repair"
+      },
+      {
+        "id": 3,
+        "value": "Bait Shop on premises"
+      },
+      {
+        "id": 4,
+        "value": "Beauty or Barber Shop"
+      },
+      {
+        "id": 5,
+        "value": "Cabinet/Handicraft Shop on premises"
+      },
+      {
+        "id": 6,
+        "value": "Carpentry-odd jobs"
+      },
+      {
+        "id": 7,
+        "value": "Custom Corn Shelling"
+      },
+      {
+        "id": 8,
+        "value": "Farm Product Salesman"
+      },
+      {
+        "id": 9,
+        "value": "Incidental Retail/Service NOC"
+      },
+      {
+        "id": 10,
+        "value": "Landscaping"
+      },
+      {
+        "id": 11,
+        "value": "Sewing/Upholstery Shop"
+      },
+      {
+        "id": 12,
+        "value": "Shearing of Sheep"
+      },
+      {
+        "id": 13,
+        "value": "Use of Tractor - commercial"
+      }
+    ],
+    "MO": [
+      {
+        "id": 1,
+        "value": "Antique Shop on premises"
+      },
+      {
+        "id": 2,
+        "value": "Appliance Repair"
+      },
+      {
+        "id": 3,
+        "value": "Bait Shop on premises"
+      },
+      {
+        "id": 4,
+        "value": "Beauty or Barber Shop"
+      },
+      {
+        "id": 5,
+        "value": "Cabinet/Handicraft Shop on premises"
+      },
+      {
+        "id": 6,
+        "value": "Carpentry-odd jobs"
+      },
+      {
+        "id": 7,
+        "value": "Custom Corn Shelling"
+      },
+      {
+        "id": 8,
+        "value": "Farm Product Salesman"
+      },
+      {
+        "id": 9,
+        "value": "Incidental Retail/Service NOC"
+      },
+      {
+        "id": 10,
+        "value": "Landscaping"
+      },
+      {
+        "id": 11,
+        "value": "Sewing/Upholstery Shop"
+      },
+      {
+        "id": 12,
+        "value": "Shearing of Sheep"
+      },
+      {
+        "id": 13,
+        "value": "Use of Tractor - commercial"
+      }
+    ],
+    "IN": [
+      {
+        "id": 1,
+        "value": "Blacksmithing, Welding, and Farm Machinery Repair Shops - No Farm Implements"
+      },
+      {
+        "id": 2,
+        "value": "Hay, Grain, Feed, Fertilizer, or Seed Dealers"
+      },
+      {
+        "id": 3,
+        "value": "Road Side Stands"
+      },
+      {
+        "id": 4,
+        "value": "Tailoring or Dressmaking"
+      },
+      {
+        "id": 5,
+        "value": "Fishing Ponds or Lakes - No Boats Rented"
+      },
+      {
+        "id": 6,
+        "value": "Hunting on Premises"
+      },
+      {
+        "id": 7,
+        "value": "Retail Stores"
+      },
+      {
+        "id": 8,
+        "value": "Road Maintenance - Grading or Mowing with Farm Equipment Only"
+      },
+      {
+        "id": 9,
+        "value": "Snow Removal with Farm Equipment Only"
+      },
+      {
+        "id": 10,
+        "value": "Woodworking, Crafts, or Upholstery"
+      },
+      {
+        "id": 11,
+        "value": "Kennels - Breeding, Boarding, or Sales"
+      },
+      {
+        "id": 12,
+        "value": "Hay Rides or Sleigh Rides"
+      }
+    ]
+  },
+  "customFeedingOptions": [
+    {
+      "id": "Cattle",
+      "value": "Cattle"
+    },
+    {
+      "id": "Poultry and/or swine",
+      "value": "Poultry and/or swine"
+    }
+  ],
+  "occupancyOptions": [
+    {
+      "id": "office",
+      "value": "Office"
+    },
+    {
+      "id": "professional",
+      "value": "Professional"
+    },
+    {
+      "id": "privateSchool",
+      "value": "Private school"
+    },
+    {
+      "id": "studio",
+      "value": "Studio"
+    }
+  ],
+  "manMonthsOptions": [
+    {
+      "id": 0,
+      "value": "No coverage"
+    },
+    {
+      "id": 1,
+      "value": "0-1"
+    },
+    {
+      "id": 6,
+      "value": "2-6"
+    },
+    {
+      "id": 12,
+      "value": "7-12"
+    },
+    {
+      "id": 18,
+      "value": "13-18"
+    },
+    {
+      "id": 24,
+      "value": "19-24"
+    },
+    {
+      "id": 36,
+      "value": "25-36"
+    },
+    {
+      "id": 48,
+      "value": "37-48"
+    },
+    {
+      "id": 60,
+      "value": "49-60"
+    },
+    {
+      "id": 61,
+      "value": "Over 60"
+    }
+  ],
+  "eachOccurrenceLimit": [
+    {
+      "id": 100000,
+      "value": "$100,000"
+    },
+    {
+      "id": 300000,
+      "value": "$300,000"
+    },
+    {
+      "id": 500000,
+      "value": "$500,000"
+    },
+    {
+      "id": 1000000,
+      "value": "$1,000,000"
+    }
+  ],
+  "medicalExpensePerPersonLimit": [
+    {
+      "id": 1000,
+      "value": "$1,000"
+    },
+    {
+      "id": 2000,
+      "value": "$2,000"
+    },
+    {
+      "id": 5000,
+      "value": "$5,000"
+    },
+    {
+      "id": 10000,
+      "value": "$10,000"
+    },
+    {
+      "id": 25000,
+      "value": "$25,000"
+    }
+  ],
+  "annualAggregateLimit": [
+    {
+      "id": 200000,
+      "value": "$200,000"
+    },
+    {
+      "id": 600000,
+      "value": "$600,000"
+    },
+    {
+      "id": 1000000,
+      "value": "$1,000,000"
+    },
+    {
+      "id": 2000000,
+      "value": "$2,000,000"
+    }
+  ],
+  "farmOperations": [
+    {
+      "id": "CA",
+      "value": "Cattle"
+    },
+    {
+      "id": "CR",
+      "value": "Crops"
+    },
+    {
+      "id": "CU",
+      "value": "Custom Farm Operations"
+    },
+    {
+      "id": "DA",
+      "value": "Dairy"
+    },
+    {
+      "id": "PO",
+      "value": "Poultry"
+    },
+    {
+      "id": "SW",
+      "value": "Swine"
+    },
+    {
+      "id": "O",
+      "value": "Other"
+    }
+  ],
+  "numFamiliesInDwellingOptions": [
+    {
+      "id": 1,
+      "value": "1"
+    },
+    {
+      "id": 2,
+      "value": "2"
+    },
+    {
+      "id": 3,
+      "value": "3"
+    },
+    {
+      "id": 4,
+      "value": "4"
+    }
+  ],
+  "liabilityTypeOptions": [
+    { "id": "P", "value": "Farm Personal Liability" },
+    { "id": "C", "value": "Commercial Liability (Farm Premises and Operations)" }
+  ],
+  "careProvidedToOthersOptions": [
+    { "id": 0, "value": "No coverage" },
+    { "id": 1, "value": "1 person" },
+    { "id": 2, "value": "2 people" },
+    { "id": 3, "value": "3 people" }
+  ]
+}

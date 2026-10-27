@@ -31,6 +31,14 @@
     {
       "id": "F",
       "value": "Farm"
+    },
+    {
+      "id": "Z",
+      "value": "Home"
+    },
+    {
+      "id": "Y",
+      "value": "Rental"
     }
   ],
   "typeOfHome": [
@@ -920,6 +928,11 @@
         "version": "v1"
       },
       {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
+        "version": "v1"
+      },
+      {
         "id": "100 CSL",
         "value": "$100K CSL",
         "version": "v1"
@@ -1429,6 +1442,11 @@
       {
         "id": "250/500/100",
         "value": "$250K | $500K | $100K",
+        "version": "v1"
+      },
+      {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
         "version": "v1"
       },
       {
@@ -2143,6 +2161,11 @@
         "version": "v1"
       },
       {
+        "id": "250/500/250",
+        "value": "$250K | $500K | $250K",
+        "version": "v1"
+      },
+      {
         "id": "100 CSL",
         "value": "$100K CSL",
         "version": "v1"
@@ -2837,6 +2860,24 @@
       "value": "Commuting"
     }
   ],
+  "trailersPrimaryUse": [
+    {
+      "id": "PL",
+      "value": "Pleasure"
+    },
+    {
+      "id": "BU",
+      "value": "Business"
+    },
+    {
+      "id": "RE",
+      "value": "Residence"
+    },
+    {
+      "id": "RN",
+      "value": "Rental"
+    }
+  ],
   "maritalStatus": [
     {
       "id": "S",
@@ -2867,6 +2908,62 @@
       }
     ]
   },
+  "relationshipToInsured": [
+    {
+      "id": "SELF",
+      "value": "Self"
+    },
+    {
+      "id": "SP",
+      "value": "Spouse"
+    },
+    {
+      "id": "RR",
+      "value": "Resident Relative"
+    },
+    {
+      "id": "RNR",
+      "value": "Resident Non-Relative"
+    },
+    {
+      "id": "NRR",
+      "value": "Non-Resident Relative"
+    },
+    {
+      "id": "NRNR",
+      "value": "Non-Resident Non-Relative"
+    }
+  ],
+  "jointOwnerRelationship": [
+    {
+      "id": "Spouse",
+      "value": "Spouse"
+    },
+    {
+      "id": "Parent",
+      "value": "Parent"
+    },
+    {
+      "id": "Child",
+      "value": "Child"
+    },
+    {
+      "id": "Sibling",
+      "value": "Sibling"
+    },
+    {
+      "id": "Grandparent",
+      "value": "Grandparent"
+    },
+    {
+      "id": "Grandchild",
+      "value": "Grandchild"
+    },
+    {
+      "id": "OtherRelative",
+      "value": "Other Relative"
+    }
+  ],
   "gender": [
     {
       "id": "F",
@@ -2875,6 +2972,16 @@
     {
       "id": "M",
       "value": "Male"
+    }
+  ],
+  "driverStatus": [
+    {
+      "id": "P",
+      "value": "Principal"
+    },
+    {
+      "id": "O",
+      "value": "Occasional"
     }
   ],
   "highestEducation": [
@@ -2995,7 +3102,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -3759,7 +3866,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -3985,7 +4092,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -4101,7 +4208,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -4303,7 +4410,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -4413,7 +4520,7 @@
       },
       {
         "id": "50/100/100",
-        "value": "$50K | $100K | $50K"
+        "value": "$50K | $100K | $100K"
       },
       {
         "id": "100/300/50",
@@ -5649,6 +5756,10 @@
       "value": "Monthly"
     },
     {
+      "id": "S",
+      "value": "2 payments"
+    },
+    {
       "id": "F",
       "value": "One Time"
     }
@@ -5729,6 +5840,14 @@
     {
       "id": "E",
       "value": "Bank Withdrawal"
+    },
+    {
+      "id": "B",
+      "value": "Bill to other"
+    },
+    {
+      "id": "D",
+      "value": "Direct"
     }
   ],
   "farmPaymentMethod": [
@@ -6857,30 +6976,6 @@
         "value": "$0"
       },
       {
-        "id": "50",
-        "value": "$50"
-      },
-      {
-        "id": "100",
-        "value": "$100"
-      },
-      {
-        "id": "250",
-        "value": "$250"
-      },
-      {
-        "id": "500",
-        "value": "$500"
-      },
-      {
-        "id": "1000",
-        "value": "$1,000"
-      },
-      {
-        "id": "2000",
-        "value": "$2,000"
-      },
-      {
         "id": "100/0GL",
         "value": "$100 W/ $0 GLASS"
       },
@@ -7908,6 +8003,14 @@
       {
         "id": "20000",
         "value": "$20,000 | $200/$300 Deductible"
+      },
+      {
+        "id": "25000",
+        "value": "$25,000 | $200/$300 Deductible"
+      },
+      {
+        "id": "50000",
+        "value": "$50,000 | $200/$300 Deductible"
       }
     ],
     "TX": [],
@@ -8365,6 +8468,56 @@
     }
   ],
   "deductibleWindHailState": {
+    "IN": [
+      {
+        "id": 500,
+        "value": "$500"
+      },
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      }
+    ],
     "AL": [
       {
         "id": 1000,
@@ -8443,6 +8596,24 @@
       {
         "id": 0.02,
         "value": "2%"
+      }
+    ],
+    "MD": [
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.015,
+        "value": "1.5%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
       }
     ],
     "ME": [
@@ -9001,23 +9172,19 @@
   "condoDeductibleAllOther": [
     {
       "id": 500,
-      "value": "$500",
-      "deprecated": true
+      "value": "$500"
     },
     {
       "id": 750,
-      "value": "$750",
-      "deprecated": true
+      "value": "$750"
     },
     {
       "id": 1000,
-      "value": "$1,000",
-      "deprecated": true
+      "value": "$1,000"
     },
     {
       "id": 1500,
-      "value": "$1,500",
-      "deprecated": true
+      "value": "$1,500"
     },
     {
       "id": 2000,
@@ -9037,16 +9204,64 @@
     }
   ],
   "deductibleAllOtherState": {
-    "DC": [
+    "IN": [
+      {
+        "id": 500,
+        "value": "$500"
+      },
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.005,
+        "value": "0.5%"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      }
+    ],
+    "DC": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9071,9 +9286,12 @@
     ],
     "LA": [
       {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9116,16 +9334,60 @@
         "value": "5%"
       }
     ],
-    "ME": [
+    "MD": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
+      },
+      {
+        "id": 2000,
+        "value": "$2,000"
+      },
+      {
+        "id": 2500,
+        "value": "$2,500"
+      },
+      {
+        "id": 3000,
+        "value": "$3,000"
+      },
+      {
+        "id": 5000,
+        "value": "$5,000"
+      },
+      {
+        "id": 7500,
+        "value": "$7,500"
+      },
+      {
+        "id": 10000,
+        "value": "$10,000"
+      },
+      {
+        "id": 0.01,
+        "value": "1%"
+      },
+      {
+        "id": 0.02,
+        "value": "2%"
+      },
+      {
+        "id": 0.05,
+        "value": "5%"
+      }
+    ],
+    "ME": [
+      {
+        "id": 1000,
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9155,13 +9417,11 @@
     "MS": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9207,8 +9467,7 @@
     "ND": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 2000,
@@ -9238,13 +9497,11 @@
     "NH": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9274,8 +9531,11 @@
     "SD": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
+      },
+      {
+        "id": 1500,
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9301,13 +9561,11 @@
     "TN": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9410,13 +9668,11 @@
     "VT": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -9446,13 +9702,11 @@
     "WY": [
       {
         "id": 1000,
-        "value": "$1,000",
-        "deprecated": true
+        "value": "$1,000"
       },
       {
         "id": 1500,
-        "value": "$1,500",
-        "deprecated": true
+        "value": "$1,500"
       },
       {
         "id": 2000,
@@ -10335,11 +10589,11 @@
       "Ray",
       "Reynolds",
       "Ripley",
-      "St. Charles",
-      "St. Clair",
-      "St. Francis",
-      "St. Louis County",
-      "St. Louis City",
+      "St. Charles",
+      "St. Clair",
+      "St. Francois",
+      "St. Louis County",
+      "St. Louis City",
       "Ste. Genevieve",
       "Saline",
       "Schuyler",
@@ -11719,6 +11973,20 @@
       "value": "Insured Non-Occupant"
     }
   ],
+  "vehicleOwnershipType": [
+    {
+      "id": "owned",
+      "value": "Owned (paid in full, no loan)"
+    },
+    {
+      "id": "financed",
+      "value": "Financed (loan on the vehicle)"
+    },
+    {
+      "id": "leased",
+      "value": "Leased"
+    }
+  ],
   "autoAdditionalPartyRelationship": [
     {
       "id": "lienholder",
@@ -11746,7 +12014,7 @@
   "rewriteReason": [
     {
       "id": "N",
-      "value": "Not Previously Insured by Branch"
+      "value": "Not Previously Insured by this carrier"
     },
     {
       "id": "C",
@@ -11811,11 +12079,11 @@
     },
     {
       "id": "CNMV",
-      "value": "Moving, Branch Eligible"
+      "value": "Moving, Eligible with Carrier"
     },
     {
       "id": "CNMI",
-      "value": "Moving, Branch Ineligible"
+      "value": "Moving, No Longer Eligible with Carrier"
     },
     {
       "id": "CNNO",
@@ -11831,7 +12099,7 @@
     },
     {
       "id": "CNDP",
-      "value": "Duplicate Branch Policy"
+      "value": "Duplicate Policy"
     },
     {
       "id": "CNIP",
@@ -11960,6 +12228,102 @@
       "id": "NNSP",
       "value": "Failure to Comply with Inspection Requirements",
       "nonRenew": true
+    },
+    {
+      "id": "MINS",
+      "value": "Insured Request",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MCOR",
+      "value": "Company Request",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MNPP",
+      "value": "Non Payment of Premium",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MNSF",
+      "value": "Non Payment of Premium due to NSF",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MDEC",
+      "value": "Deceased",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MPSD",
+      "value": "Property Sold",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MOCC",
+      "value": "Change of Occupancy and/or Vacant",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MSTR",
+      "value": "Short-Term Rental — Not Eligible",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MINP",
+      "value": "Results of inspection of the home and/or property",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MCLM",
+      "value": "Claim History",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MFRD",
+      "value": "Fraud",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MCRM",
+      "value": "Crime",
+      "appliesTo": "cancel",
+      "optIn": true
+    },
+    {
+      "id": "MAGT",
+      "value": "Your independent agent no longer represents this company",
+      "appliesTo": "nonRenew",
+      "optIn": true
+    },
+    {
+      "id": "MUWG",
+      "value": "Risk does not meet underwriting guidelines",
+      "appliesTo": "nonRenew",
+      "optIn": true
+    },
+    {
+      "id": "MURI",
+      "value": "Underwriting report information",
+      "appliesTo": "both",
+      "optIn": true
+    },
+    {
+      "id": "MMUI",
+      "value": "Missing Underwriting Information",
+      "appliesTo": "both",
+      "optIn": true
     }
   ],
   "umbrellaLimit": [
@@ -12365,7 +12729,10 @@
     { "value": "Fair Plan", "id": "fair_plan" },
     { "value": "Auto Theft Prevention Device", "id": "auto_theft_prevention" },
     { "value": "Auto Crime Prevention", "id": "auto_crime_prevention" },
-    { "value": "MCCA", "id": "mcca" }
+    { "value": "MCCA", "id": "mcca" },
+    { "value": "Rewrite", "id": "rewrite" },
+    { "value": "NSF", "id": "nsf" },
+    { "value": "Late Payment", "id": "late" }
   ],
   "typeOfCondo": [
     {
@@ -12512,6 +12879,11 @@
       "id": "UNKNOWN",
       "value": "Unknown person"
     }
+  ],
+  "cfmNonRatedIndividualReasonOptions": [
+    { "id": "EXCLUDED", "value": "Excluded" },
+    { "id": "UNDERAGE", "value": "Underage" },
+    { "id": "NON_RATED_DRIVER", "value": "Non Rated Driver" }
   ],
   "nonRatedIndividualOptions": [
     { "id": "CONFIRMED_DRIVER", "value": "Confirmed driver to add to policy", "policyOnly": true },
@@ -12716,7 +13088,14 @@
     { "id": "Licensed Producer", "value": "Licensed Producer" },
     { "id": "CSR", "value": "CSR" },
     { "id": "Unlicensed Service", "value": "Unlicensed Service" },
-    { "id": "Other", "value": "Other" }
+    { "id": "Other", "value": "Other" },
+    { "id": "Agency Principal - Producing", "value": "Agency Principal - Producing" },
+    { "id": "Agency Principal - Non-producing", "value": "Agency Principal - Non-producing" },
+    { "id": "Commercial Lines Producer", "value": "Commercial Lines Producer" },
+    { "id": "Life and Health Producer", "value": "Life and Health Producer" },
+    { "id": "Operations", "value": "Operations" },
+    { "id": "Accounting/Finance", "value": "Accounting/Finance" },
+    { "id": "IT/Systems Administrator", "value": "IT/Systems Administrator" }
   ],
   "autoViolationClassDescriptions": {
     "AAF": "At Fault Accident",
@@ -12764,11 +13143,7 @@
     "UDR": "Unverifiable Record",
     "WSR": "Wrong Way on a One Way Street"
   },
-<<<<<<< Updated upstream
-  "fortifiedHomeGA": [
-=======
   "fortifiedHome": [
->>>>>>> Stashed changes
     {
       "id": "0",
       "value": "None"

@@ -380,7 +380,6 @@
   { "id": "SAFECO", "value": "SAFECO" },
   { "id": "Safeco / Liberty Mutual", "value": "Safeco / Liberty Mutual" },
   { "id": "SAFECO INS CO AMER", "value": "SAFECO INS CO AMER" },
-  { "id": "SAFECO INS CO AMER", "value": "SAFECO INS CO AMER" },
   { "id": "SAFECO INSUR CO ILL", "value": "SAFECO INSUR CO ILL" },
   { "id": "Safeport Insurance", "value": "Safeport Insurance" },
   { "id": "SAGESURE", "value": "SAGESURE" },
@@ -467,7 +466,6 @@
   { "id": "Foremost Signature", "value": "Foremost Signature" },
   { "id": "Union Mutual Fire Insurance", "value": "Union Mutual Fire Insurance" },
   { "id": "Old Republic Insurance Company", "value": "Old Republic Insurance Company" },
-  { "id": "Depositors Insurance Company", "value": "Depositors Insurance Company" },
   { "id": "Allied Trust services", "value": "Allied Trust services" },
   { "id": "Choice Insurance", "value": "Choice Insurance" }
 ]
